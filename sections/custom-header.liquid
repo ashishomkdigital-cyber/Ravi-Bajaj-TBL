@@ -39,10 +39,28 @@
     opacity: 0.7;
   }
 
+  .lux-header-left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 40px;
+    min-height: 40px;
+  }
+
   .lux-menu-btn {
     cursor: pointer;
     font-size: 14px;
     letter-spacing: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .lux-menu-btn.active {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .lux-menu-btn svg path {
+    stroke: currentColor;
   }
 
   /* BACK BUTTON */
@@ -52,11 +70,18 @@
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
+    position: absolute;
+    left: 0;
   }
 
   .lux-back.active {
     opacity: 1;
     visibility: visible;
+  }
+
+  /* Disable body scroll when menu open */
+  body.menu-open {
+    overflow: hidden !important;
   }
 
   /* FULL SCREEN MENU */
@@ -192,7 +217,12 @@
 </style>
 
 <header class="lux-header">
-  <div class="lux-back" id="luxBack" onclick="closeMenu()">←</div>
+  <div class="lux-header-left">
+    <div class="lux-menu-btn" onclick="openMenu()">
+      {%- render 'icon-menu' -%}
+    </div>
+    <div class="lux-back" id="luxBack" onclick="closeMenu()">←</div>
+  </div>
 
   <div class="lux-logo">
     <a href="{{shop.url }}">
@@ -203,12 +233,6 @@
       <span>{{ section.settings.tagline }}</span>
     {% endif %}
   </a>
-  </div>
-
-  <div class="lux-menu-btn" onclick="openMenu()">
-    
-        {%- render 'icon-menu' -%}
-
   </div>
 </header>
 
@@ -245,11 +269,15 @@
   function openMenu() {
     document.getElementById('luxMenu').classList.add('active');
     document.getElementById('luxBack').classList.add('active');
+    document.querySelector('.lux-menu-btn').classList.add('active');
+    document.body.classList.add('menu-open');
   }
 
   function closeMenu() {
     document.getElementById('luxMenu').classList.remove('active');
     document.getElementById('luxBack').classList.remove('active');
+    document.querySelector('.lux-menu-btn').classList.remove('active');
+    document.body.classList.remove('menu-open');
   }
 
   // SCROLL EFFECT
@@ -259,10 +287,14 @@
 
     if (window.scrollY > 50) {
       header.classList.add('scrolled');
-      logoImg.src = '{{ section.settings.colored_logo | image_url }}'
+      if (logoImg) {
+        logoImg.src = '{{ section.settings.colored_logo | image_url }}';
+      }
     } else {
       header.classList.remove('scrolled');
-      logoImg.src = '{{ section.settings.logo | image_url }}'
+      if (logoImg) {
+        logoImg.src = '{{ section.settings.logo | image_url }}';
+      }
     }
   });
 </script>
