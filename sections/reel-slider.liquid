@@ -1,0 +1,346 @@
+<section class="reels-slider">
+  <div class="slider-container">
+    <button class="nav prev">‹</button>
+
+    <div class="reels-wrapper">
+      {% for block in section.blocks %}
+        <div class="reel" data-index="{{ forloop.index0 }}">
+          <video class="reel-video" muted loop playsinline autoplay>
+            <source src="{{ block.settings.video }}" type="video/mp4">
+          </video>
+
+          <!-- Play Icon -->
+          <div class="play-icon">▶</div>
+
+          <!-- PRODUCT TAG -->
+          {% assign product = block.settings.product %}
+          {% if product != blank %}
+            <div class="reel-product">
+              <div class="product-tag">
+                <img
+                  src="{{ product.featured_image | image_url: width: 200 }}"
+                  alt="{{ product.title }}"
+                  loading="lazy"
+                >
+
+                <div class="product-info">
+                  <p class="product-title">{{ product.title }}</p>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <button class="nav next">›</button>
+  </div>
+</section>
+
+<!-- MODAL -->
+<div class="reels-modal">
+  <span class="close-modal">×</span>
+
+  <button class="modal-prev">‹</button>
+  <button class="modal-next">›</button>
+
+  <div class="modal-slider">
+    {% for block in section.blocks %}
+      <div class="modal-reel">
+        <video class="modal-video" playsinline>
+          <source src="{{ block.settings.video }}" type="video/mp4">
+        </video>
+        <div class="product-info">
+          <p class="product-title">{{ block.settings.product.title }}</p>
+          <a
+            style="border-radius:5px;padding: 5px 10px;display: inline-block;background-color: #b8860b;margin-top: 10px;"
+            href="{{ block.settings.product.url }}"
+            >View Product</a
+          >
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  /* ===== SLIDER ===== */
+  .slider-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .reels-wrapper {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+  }
+
+  .reel {
+    flex: 0 0 auto;
+    max-width: 260px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    background: #000;
+  }
+
+  .reel video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Play Icon */
+  .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    font-size: 40px;
+    color: #fff;
+    opacity: 0;
+    transition: 0.3s;
+    z-index: 2;
+  }
+  .reel:hover .play-icon {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  /* ===== PRODUCT TAG ===== */
+  .reel-product {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 3;
+  }
+
+  .product-tag {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: rgba(0,0,0,0.75);
+    backdrop-filter: blur(6px);
+
+    padding: 8px 10px;
+    border-radius: 10px;
+  }
+
+  .product-tag img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+
+  .reel-product .product-title {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* ===== NAV ===== */
+  .nav {
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 26px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  /* ===== MODAL ===== */
+  .reels-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.95);
+    display: none;
+    z-index: 9999;
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .modal-prev,
+  .modal-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .modal-prev { left: 20px; }
+  .modal-next { right: 20px; }
+
+  .modal-slider {
+    display: flex;
+    height: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+  }
+
+  .modal-reel {
+    min-width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    flex-direction: column;
+
+    gap: 10px;
+  }
+
+  .modal-video {
+    max-width: 90%;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+    background: #000;
+  }
+
+  .product-info{
+    text-align:center;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const wrapper = document.querySelector('.reels-wrapper');
+    const next = document.querySelector('.next');
+    const prev = document.querySelector('.prev');
+
+    const reels = document.querySelectorAll('.reel');
+    const modal = document.querySelector('.reels-modal');
+    const closeBtn = document.querySelector('.close-modal');
+    const modalSlider = document.querySelector('.modal-slider');
+    const modalVideos = document.querySelectorAll('.modal-video');
+
+    const modalNext = document.querySelector('.modal-next');
+    const modalPrev = document.querySelector('.modal-prev');
+
+    let currentIndex = 0;
+
+    // SLIDER NAV
+    next.addEventListener('click', () => {
+      wrapper.scrollBy({ left: 300, behavior: 'smooth' });
+    });
+
+    prev.addEventListener('click', () => {
+      wrapper.scrollBy({ left: -300, behavior: 'smooth' });
+    });
+
+    // OPEN MODAL
+    reels.forEach((reel) => {
+      reel.addEventListener('click', () => {
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+
+        currentIndex = parseInt(reel.dataset.index);
+        goToSlide(currentIndex);
+      });
+    });
+
+    function goToSlide(index) {
+      modalSlider.scrollTo({
+        left: index * modalSlider.clientWidth,
+        behavior: 'smooth',
+      });
+
+      modalVideos.forEach((v) => {
+        v.pause();
+        v.currentTime = 0;
+      });
+
+      setTimeout(() => {
+        modalVideos[index].play();
+      }, 300);
+    }
+
+    // MODAL NAV
+    modalNext.addEventListener('click', () => {
+      if (currentIndex < modalVideos.length - 1) {
+        currentIndex++;
+        goToSlide(currentIndex);
+      }
+    });
+
+    modalPrev.addEventListener('click', () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        goToSlide(currentIndex);
+      }
+    });
+
+    // CLOSE
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+      document.body.style.overflow = 'auto';
+
+      modalVideos.forEach((v) => {
+        v.pause();
+        v.currentTime = 0;
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Reels Slider Final",
+  "blocks": [
+    {
+      "type": "reel",
+      "name": "Reel",
+      "settings": [
+        {
+          "type": "url",
+          "id": "video",
+          "label": "Video URL"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Reels Slider Final"
+    }
+  ]
+}
+{% endschema %}

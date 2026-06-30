@@ -1,0 +1,348 @@
+<style>
+  .lux-header {
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    width: 97%;
+    z-index: 999;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    transition: all 0.3s ease;
+    transform: translate(-50%);
+  }
+
+  .lux-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .lux-logo img {
+    max-width: {{ section.settings.logo_width }}px;
+    height: auto;
+  }
+
+  .lux-logo h1 {
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin: 0;
+  }
+
+  .lux-logo span {
+    font-size: 10px;
+    letter-spacing: 2px;
+    opacity: 0.7;
+  }
+
+  .lux-menu-btn {
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  /* BACK BUTTON */
+  .lux-back {
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .lux-back.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* FULL SCREEN MENU */
+  .lux-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 80px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    z-index:99;
+  }
+
+  /* Background Image Layer */
+  .lux-overlay::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      {% if section.settings.menu_bg != blank %}
+        url('{{ section.settings.menu_bg | image_url }}') center/cover no-repeat;
+      {% else %}
+        rgba(20, 30, 35, 0.85);
+      {% endif %}
+    z-index: -2;
+  }
+
+  /* Overlay Tint */
+  .lux-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: {{ section.settings.overlay_color }};
+    opacity: {{ section.settings.overlay_opacity | divided_by: 100.0 }};
+    z-index: -1;
+  }
+
+  .lux-overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* MENU */
+  .lux-menu {
+    text-align: right;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+  }
+
+  .lux-menu a {
+    display: block;
+    color: #fff;
+    font-size: 22px;
+    margin: 12px 0;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+
+  .lux-menu a:hover {
+    opacity: 0.6;
+  }
+
+  .lux-cta {
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 18px;
+  }
+
+  /* MOBILE */
+  @media(max-width:768px){
+    .lux-header {
+      padding: 15px 20px;
+    }
+    .lux-overlay {
+      justify-content: center;
+      padding-right: 0;
+    }
+    .lux-menu {
+      text-align: center;
+    }
+    
+    .lux-menu a{font-size:14px;}
+  }
+
+  .slideshow--editorial .hero__content{
+    gap: 10px;
+  }
+
+  /* Sticky background effect */
+.lux-header.scrolled {
+  background: rgba(255, 255, 255, 0.75); /* white background */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  color: #000;
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+
+
+
+{%if template.name == 'product' %}
+.lux-header .lux-menu-btn,
+.lux-header .lux-back,
+.lux-header .lux-logo h1,
+.lux-header .lux-logo span
+  {
+  color: #000;
+}
+{%else %}
+  /* Change text color when scrolled */
+.lux-header.scrolled .lux-menu-btn,
+.lux-header.scrolled .lux-back,
+.lux-header.scrolled .lux-logo h1,
+.lux-header.scrolled .lux-logo span
+  {
+  color: #000;
+}
+{%endif %}
+
+
+</style>
+
+<header class="lux-header">
+  <div class="lux-back" id="luxBack" onclick="closeMenu()">←</div>
+
+  <div class="lux-logo">
+    <a href="{{shop.url }}">
+    {% if section.settings.logo != blank %}
+      <img class='logo-img' src="{{ section.settings.logo | image_url }}" alt="{{ shop.name }}">
+    {% else %}
+      <h1>{{ section.settings.brand_name }}</h1>
+      <span>{{ section.settings.tagline }}</span>
+    {% endif %}
+  </a>
+  </div>
+
+  <div class="lux-menu-btn" onclick="openMenu()">
+    
+        {%- render 'icon-menu' -%}
+
+  </div>
+</header>
+
+<!-- FULLSCREEN MENU -->
+<div class="lux-overlay" id="luxMenu">
+  <div class="lux-menu">
+    <div class="lux-navigation">
+      {% for link in linklists[section.settings.menu].links %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+    </div>
+
+    <div class="lux-cta">
+      <a href="{{ section.settings.cta_link }}">{{ section.settings.cta_text }}</a>
+    </div>
+  </div>
+</div>
+
+{% comment %} <script>
+  function openMenu() {
+    document.getElementById('luxMenu').classList.add('active');
+    document.getElementById('luxBack').classList.add('active');
+  }
+
+  function closeMenu() {
+    document.getElementById('luxMenu').classList.remove('active');
+    document.getElementById('luxBack').classList.remove('active');
+  }
+
+  
+</script> {% endcomment %}
+
+<script>
+  function openMenu() {
+    document.getElementById('luxMenu').classList.add('active');
+    document.getElementById('luxBack').classList.add('active');
+  }
+
+  function closeMenu() {
+    document.getElementById('luxMenu').classList.remove('active');
+    document.getElementById('luxBack').classList.remove('active');
+  }
+
+  // SCROLL EFFECT
+  window.addEventListener('scroll', function() {
+    const header = document.querySelector('.lux-header');
+    const logoImg = document.querySelector('.logo-img');
+
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+      logoImg.src = '{{ section.settings.colored_logo | image_url }}'
+    } else {
+      header.classList.remove('scrolled');
+      logoImg.src = '{{ section.settings.logo | image_url }}'
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Luxury Header",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "colored_logo",
+      "label": "Colored Logo Image"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "min": 80,
+      "max": 300,
+      "step": 10,
+      "default": 160,
+      "label": "Logo Width"
+    },
+    {
+      "type": "text",
+      "id": "brand_name",
+      "label": "Brand Name",
+      "default": "SANJAY GUPTA"
+    },
+    {
+      "type": "text",
+      "id": "tagline",
+      "label": "Tagline",
+      "default": "by Tibarumals Jewellers"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu"
+    },
+    {
+      "type": "image_picker",
+      "id": "menu_bg",
+      "label": "Menu Background Image"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay Color",
+      "default": "#0f1a1d"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 70,
+      "label": "Overlay Opacity (%)"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Text",
+      "default": "Book Appointment"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "CTA Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Luxury Header"
+    }
+  ]
+}
+{% endschema %}

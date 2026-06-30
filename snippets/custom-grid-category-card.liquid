@@ -1,0 +1,21 @@
+<div class="inner_grid-items_content" {{ block.shopify_attributes }}>
+  <a href="{{ block.settings.link | default: '#' }}" class="inner_item_anchor">
+    <div class="grid_item imageblocks">
+      {% if block.settings.desktop_image != blank %}
+        {{ block.settings.desktop_image | image_url: width: 900 | image_tag: class: 'image_desktop', alt: block.settings.title }}
+      {% endif %}
+
+      {% if block.settings.mobile_image != blank %}
+        {{ block.settings.mobile_image | image_url: width: 700 | image_tag: class: 'image_mobile', alt: block.settings.title }}
+      {% elsif block.settings.desktop_image != blank %}
+        {{ block.settings.desktop_image | image_url: width: 700 | image_tag: class: 'image_mobile', alt: block.settings.title }}
+      {% endif %}
+    </div>
+
+    {% if block.settings.title != blank %}
+      <div class="grid_item title_textblock text_color custom_section_texton_items">
+        <span>{{ block.settings.title }}</span>
+      </div>
+    {% endif %}
+  </a>
+</div>

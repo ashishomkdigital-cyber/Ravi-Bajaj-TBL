@@ -1,0 +1,138 @@
+<!doctype html>
+<html class="no-touch supports-no-cookies" lang="{{ request.locale.iso_code }}">
+  <head>
+    {%- render 'head' -%}
+
+    {{ content_for_header }}
+  </head>
+
+  <style>
+    .por-btn{
+          background: #ab8c52;
+    color: rgba(255,255,255,0.8);
+    padding: 10px;
+    border-radius: 0;
+    }
+    .por-btn:hover{
+    color: rgba(255,255,255,1);
+    }
+  </style>
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+{% comment %} body, 
+button, 
+input, 
+textarea, 
+select {
+  font-family: 'Cinzel', serif !important;
+} {% endcomment %}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif !important;
+}
+
+/* Shopify specific elements */
+.product-title,
+.product__title,
+.price,
+.cart__footer,
+.header,
+.footer,
+.nav,
+.menu,
+a {
+  font-family: 'Cinzel', serif !important;
+}
+</style>
+
+
+  <body
+    id="{{ page_title | handle }}"
+    class="template-{{ template.name | handle }} grid-{{ settings.grid_style }}{% if customer %} customer-logged-in{% endif %}{% if settings.animations_enable %} aos-initialized{% endif %}{% if settings.product_grid_outline %} has-line-design{% endif %}"
+    data-animations="{{ settings.animations_enable }}"
+  >
+    {%- render 'loading' -%}
+
+    <a class="in-page-link visually-hidden skip-link" data-skip-content href="#MainContent">
+      {{- 'general.accessibility.skip_to_content' | t -}}
+    </a>
+
+    <div class="container" data-site-container>
+      <div class="header-sections">
+        {% comment %} {% sections 'group-header' %} {% endcomment %}
+         {% section 'custom-header' %}
+      </div>
+
+      {% sections 'group-overlay' %}
+
+      <!-- CONTENT -->
+      <main role="main" id="MainContent" class="main-content">
+        {{ content_for_layout }}
+      </main>
+    </div>
+
+    {% sections 'group-pre-footer' %}
+
+    <footer class="footer-sections">
+      {% sections 'group-footer' %}
+    </footer>
+
+    {% render 'zoom-pswp' %}
+
+    {%- if template.name != 'product' and settings.show_scroll_top_button -%}
+      <button
+        type="button"
+        class="btn btn--scroll-top btn--black btn--solid"
+        aria-label="{{ 'general.accessibility.scroll_to_top' | t }}"
+        data-scroll-top-button
+      >
+        {%- render 'icon-nav-arrow-up' -%}
+      </button>
+    {%- endif -%}
+
+    {%- comment -%}
+      In order to use your custom javascript file at assets/custom.js
+      just cut this next line and paste it outside this comment:
+      <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+    {%- endcomment -%}
+    <!-- Paste marketing code or third party scripts below this comment line ============== -->
+
+    <!-- And above this comment line ================================================== -->
+
+   {% if template.name == 'product' %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const targetContainerCustom = document.querySelector('.radio__buttons');
+
+    if (!targetContainerCustom) return;
+
+    const phone = "91987654321"; // Country code + number (remove leading 0)
+
+    const productTitle = {{ product.title | json }};
+    const productUrl = "{{ shop.url }}{{ product.url }}";
+
+    const message = encodeURIComponent(
+        `Hi, I want to customize this product.\n\nProduct: ${productTitle}\n${productUrl}`
+    );
+
+    const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
+
+    const customHTMLBtn = `
+        <span style="margin-left:-5px;" class="radio__button">
+            <a href="${whatsappUrl}" target="_blank" rel="noopener">
+                <label>
+                    <span class="option-title">Custom</span>
+                </label>
+            </a>
+        </span>
+    `;
+
+    targetContainerCustom.insertAdjacentHTML('beforeend', customHTMLBtn);
+});
+</script>
+{% endif %}
+  </body>
+</html>

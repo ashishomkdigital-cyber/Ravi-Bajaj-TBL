@@ -1,0 +1,266 @@
+<section class="sg-exp">
+  <div class="sg-container">
+
+    <!-- HEADER -->
+    <div class="sg-header">
+
+      <h2 class="sg-title">
+        {{ section.settings.heading }}
+      </h2>
+
+      <div class="sg-text">
+        {{ section.settings.description }}
+      </div>
+
+    </div>
+
+
+    <!-- GRID -->
+    <div class="sg-grid">
+
+      <!-- LEFT IMAGE -->
+      <div class="sg-col">
+        {% if section.settings.image1 %}
+          <img src="{{ section.settings.image1 | image_url: width: 900 }}">
+        {% endif %}
+        <p class="sg-caption">
+          {{ section.settings.caption1 }}
+        </p>
+        <!-- BUTTON -->
+        <div class="sg-btn-wrap">
+          <a href="{{ section.settings.button_link }}" class="sg-btn">
+            {{ section.settings.button_text }}
+          </a>
+        </div>
+      </div>
+
+
+      <!-- RIGHT IMAGE -->
+      <div class="sg-col">
+        {% if section.settings.image2 %}
+          <img src="{{ section.settings.image2 | image_url: width: 900 }}">
+        {% endif %}
+        <p class="sg-caption">
+          {{ section.settings.caption2 }}
+        </p>
+
+
+        <!-- VIDEO -->
+        <div class="sg-video">
+          {% if section.settings.video %}
+            {{ section.settings.video | video_tag: controls: false, autoplay: true }}
+          {% endif %}
+        </div>
+
+        <p class="sg-video-text">
+          {{ section.settings.video_text }}
+        </p>
+
+        
+
+      </div>
+
+    </div>
+
+
+    
+
+  </div>
+</section>
+
+
+
+<style>
+
+.sg-exp{
+padding:100px 60px;
+background:#c6d2d6;
+}
+
+.sg-container{
+max-width:1400px;
+margin:auto;
+}
+
+
+/* HEADER */
+
+.sg-header{
+display:flex;
+justify-content:space-between;
+margin-bottom:70px;
+gap:60px;
+}
+
+.sg-title{
+font-size:34px;
+letter-spacing:2px;
+max-width:420px;
+}
+
+.sg-text{
+max-width:520px;
+line-height:1.7;
+font-size:15px;
+}
+
+
+/* GRID */
+
+.sg-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+}
+
+.sg-col img{
+width:100%;
+display:block;
+}
+
+.sg-caption{
+margin-top:15px;
+font-style:italic;
+font-size:18px;
+}
+
+
+/* VIDEO */
+
+.sg-video{
+margin-top:50px;
+}
+
+.sg-video video{
+width:100%;
+}
+
+.sg-video-text{
+margin-top:10px;
+font-size:26px;
+font-style:italic;
+}
+
+
+/* BUTTON */
+
+.sg-btn-wrap{
+margin-top:40px;
+}
+
+.sg-btn{
+border:1px solid #333;
+padding:12px 26px;
+text-decoration:none;
+letter-spacing:2px;
+font-size:12px;
+display:inline-block;
+}
+
+.sg-btn:hover{
+background:#000;
+color:#fff;
+}
+
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.sg-header{
+flex-direction:column;
+}
+
+.sg-grid{
+grid-template-columns:1fr;
+}
+
+.sg-video-text{
+font-size:22px;
+}
+
+}
+
+</style>
+
+
+
+{% schema %}
+{
+  "name": "Experience UI",
+  "settings": [
+
+    {
+      "type":"text",
+      "id":"heading",
+      "label":"Heading",
+      "default":"THE SANJAY GUPTA EXPERIENCE"
+    },
+
+    {
+      "type":"textarea",
+      "id":"description",
+      "label":"Description"
+    },
+
+    {
+      "type":"image_picker",
+      "id":"image1",
+      "label":"Left Image"
+    },
+
+    {
+      "type":"text",
+      "id":"caption1",
+      "label":"Left Caption",
+      "default":"Handcrafted designs, hand-wrapped with love."
+    },
+
+    {
+      "type":"image_picker",
+      "id":"image2",
+      "label":"Right Image"
+    },
+
+    {
+      "type":"text",
+      "id":"caption2",
+      "label":"Right Caption",
+      "default":"Unbox old memories"
+    },
+
+    {
+      "type":"video",
+      "id":"video",
+      "label":"Video"
+    },
+
+    {
+      "type":"text",
+      "id":"video_text",
+      "label":"Video Text",
+      "default":"Design your dream piece"
+    },
+
+    {
+      "type":"text",
+      "id":"button_text",
+      "label":"Button Text",
+      "default":"DISCOVER LUXURY"
+    },
+
+    {
+      "type":"url",
+      "id":"button_link",
+      "label":"Button Link"
+    }
+
+  ],
+
+  "presets":[
+    {
+      "name":"Experience UI"
+    }
+  ]
+}
+{% endschema %}

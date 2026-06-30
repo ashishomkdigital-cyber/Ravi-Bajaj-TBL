@@ -1,0 +1,289 @@
+{% comment %}
+  Custom Parallax Section with 2 Content Boxes
+  Centered Layout with Mobile Stacking
+{% endcomment %}
+
+<style>
+  /* Scoped CSS */
+  #shopify-section-{{ section.id }} {
+    width: 100%;
+  }
+
+  .cp-section-container {
+    position: relative;
+    width: 100%;
+    /* Height controlled by schema settings */
+    height: {{ section.settings.section_height }}vh;
+    overflow: hidden; 
+  }
+
+
+  /* iPhone SE (1st Gen) */
+@media only screen 
+  and (device-width: 320px) 
+  and (device-height: 568px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  
+  /* Your CSS here */
+    .cp-section-container{height:130vh!important;}
+    
+
+}
+
+  /* --- Parallax Background Wrapper --- */
+  .cp-bg-wrap {
+    clip: rect(0, auto, auto, 0); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+  }
+
+  /* The Fixed Background Image */
+  .cp-bg {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    transform: translateZ(0); 
+    will-change: transform;
+    pointer-events: none;
+    
+    {% if section.settings.bg_image != blank %}
+      background-image: url('{{ section.settings.bg_image | image_url: width: 2000 }}');
+    {% else %}
+      background-image: url('https://placehold.co/1920x1080/505160/68829E');
+    {% endif %}
+  }
+
+  /* --- New Flex Container for Content --- */
+  .cp-content-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2; /* Sits above background */
+    
+    /* Centering Magic */
+    display: flex;
+    justify-content: center; /* Horizontal Center */
+    align-items: center;     /* Vertical Center */
+    gap: 40px;               /* Space between the two boxes */
+    padding: 20px;           /* Prevent touching edges on small screens */
+  }
+
+  /* --- The Content Boxes --- */
+  .cp-box {
+    background-color: {{ section.settings.box_bg_color }}; /* Editable bg color */
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+  }
+
+ 
+  
+  .cp-box:hover {
+    transform: translateY(-5px);
+  }
+
+  .cp-box h3 {
+    margin: 0 0 15px 0;
+    font-size: 28px;
+    color: {{ section.settings.text_color }};
+  }
+
+  .cp-box p {
+    margin: 0 0 25px 0;
+    line-height: 1.6;
+    color: {{ section.settings.text_color }};
+  }
+
+  /* --- Button Styling --- */
+  .cp-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: {{ section.settings.btn_bg_color }};
+    color: {{ section.settings.btn_text_color }};
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 4px;
+    transition: opacity 0.2s;
+  }
+  
+  .cp-btn:hover {
+    opacity: 0.85;
+    color: #fff;
+  }
+
+  /* --- Mobile Responsive: Stack the boxes --- */
+  @media screen and (max-width: 768px) {
+    .cp-content-wrapper {
+      flex-direction: column; /* Stacks items vertically */
+      height: auto; /* Allow height to grow if content is long */
+      min-height: 100%;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    
+    .cp-box {
+      width: 100%;
+      margin-bottom: 20px;
+      min-height: auto;
+    }
+
+  }
+
+  @media screen and (min-width: 320px) {
+    .cp-section-container{height:130vh!important;}
+  }
+
+</style>
+
+<div class="cp-section-container">
+  
+  <div class="cp-bg-wrap">
+    <div class="cp-bg"></div>
+  </div>
+
+  <div class="cp-content-wrapper">
+    {% for block in section.blocks %}
+      <div class="cp-box" {{ block.shopify_attributes }}>
+        
+        {% if block.settings.heading != blank %}
+          <h3>{{ block.settings.heading }}</h3>
+        {% endif %}
+
+        {% if block.settings.text != blank %}
+          <p>{{ block.settings.text }}</p>
+        {% endif %}
+
+        {% if block.settings.btn_label != blank %}
+          <a href="{{ block.settings.btn_link }}" class="cp-btn">
+            {{ block.settings.btn_label }}
+          </a>
+        {% endif %}
+
+      </div>
+    {% endfor %}
+  </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "Parallax Multi-Box",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "section_height",
+      "min": 50,
+      "max": 300,
+      "step": 10,
+      "unit": "vh",
+      "label": "Section Height",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Select Image"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "box_bg_color",
+      "label": "Box Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "btn_bg_color",
+      "label": "Button Background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color",
+      "label": "Button Text",
+      "default": "#ffffff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "content_box",
+      "name": "Content Box",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Your Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Paragraph",
+          "default": "Add details about your product or service here."
+        },
+        {
+          "type": "text",
+          "id": "btn_label",
+          "label": "Button Label",
+          "default": "Learn More"
+        },
+        {
+          "type": "url",
+          "id": "btn_link",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Parallax Multi-Box",
+      "blocks": [
+        {
+          "type": "content_box"
+        },
+        {
+          "type": "content_box"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

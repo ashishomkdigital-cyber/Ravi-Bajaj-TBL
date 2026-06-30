@@ -1,0 +1,243 @@
+<section 
+  class="find-style-section"
+  style="background-image:url('{{ section.settings.bg_image | image_url: width: 2000 }}');"
+>
+
+  <div class="find-style-overlay">
+
+    <div class="find-style-content">
+
+      <h2 class="find-title">
+        {{ section.settings.heading_line1 }}
+        <em>{{ section.settings.heading_line2 }}</em><br>
+        {{ section.settings.heading_line3 }}<br>
+        <em>{{ section.settings.heading_line4 }}</em>
+      </h2>
+
+      <p class="find-desc">
+        {{ section.settings.description }}
+      </p>
+
+      <div class="find-products">
+        {% for block in section.blocks %}
+        <div class="find-product">
+          {% if block.settings.image %}
+            <img src="{{ block.settings.image | image_url: width: 400 }}">
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+
+
+    <a href="{{ section.settings.button_link }}" class="find-btn">
+      {{ section.settings.button_text }}
+    </a>
+
+  </div>
+
+</section>
+
+
+
+<style>
+
+.find-style-section{
+padding:100px 60px;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+position:relative;
+}
+
+.find-style-overlay{
+max-width:1400px;
+margin:auto;
+position:relative;
+}
+
+.find-style-content{
+max-width:520px;
+color:#fff;
+}
+
+
+/* TITLE */
+
+.find-title{
+font-size:56px;
+font-weight:300;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.find-title em{
+font-style:italic;
+font-weight:300;
+}
+
+
+/* DESCRIPTION */
+
+.find-desc{
+font-size:14px;
+line-height:1.7;
+margin-bottom:40px;
+}
+
+
+/* PRODUCT PREVIEWS */
+
+.find-products{
+display:flex;
+gap:30px;
+}
+
+.find-product{
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.find-product img{
+width:220px;
+display:block;
+}
+
+
+/* BUTTON */
+
+.find-btn{
+position:absolute;
+bottom:40px;
+right:40px;
+padding:12px 28px;
+border:1px solid #fff;
+color:#fff;
+text-decoration:none;
+font-size:12px;
+letter-spacing:2px;
+text-transform:uppercase;
+}
+
+.find-btn:hover{
+background:#fff;
+color:#000;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.find-style-section{
+padding:70px 25px;
+}
+
+.find-title{
+font-size:38px;
+}
+
+.find-products{
+flex-wrap:wrap;
+}
+
+.find-product img{
+width:160px;
+}
+
+.find-btn{
+position:static;
+display:inline-block;
+margin-top:40px;
+}
+
+}
+
+</style>
+
+
+
+{% schema %}
+{
+  "name": "Find Your Style",
+  "settings": [
+
+    {
+      "type":"image_picker",
+      "id":"bg_image",
+      "label":"Background Image"
+    },
+
+    {
+      "type":"text",
+      "id":"heading_line1",
+      "label":"Heading Line 1",
+      "default":"FIND"
+    },
+
+    {
+      "type":"text",
+      "id":"heading_line2",
+      "label":"Heading Line 2",
+      "default":"what"
+    },
+
+    {
+      "type":"text",
+      "id":"heading_line3",
+      "label":"Heading Line 3",
+      "default":"YOU ARE LOOKING"
+    },
+
+    {
+      "type":"text",
+      "id":"heading_line4",
+      "label":"Heading Line 4",
+      "default":"for"
+    },
+
+    {
+      "type":"textarea",
+      "id":"description",
+      "label":"Description"
+    },
+
+    {
+      "type":"text",
+      "id":"button_text",
+      "label":"Button Text",
+      "default":"Explore Exclusively Yours"
+    },
+
+    {
+      "type":"url",
+      "id":"button_link",
+      "label":"Button Link"
+    }
+
+  ],
+
+  "blocks":[
+    {
+      "type":"preview",
+      "name":"Product Preview",
+      "settings":[
+        {
+          "type":"image_picker",
+          "id":"image",
+          "label":"Preview Image"
+        }
+      ]
+    }
+  ],
+
+  "max_blocks":2,
+
+  "presets":[
+    {
+      "name":"Find Your Style"
+    }
+  ]
+}
+{% endschema %}

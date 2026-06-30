@@ -1,0 +1,273 @@
+<style>
+    .lux-wrapper{
+    background: {{ section.settings.bg_color }};
+
+    }
+.lux-testimonial {
+    position: relative;
+    width: 100%;
+    padding: 200px 20px;
+    overflow: hidden;
+    text-align: center;
+    height: 80vh;
+    max-width: var(--content-max);
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .lux-watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    width: 400px;
+    pointer-events: none;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    border: 8px solid #e9db9c;
+    border-radius: 50%;
+  }
+
+  .lux-slider {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .lux-slide {
+    display: none;
+    font-size: 22px;
+    line-height: 1.8;
+    color: {{ section.settings.text_color }};
+    font-family: {{ section.settings.font_family }};
+  }
+
+  .lux-slide.active {
+    display: block;
+    animation: fade 0.6s ease;
+  }
+
+  @keyframes fade {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .lux-brand {
+    margin-top: 40px;
+  }
+
+  .lux-brand img {
+    max-width: 140px;
+    height: auto;
+    opacity: 0.8;
+  }
+
+  .lux-counter {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: {{ section.settings.text_color }};
+  }
+
+  .lux-nav {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+  .lux-arrow {
+    font-size: 34px;
+    color: {{ section.settings.text_color }};
+    user-select: none;
+  }
+
+  @media (max-width: 768px) {
+
+    .lux-testimonial{
+        padding: 140px 20px;
+    }
+    .lux-slide {
+      font-size: 18px;
+    }
+
+    .lux-counter,
+    .lux-nav {
+      top: 15px;
+    }
+
+    .lux-counter, .lux-arrow{
+        font-size: 16px;
+    }
+
+    .lux-watermark {
+      width: 250px;
+    }
+
+    .lux-brand img {
+      max-width: 100px;
+    }
+  }
+</style>
+
+<div class="lux-wrapper">
+<div class="lux-testimonial" 
+     id="lux-{{ section.id }}"
+     data-speed="{{ section.settings.speed }}"
+     data-autoplay="{{ section.settings.autoplay }}">
+
+  {% if section.settings.watermark %}
+    <img src="{{ section.settings.watermark | img_url: '800x' }}" class="lux-watermark">
+  {% endif %}
+
+  <div class="lux-counter">
+    <span class="current">01</span> — 
+    <span class="total">{{ section.blocks.size | prepend: '0' }}</span>
+  </div>
+
+  <div class="lux-nav">
+    <div class="lux-arrow prev">←</div>
+    <div class="lux-arrow next">→</div>
+  </div>
+
+  <div class="lux-slider">
+    {% for block in section.blocks %}
+      <div class="lux-slide {% if forloop.first %}active{% endif %}">
+        
+        {{ block.settings.text }}
+
+        {% if block.settings.brand_logo %}
+          <div class="lux-brand">
+            <img src="{{ block.settings.brand_logo | img_url: '300x' }}">
+          </div>
+        {% endif %}
+
+      </div>
+    {% endfor %}
+  </div>
+</div>
+</div>
+
+<script>
+(function() {
+  const container = document.getElementById("lux-{{ section.id }}");
+  if (!container) return;
+
+  const slides = container.querySelectorAll(".lux-slide");
+  const prevBtn = container.querySelector(".prev");
+  const nextBtn = container.querySelector(".next");
+  const currentEl = container.querySelector(".current");
+
+  let index = 0;
+  const total = slides.length;
+
+  // SAFE parsing (no underscore issues ever)
+  const speed = parseInt(container.dataset.speed) || 4000;
+  const autoplay = container.dataset.autoplay === "true";
+
+  function updateCounter() {
+    currentEl.innerText = String(index + 1).padStart(2, '0');
+  }
+
+  function showSlide(i) {
+    slides.forEach(s => s.classList.remove("active"));
+    slides[i].classList.add("active");
+    updateCounter();
+  }
+
+  function next() {
+    index = (index + 1) % total;
+    showSlide(index);
+  }
+
+  function prev() {
+    index = (index - 1 + total) % total;
+    showSlide(index);
+  }
+
+  nextBtn.addEventListener("click", next);
+  prevBtn.addEventListener("click", prev);
+
+  if (autoplay) {
+    setInterval(next, speed);
+  }
+
+  updateCounter();
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Luxury Testimonial Slider",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "default": "#f4f2ef",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "default": "#6b5e4b",
+      "label": "Text Color"
+    },
+    {
+      "type": "text",
+      "id": "font_family",
+      "default": "serif",
+      "label": "Font Family"
+    },
+    {
+      "type": "image_picker",
+      "id": "watermark",
+      "label": "Watermark Logo"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "default": true,
+      "label": "Autoplay"
+    },
+    {
+      "type": "range",
+      "id": "speed",
+      "min": 2000,
+      "max": 8000,
+      "step": 500,
+      "default": 4000,
+      "label": "Speed (ms)"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "brand_logo",
+          "label": "Brand Logo"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Luxury Testimonial Slider"
+    }
+  ]
+}
+{% endschema %}
