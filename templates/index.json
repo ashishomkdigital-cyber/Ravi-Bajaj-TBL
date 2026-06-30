@@ -719,7 +719,7 @@
         "button-1"
       ],
       "custom_css": [
-        ".hover-active-effect {border-color: #fff; color: #fff; display:none;}",
+        ".hover-active-effect {border-color: #fff; color: #fff; display: none;}",
         ".hover-active-effect:hover {border-color: #000;}"
       ],
       "name": "Image with scrolling text",
@@ -814,6 +814,69 @@
         "mobile_font_size": 15,
         "letter_spacing": "0.03",
         "text_transform": "uppercase"
+      }
+    },
+    "custom_collection_grid_3x3_7yBK3W": {
+      "type": "custom-collection-grid-3x3",
+      "blocks": {
+        "collection_U7xtUk": {
+          "type": "collection",
+          "settings": {
+            "collection": "kurta",
+            "title": ""
+          }
+        },
+        "collection_njGGY9": {
+          "type": "collection",
+          "settings": {
+            "collection": "suits",
+            "title": ""
+          }
+        },
+        "collection_HPhJ6T": {
+          "type": "collection",
+          "settings": {
+            "collection": "jackets",
+            "title": ""
+          }
+        },
+        "collection_8Nq4RP": {
+          "type": "collection",
+          "settings": {
+            "collection": "sarees",
+            "title": ""
+          }
+        },
+        "collection_w3JhG4": {
+          "type": "collection",
+          "settings": {
+            "collection": "sarees",
+            "title": ""
+          }
+        },
+        "collection_JLrT9W": {
+          "type": "collection",
+          "settings": {
+            "collection": "womenswear",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_U7xtUk",
+        "collection_njGGY9",
+        "collection_HPhJ6T",
+        "collection_8Nq4RP",
+        "collection_w3JhG4",
+        "collection_JLrT9W"
+      ],
+      "name": "Collection Grid 3x3",
+      "settings": {
+        "title": "A SILHOUETTE FOR EVERY OCCASION",
+        "aspect_ratio": "3/4",
+        "grid_gap": 30,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "section_rich_text_CQJfyt": {
@@ -1378,6 +1441,7 @@
     "timeless_creations_rNTWF8",
     "section-hero-scrolling",
     "custom_grid_categories_yVLFF8",
+    "custom_collection_grid_3x3_7yBK3W",
     "section_rich_text_CQJfyt",
     "reel_slider_n3nkwq",
     "section_columns_H4fnYE",
