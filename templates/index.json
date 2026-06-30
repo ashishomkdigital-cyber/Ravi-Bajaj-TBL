@@ -190,6 +190,100 @@
         "padding_bottom": 20
       }
     },
+    "custom_split_collections_Hbm9rW": {
+      "type": "custom-split-collections",
+      "blocks": {
+        "collection_AWdgNt": {
+          "type": "collection",
+          "settings": {
+            "collection": "menswear",
+            "title": "",
+            "button_text": "DISCOVER"
+          }
+        },
+        "collection_GycGqq": {
+          "type": "collection",
+          "settings": {
+            "collection": "womenswear",
+            "title": "",
+            "button_text": "DISCOVER"
+          }
+        }
+      },
+      "block_order": [
+        "collection_AWdgNt",
+        "collection_GycGqq"
+      ],
+      "name": "Split Collections Banner",
+      "settings": {
+        "full_width": true,
+        "desktop_height": 50,
+        "mobile_height": 35,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_9ciygm": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_bCxWJH": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_8c9QYq": {
+          "type": "heading",
+          "settings": {
+            "title": "Aurum",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_FQpqj6": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_zWt8DV": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop all",
+            "button_url": "shopify://collections/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bCxWJH",
+        "heading_8c9QYq",
+        "text_FQpqj6",
+        "buttons_zWt8DV"
+      ],
+      "custom_css": [
+        ".hero__title {font-weight: 500;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 90,
+        "padding_bottom": 20
+      }
+    },
     "section_collection_BRkPHU": {
       "type": "section-collection",
       "custom_css": [
@@ -280,39 +374,6 @@
         "overlay_type": "disabled",
         "padding_top": 20,
         "padding_bottom": 50
-      }
-    },
-    "custom_split_collections_Hbm9rW": {
-      "type": "custom-split-collections",
-      "blocks": {
-        "collection_AWdgNt": {
-          "type": "collection",
-          "settings": {
-            "collection": "aurum",
-            "title": "",
-            "button_text": "DISCOVER"
-          }
-        },
-        "collection_GycGqq": {
-          "type": "collection",
-          "settings": {
-            "collection": "bliss",
-            "title": "",
-            "button_text": "DISCOVER"
-          }
-        }
-      },
-      "block_order": [
-        "collection_AWdgNt",
-        "collection_GycGqq"
-      ],
-      "name": "Split Collections Banner",
-      "settings": {
-        "full_width": true,
-        "desktop_height": 50,
-        "mobile_height": 35,
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "section_rich_text_ryixhL": {
@@ -776,78 +837,6 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      }
-    },
-    "custom_grid_categories_yVLFF8": {
-      "type": "custom-grid-categories",
-      "blocks": {
-        "category_9DaeUb": {
-          "type": "category",
-          "settings": {
-            "position": "left",
-            "title": "Kurta",
-            "link": "shopify://collections/kurta",
-            "desktop_image": "shopify://shop_images/Kurta_jpg.jpg"
-          }
-        },
-        "category_PebaK6": {
-          "type": "category",
-          "settings": {
-            "position": "left",
-            "title": "Suits",
-            "link": "shopify://collections/suits",
-            "desktop_image": "shopify://shop_images/Suits_jpg.jpg"
-          }
-        },
-        "category_K966L3": {
-          "type": "category",
-          "settings": {
-            "position": "center",
-            "title": "Jackets",
-            "link": "shopify://collections/jackets",
-            "desktop_image": "shopify://shop_images/JacketsUpdated_jpg.jpg"
-          }
-        },
-        "category_MxbCew": {
-          "type": "category",
-          "settings": {
-            "position": "right",
-            "title": "Sarees",
-            "link": "shopify://collections/sarees",
-            "desktop_image": "shopify://shop_images/Sarees_jpg.jpg"
-          }
-        },
-        "category_YjKm86": {
-          "type": "category",
-          "settings": {
-            "position": "right",
-            "title": "Shop All",
-            "link": "/collections/all",
-            "desktop_image": "shopify://shop_images/ShopAll_jpg.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "category_9DaeUb",
-        "category_PebaK6",
-        "category_K966L3",
-        "category_MxbCew",
-        "category_YjKm86"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "name": "Custom Grid Categories",
-      "settings": {
-        "padding_top": 40,
-        "padding_bottom": 25,
-        "grid_gap": 2,
-        "text_bottom": 10,
-        "text_color": "#ffffff",
-        "text_hover_color": "#ffffff",
-        "desktop_font_size": 18,
-        "mobile_font_size": 15,
-        "letter_spacing": "0.03",
-        "text_transform": "uppercase"
       }
     },
     "custom_collection_grid_3x3_7yBK3W": {
@@ -1413,9 +1402,10 @@
   "order": [
     "section_slideshow_custom_JcHYiK",
     "section_rich_text_ge8zHz",
+    "custom_split_collections_Hbm9rW",
+    "section_rich_text_9ciygm",
     "section_collection_BRkPHU",
     "section_rich_text_hjgGte",
-    "custom_split_collections_Hbm9rW",
     "section_rich_text_ryixhL",
     "section_rich_text_L8Gzgx",
     "section_collection_CGhN6i",
@@ -1425,7 +1415,6 @@
     "section_rich_text_7xpNn8",
     "timeless_creations_rNTWF8",
     "section-hero-scrolling",
-    "custom_grid_categories_yVLFF8",
     "custom_collection_grid_3x3_7yBK3W",
     "section_rich_text_CQJfyt",
     "reel_slider_n3nkwq",
