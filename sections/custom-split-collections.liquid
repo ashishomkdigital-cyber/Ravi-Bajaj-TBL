@@ -1,0 +1,272 @@
+{% style %}
+  #SplitCollections--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  .split-collections-container {
+    display: flex;
+    width: 100%;
+    height: {{ section.settings.desktop_height }}vh;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .split-collections-section.split-collections--full .split-collections-container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .split-collections-section:not(.split-collections--full) .split-collections-container {
+    max-width: 1300px;
+    padding: 0 30px;
+  }
+
+  .split-collection-card {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+  .split-collection-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .split-collection-image-wrapper img,
+  .split-collection-image-wrapper svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .split-collection-image-wrapper svg {
+    fill: #a29e97;
+    background-color: #f5f2ec;
+  }
+
+  /* 0.2 Black Overlay */
+  .split-collection-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    transition: opacity 0.5s ease;
+    z-index: 1;
+  }
+
+  /* Hover effects */
+  .split-collection-card:hover .split-collection-overlay {
+    opacity: 0;
+  }
+
+  .split-collection-card:hover .split-collection-image-wrapper img {
+    transform: scale(1.05);
+  }
+
+  /* Content overlays */
+  .split-collection-content {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    text-align: center;
+    width: 90%;
+  }
+
+  .split-collection-title {
+    font-family: 'Cinzel', serif !important;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  }
+
+  .split-collection-btn {
+    font-family: 'Cinzel', serif !important;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ffffff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    transition: border-color 0.3s ease, color 0.3s ease;
+  }
+
+  .split-collection-card:hover .split-collection-btn {
+    border-bottom-color: #ab8c52;
+    color: #ab8c52;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .split-collections-container {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .split-collection-card {
+      height: {{ section.settings.mobile_height }}vh;
+      width: 100%;
+    }
+
+    .split-collections-section:not(.split-collections--full) .split-collections-container {
+      padding: 0 20px;
+      gap: 15px;
+    }
+
+    .split-collection-title {
+      font-size: 20px;
+    }
+  }
+{% endstyle %}
+
+<section id="SplitCollections--{{ section.id }}" class="split-collections-section {% if section.settings.full_width %}split-collections--full{% endif %}">
+  <div class="split-collections-container">
+    {%- for block in section.blocks -%}
+      {%- liquid
+        assign collection = collections[block.settings.collection]
+        assign card_title = block.settings.title | default: collection.title | default: "Example Collection"
+        assign card_image = block.settings.image | default: collection.image | default: collection.products.first.featured_media.preview_image
+        assign card_link = collection.url | default: "#"
+        assign button_text = block.settings.button_text | default: "DISCOVER"
+      -%}
+      <a href="{{ card_link }}" class="split-collection-card" {{ block.shopify_attributes }}>
+        <div class="split-collection-image-wrapper">
+          {%- if card_image != blank -%}
+            <img src="{{ card_image | image_url: width: 1400 }}" 
+                 alt="{{ card_title | escape }}"
+                 loading="lazy"
+                 width="{{ card_image.width }}"
+                 height="{{ card_image.height }}">
+          {%- else -%}
+            {%- capture placeholder_num -%}{% cycle 1, 2 %}{%- endcapture -%}
+            {{ 'collection-' | append: placeholder_num | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+          <!-- 0.2 Black Overlay -->
+          <div class="split-collection-overlay"></div>
+        </div>
+        
+        <div class="split-collection-content">
+          <h3 class="split-collection-title">{{ card_title }}</h3>
+          {%- if button_text != blank -%}
+            <span class="split-collection-btn">{{ button_text }}</span>
+          {%- endif -%}
+        </div>
+      </a>
+    {%- endfor -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Split Collections Banner",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full Width (Edge to Edge)",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "desktop_height",
+      "label": "Desktop height (% of screen)",
+      "min": 30,
+      "max": 80,
+      "step": 5,
+      "default": 50,
+      "unit": "%"
+    },
+    {
+      "type": "range",
+      "id": "mobile_height",
+      "label": "Mobile height (% of screen)",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "default": 35,
+      "unit": "%"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 0,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 0,
+      "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection Card",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Choose Collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Override Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Override Title",
+          "info": "Leave blank to use collection title"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Link Text",
+          "default": "DISCOVER"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Split Collections Banner",
+      "blocks": [
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
