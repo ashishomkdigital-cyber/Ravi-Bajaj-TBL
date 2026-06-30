@@ -98,8 +98,8 @@
     opacity: 0;
     visibility: hidden;
     transition: all 0.4s ease;
-    overflow: hidden;
-    z-index:99;
+    overflow-y: auto;
+    z-index: 99;
   }
 
   /* Background Image Layer */
@@ -138,11 +138,13 @@
     z-index: 2;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    justify-content: space-around;
+    min-height: 100vh;
+    padding: 100px 0;
+    justify-content: center;
   }
 
-  .lux-menu a {
+  .lux-menu a,
+  .lux-nav-link-btn {
     display: block;
     color: #fff;
     font-size: 22px;
@@ -150,10 +152,62 @@
     text-decoration: none;
     letter-spacing: 1px;
     transition: 0.3s;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-family: inherit;
+    width: 100%;
+    text-align: right;
   }
 
-  .lux-menu a:hover {
+  .lux-menu a:hover,
+  .lux-nav-link-btn:hover {
     opacity: 0.6;
+  }
+
+  .lux-submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    text-align: right;
+  }
+
+  .lux-nav-item.submenu-open > .lux-submenu {
+    max-height: 1000px;
+  }
+
+  .lux-submenu-link {
+    font-size: 18px !important;
+    margin: 6px 0 !important;
+    opacity: 0.85;
+    text-align: right;
+  }
+
+  .lux-submenu-nested .lux-submenu {
+    padding-right: 15px;
+  }
+
+  .lux-grandchild-link {
+    font-size: 15px !important;
+    margin: 4px 0 !important;
+    opacity: 0.7;
+    text-align: right;
+  }
+
+  .submenu-arrow {
+    font-size: 12px;
+    margin-left: 8px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+  }
+
+  .lux-nav-item.submenu-open > .lux-nav-link-btn .submenu-arrow {
+    transform: rotate(180deg);
   }
 
   .lux-cta {
@@ -241,7 +295,33 @@
   <div class="lux-menu">
     <div class="lux-navigation">
       {% for link in linklists[section.settings.menu].links %}
-        <a href="{{ link.url }}">{{ link.title }}</a>
+        {% if link.links != blank %}
+          <div class="lux-nav-item has-submenu">
+            <button class="lux-nav-link-btn" onclick="toggleSubmenu(this)">
+              {{ link.title }} <span class="submenu-arrow">▼</span>
+            </button>
+            <div class="lux-submenu">
+              {% for childlink in link.links %}
+                {% if childlink.links != blank %}
+                  <div class="lux-nav-item has-submenu lux-submenu-nested">
+                    <button class="lux-nav-link-btn lux-submenu-link" onclick="toggleSubmenu(this)">
+                      {{ childlink.title }} <span class="submenu-arrow">▼</span>
+                    </button>
+                    <div class="lux-submenu">
+                      {% for grandchildlink in childlink.links %}
+                        <a href="{{ grandchildlink.url }}" class="lux-submenu-link lux-grandchild-link">{{ grandchildlink.title }}</a>
+                      {% endfor %}
+                    </div>
+                  </div>
+                {% else %}
+                  <a href="{{ childlink.url }}" class="lux-submenu-link">{{ childlink.title }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        {% else %}
+          <a href="{{ link.url }}" class="lux-nav-link">{{ link.title }}</a>
+        {% endif %}
       {% endfor %}
     </div>
 
@@ -278,6 +358,15 @@
     document.getElementById('luxBack').classList.remove('active');
     document.querySelector('.lux-menu-btn').classList.remove('active');
     document.body.classList.remove('menu-open');
+    // Collapse all open submenus when the main menu closes
+    document.querySelectorAll('.lux-nav-item.submenu-open').forEach(function(item) {
+      item.classList.remove('submenu-open');
+    });
+  }
+
+  function toggleSubmenu(button) {
+    const parent = button.parentElement;
+    parent.classList.toggle('submenu-open');
   }
 
   // SCROLL EFFECT
