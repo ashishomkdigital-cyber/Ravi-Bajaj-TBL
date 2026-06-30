@@ -223,6 +223,69 @@
         "padding_bottom": 0
       }
     },
+    "custom_collection_grid_3x3_7yBK3W": {
+      "type": "custom-collection-grid-3x3",
+      "blocks": {
+        "collection_U7xtUk": {
+          "type": "collection",
+          "settings": {
+            "collection": "kurta",
+            "title": ""
+          }
+        },
+        "collection_njGGY9": {
+          "type": "collection",
+          "settings": {
+            "collection": "suits",
+            "title": ""
+          }
+        },
+        "collection_HPhJ6T": {
+          "type": "collection",
+          "settings": {
+            "collection": "jackets",
+            "title": ""
+          }
+        },
+        "collection_8Nq4RP": {
+          "type": "collection",
+          "settings": {
+            "collection": "sarees",
+            "title": ""
+          }
+        },
+        "collection_w3JhG4": {
+          "type": "collection",
+          "settings": {
+            "collection": "sarees",
+            "title": ""
+          }
+        },
+        "collection_JLrT9W": {
+          "type": "collection",
+          "settings": {
+            "collection": "womenswear",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_U7xtUk",
+        "collection_njGGY9",
+        "collection_HPhJ6T",
+        "collection_8Nq4RP",
+        "collection_w3JhG4",
+        "collection_JLrT9W"
+      ],
+      "name": "Collection Grid 3x3",
+      "settings": {
+        "title": "A SILHOUETTE FOR EVERY OCCASION",
+        "aspect_ratio": "3/4",
+        "grid_gap": 30,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "section_rich_text_9ciygm": {
       "type": "section-rich-text",
       "blocks": {
@@ -839,69 +902,6 @@
         "show_placeholder": true
       }
     },
-    "custom_collection_grid_3x3_7yBK3W": {
-      "type": "custom-collection-grid-3x3",
-      "blocks": {
-        "collection_U7xtUk": {
-          "type": "collection",
-          "settings": {
-            "collection": "kurta",
-            "title": ""
-          }
-        },
-        "collection_njGGY9": {
-          "type": "collection",
-          "settings": {
-            "collection": "suits",
-            "title": ""
-          }
-        },
-        "collection_HPhJ6T": {
-          "type": "collection",
-          "settings": {
-            "collection": "jackets",
-            "title": ""
-          }
-        },
-        "collection_8Nq4RP": {
-          "type": "collection",
-          "settings": {
-            "collection": "sarees",
-            "title": ""
-          }
-        },
-        "collection_w3JhG4": {
-          "type": "collection",
-          "settings": {
-            "collection": "sarees",
-            "title": ""
-          }
-        },
-        "collection_JLrT9W": {
-          "type": "collection",
-          "settings": {
-            "collection": "womenswear",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_U7xtUk",
-        "collection_njGGY9",
-        "collection_HPhJ6T",
-        "collection_8Nq4RP",
-        "collection_w3JhG4",
-        "collection_JLrT9W"
-      ],
-      "name": "Collection Grid 3x3",
-      "settings": {
-        "title": "A SILHOUETTE FOR EVERY OCCASION",
-        "aspect_ratio": "3/4",
-        "grid_gap": 30,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "section_rich_text_CQJfyt": {
       "type": "section-rich-text",
       "blocks": {
@@ -1403,6 +1403,7 @@
     "section_slideshow_custom_JcHYiK",
     "section_rich_text_ge8zHz",
     "custom_split_collections_Hbm9rW",
+    "custom_collection_grid_3x3_7yBK3W",
     "section_rich_text_9ciygm",
     "section_collection_BRkPHU",
     "section_rich_text_hjgGte",
@@ -1415,7 +1416,6 @@
     "section_rich_text_7xpNn8",
     "timeless_creations_rNTWF8",
     "section-hero-scrolling",
-    "custom_collection_grid_3x3_7yBK3W",
     "section_rich_text_CQJfyt",
     "reel_slider_n3nkwq",
     "section_columns_H4fnYE",
