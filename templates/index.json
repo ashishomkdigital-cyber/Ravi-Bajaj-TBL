@@ -1,1 +1,1392 @@
-{"sections":{"section_slideshow_custom_JcHYiK":{"type":"section-slideshow-custom","blocks":{"slide_video_Am7gHQ":{"type":"_slide-video","name":"Video","settings":{"video":"shopify:\/\/files\/videos\/14799553_1920_1080_120fps (1).mp4","link":"","flex_align_desktop":"align--middle-center-desktop","flex_align_mobile":"align--middle-center-mobile","show_text_background":false,"bg_color":"","color":"#ffffff","overlay_type":"disabled"},"blocks":{"heading_XPpj9f":{"type":"heading","settings":{"text":"","heading_font_size":"heading-x-large","heading_tag":"automatic","padding_bottom":8},"blocks":{}},"text_bXfKXT":{"type":"text","disabled":true,"settings":{"text":"","text_font_size":"body-large","padding_bottom":8},"blocks":{}},"text_VdAyX8":{"type":"text","name":"Line","disabled":true,"settings":{"text":"","text_font_size":"body-large","padding_bottom":8},"blocks":{}},"text_kbq9Qw":{"type":"text","disabled":true,"settings":{"text":"","text_font_size":"body-medium","padding_bottom":8},"blocks":{}},"button_UVYHdk":{"type":"button","disabled":true,"settings":{"text":"View products","link":"","type":"btn--primary","size":"","style":"btn--solid","show_arrow":false,"full_width":false,"padding_bottom":8},"blocks":{}}},"block_order":["heading_XPpj9f","text_bXfKXT","text_VdAyX8","text_kbq9Qw","button_UVYHdk"]},"slide_image_73JrzY":{"type":"_slide-image","disabled":true,"settings":{"link":"","flex_align_desktop":"align--middle-center-desktop","flex_align_mobile":"align--middle-center-mobile","show_text_background":false,"bg_color":"","color":"#fcfbf9","overlay_type":"disabled"},"blocks":{}}},"block_order":["slide_video_Am7gHQ","slide_image_73JrzY"],"custom_css":["p.hero__description:nth-of-type(1) {height: 78px; width: 1px; background: #fff;}"],"name":"Slideshow (Nested) Custom","settings":{"transition":"slide","show_arrows":true,"autoplay":true,"autoplay_speed":6,"width":"wrapper--full","content_width":90,"editorial_layout":true,"height":"screen-height-full","mobile_height":"screen-height-full--mobile","color_scheme":"","padding_top":0,"padding_bottom":0}},"section_rich_text_ge8zHz":{"type":"section-rich-text","blocks":{"subheading_PGfNcW":{"type":"subheading","disabled":true,"settings":{"subheading":"Introducing","padding_bottom":16}},"heading_Fz3y8c":{"type":"heading","settings":{"title":"Aurum","heading_font_size":"heading-medium","padding_bottom":16,"heading_tag":"automatic"}},"text_6fkfYX":{"type":"text","settings":{"text":"","text_font_size":"body-medium","padding_bottom":16}},"buttons_U4QTVj":{"type":"buttons","disabled":true,"settings":{"button_text":"Shop all","button_url":"shopify:\/\/collections\/all","button_type":"btn--primary","button_size":"","button_style":"btn--outline","show_arrow":true,"padding_bottom":16}}},"block_order":["subheading_PGfNcW","heading_Fz3y8c","text_6fkfYX","buttons_U4QTVj"],"custom_css":[".hero__title {font-weight: 500;}"],"name":"Rich text","settings":{"align_text":"text-center","width":"wrapper","color_scheme":"","overlay_type":"disabled","padding_top":90,"padding_bottom":20}},"section_collection_BRkPHU":{"type":"section-collection","custom_css":[".grid-item {margin-right: 3px;}"],"name":"Featured collection","settings":{"featured_collection":"aurum","heading":"","heading_font_size":"heading-medium","description":"","text_font_size":"body-medium","layout":"center","link_text":"","link_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"layout_desktop":"slider","grid":4,"rows":3,"width":"wrapper","layout_mobile":"slider","color_scheme":"","padding_top":0,"padding_bottom":20,"heading_tag":"automatic"}},"section_rich_text_hjgGte":{"type":"section-rich-text","blocks":{"subheading_rXxM3i":{"type":"subheading","disabled":true,"settings":{"subheading":"Introducing","padding_bottom":16}},"heading_DAKcNJ":{"type":"heading","disabled":true,"settings":{"title":"Welcome to Shivasa","heading_font_size":"heading-medium","padding_bottom":16,"heading_tag":"automatic"}},"text_UUPyER":{"type":"text","disabled":true,"settings":{"text":"<p>Our High Jewellery designs are magnificent creations made using the best, beauteous and brightest diamonds and gemstones.<\/p>","text_font_size":"body-medium","padding_bottom":16}},"buttons_X4rr3T":{"type":"buttons","settings":{"button_text":"View All","button_url":"shopify:\/\/collections\/aurum","button_type":"btn--primary","button_size":"btn--large","button_style":"btn--text","show_arrow":true,"padding_bottom":16}}},"block_order":["subheading_rXxM3i","heading_DAKcNJ","text_UUPyER","buttons_X4rr3T"],"custom_css":["\/* a {display: inline-block; padding: 14px 28px; border: 1px solid #caa86a; color: #caa86a !important; text-decoration: none; font-size: 14px; letter-spacing: 2px;}a span {color: #caa86a !important;}a:hover {background-color: #caa86a !important; color: #fff;} *\/"],"name":"Rich text","settings":{"align_text":"text-center","width":"wrapper","color_scheme":"scheme-5","overlay_type":"disabled","padding_top":20,"padding_bottom":50}},"section_rich_text_ryixhL":{"type":"section-rich-text","blocks":{"subheading_3h7hEE":{"type":"subheading","disabled":true,"settings":{"subheading":"Introducing","padding_bottom":16}},"heading_R6q9N9":{"type":"heading","disabled":true,"settings":{"title":"Welcome to Shivasa","heading_font_size":"heading-medium","padding_bottom":16,"heading_tag":"automatic"}},"text_VrNnen":{"type":"text","disabled":true,"settings":{"text":"<p>Our High Jewellery designs are magnificent creations made using the best, beauteous and brightest diamonds and gemstones.<\/p>","text_font_size":"body-medium","padding_bottom":16}},"buttons_EGqczU":{"type":"buttons","settings":{"button_text":"Explore","button_url":"shopify:\/\/collections\/aurum","button_type":"btn--primary","button_size":"btn--large","button_style":"btn--text","show_arrow":true,"padding_bottom":16}}},"block_order":["subheading_3h7hEE","heading_R6q9N9","text_VrNnen","buttons_EGqczU"],"disabled":true,"custom_css":["a {display: inline-block; padding: 14px 28px; border: 1px solid #caa86a; color: #caa86a !important; text-decoration: none; font-size: 14px; letter-spacing: 2px;}","a span {color: #caa86a !important;}","a:hover {background-color: #caa86a !important; color: #fff;}"],"name":"Rich text","settings":{"align_text":"text-center","width":"wrapper","color_scheme":"","overlay_type":"disabled","padding_top":20,"padding_bottom":50}},"section_rich_text_L8Gzgx":{"type":"section-rich-text","blocks":{"subheading_UD7YmA":{"type":"subheading","disabled":true,"settings":{"subheading":"Introducing","padding_bottom":16}},"heading_rjgaKq":{"type":"heading","settings":{"title":"Bliss","heading_font_size":"heading-medium","padding_bottom":16,"heading_tag":"automatic"}},"text_rdcjj7":{"type":"text","settings":{"text":"","text_font_size":"body-medium","padding_bottom":16}},"buttons_p4PaEa":{"type":"buttons","disabled":true,"settings":{"button_text":"Shop all","button_url":"shopify:\/\/collections\/all","button_type":"btn--primary","button_size":"","button_style":"btn--outline","show_arrow":true,"padding_bottom":16}}},"block_order":["subheading_UD7YmA","heading_rjgaKq","text_rdcjj7","buttons_p4PaEa"],"custom_css":[".hero__title {font-weight: 500;}"],"name":"Rich text","settings":{"align_text":"text-center","width":"wrapper","color_scheme":"","overlay_type":"disabled","padding_top":30,"padding_bottom":20}},"section_collection_CGhN6i":{"type":"section-collection","custom_css":[".grid-item {margin-right: 3px;}"],"name":"Featured collection","settings":{"featured_collection":"bliss","heading":"","heading_font_size":"heading-medium","description":"","text_font_size":"body-medium","layout":"center","link_text":"","link_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"layout_desktop":"slider","grid":4,"rows":3,"width":"wrapper","layout_mobile":"slider","color_scheme":"","padding_top":0,"padding_bottom":20,"heading_tag":"automatic"}},"section_rich_text_gy7QHw":{"type":"section-rich-text","blocks":{"subheading_3h8eEy":{"type":"subheading","disabled":true,"settings":{"subheading":"Introducing","padding_bottom":16}},"heading_hM4Ezc":{"type":"heading","disabled":true,"settings":{"title":"Welcome to Shivasa","heading_font_size":"heading-medium","padding_bottom":16,"heading_tag":"automatic"}},"text_AQY3cB":{"type":"text","disabled":true,"settings":{"text":"<p>Our High Jewellery designs are magnificent creations made using the best, beauteous and brightest diamonds and gemstones.<\/p>","text_font_size":"body-medium","padding_bottom":16}},"buttons_4EtCnE":{"type":"buttons","settings":{"button_text":"View All","button_url":"shopify:\/\/collections\/bliss","button_type":"btn--primary","button_size":"btn--large","button_style":"btn--text","show_arrow":true,"padding_bottom":16}}},"block_order":["subheading_3h8eEy","heading_hM4Ezc","text_AQY3cB","buttons_4EtCnE"],"custom_css":["\/* a {display: inline-block; padding: 14px 28px; border: 1px solid #caa86a; color: #caa86a !important; text-decoration: none; font-size: 14px; letter-spacing: 2px;}a span {color: #caa86a !important;}a:hover {background-color: #caa86a !important; color: #fff;} *\/"],"name":"Rich text","settings":{"align_text":"text-center","width":"wrapper","color_scheme":"","overlay_type":"disabled","padding_top":20,"padding_bottom":50}},"section_rich_text_RKrPQP":{"type":"section-rich-text","blocks":{"subheading_NwXQNG":{"type":"subheading","disabled":true,"settings":{"subheading":"Introducing","padding_bottom":16}},"heading_iY77fU":{"type":"heading","settings":{"title":"Lumina","heading_font_size":"heading-medium","padding_bottom":16,"heading_tag":"automatic"}},"text_XL8ta3":{"type":"text","settings":{"text":"","text_font_size":"body-medium","padding_bottom":16}},"buttons_GgBqXi":{"type":"buttons","disabled":true,"settings":{"button_text":"Shop all","button_url":"shopify:\/\/collections\/all","button_type":"btn--primary","button_size":"","button_style":"btn--outline","show_arrow":true,"padding_bottom":16}}},"block_order":["subheading_NwXQNG","heading_iY77fU","text_XL8ta3","buttons_GgBqXi"],"custom_css":[".hero__title {font-weight: 500;}"],"name":"Rich text","settings":{"align_text":"text-center","width":"wrapper","color_scheme":"","overlay_type":"disabled","padding_top":30,"padding_bottom":20}},"section_collection_UEBzdf":{"type":"section-collection","custom_css":[".grid-item {margin-right: 3px;}"],"name":"Featured collection","settings":{"featured_collection":"lumina","heading":"","heading_font_size":"heading-medium","description":"","text_font_size":"body-medium","layout":"center","link_text":"","link_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"layout_desktop":"slider","grid":4,"rows":3,"width":"wrapper","layout_mobile":"slider","color_scheme":"","padding_top":0,"padding_bottom":20,"heading_tag":"automatic"}},"section_rich_text_7xpNn8":{"type":"section-rich-text","blocks":{"subheading_QPdEFD":{"type":"subheading","disabled":true,"settings":{"subheading":"Introducing","padding_bottom":16}},"heading_xqKD6t":{"type":"heading","disabled":true,"settings":{"title":"Welcome to Shivasa","heading_font_size":"heading-medium","padding_bottom":16,"heading_tag":"automatic"}},"text_wHhVtx":{"type":"text","disabled":true,"settings":{"text":"<p>Our High Jewellery designs are magnificent creations made using the best, beauteous and brightest diamonds and gemstones.<\/p>","text_font_size":"body-medium","padding_bottom":16}},"buttons_eVzYzg":{"type":"buttons","settings":{"button_text":"View All","button_url":"shopify:\/\/collections\/lumina","button_type":"btn--primary","button_size":"btn--large","button_style":"btn--text","show_arrow":true,"padding_bottom":16}}},"block_order":["subheading_QPdEFD","heading_xqKD6t","text_wHhVtx","buttons_eVzYzg"],"custom_css":["\/* a {display: inline-block; padding: 14px 28px; border: 1px solid #caa86a; color: #caa86a !important; text-decoration: none; font-size: 14px; letter-spacing: 2px;}a span {color: #caa86a !important;}a:hover {background-color: #caa86a !important; color: #fff;} *\/"],"name":"Rich text","settings":{"align_text":"text-center","width":"wrapper","color_scheme":"","overlay_type":"disabled","padding_top":20,"padding_bottom":50}},"timeless_creations_rNTWF8":{"type":"timeless-creations","name":"Timeless Creations","settings":{"heading":"About us","text":"Ravi Bajaj is a leading Indian luxury fashion designer brand established in 1987, known for sharp tailoring, modern menswear, and couture outfits. The label blends Indian craftsmanship with contemporary global style, offering elegant sherwanis, suits, and occasion wear for weddings and premium fashion clientele.","video_1":"shopify:\/\/files\/videos\/WhatsApp Video 2026-06-24 at 14.51.18.mp4","video_2":"shopify:\/\/files\/videos\/WhatsApp Video 2026-06-24 at 14.51.19.mp4","image_1":"shopify:\/\/shop_images\/WhatsApp_Image_2026-06-24_at_14.51.19_2.jpg","image_2":"shopify:\/\/shop_images\/WhatsApp_Image_2026-06-24_at_14.51.19_5.jpg","button_text":"More About us","button_link":"shopify:\/\/collections\/all"}},"section-hero-scrolling":{"type":"section-hero-scrolling","blocks":{"scrolling_text":{"type":"scrolling_text","settings":{"text":"","color":"#af7b88"}},"scrolling_text-0":{"type":"scrolling_text","settings":{"text":"","color":"#e0aebb"}},"scrolling_text-1":{"type":"scrolling_text","settings":{"text":"","color":"#ffd9e4"}},"text-7":{"type":"text","settings":{"description":"","text_font_size":"body-large","color":""}},"button-1":{"type":"button","settings":{"link_text":"Book your Appointment","link":"","button_type":"btn--white","button_size":"","button_style":"btn--solid","show_arrow":false}}},"block_order":["scrolling_text","scrolling_text-0","scrolling_text-1","text-7","button-1"],"custom_css":[".hover-active-effect {border-color: #fff; color: #fff;}",".hover-active-effect:hover {border-color: #000;}"],"name":"Image with scrolling text","settings":{"image_1":"shopify:\/\/shop_images\/unnamed_1__jpg.jpg","link":"","message_spacing":30,"marquee_speed":150,"flex_align":"align--bottom-center","type_font":"bricolage_grotesque_n8","text_font_size_px":90,"mobile_text_font_size_px":16,"type_letter_spacing":0,"type_font_caps":true,"scrolling_align":"align--middle-center","direction":"ticker-rtl","height":"screen-height-three-quarters","mobile_height":"screen-height-three-quarters--mobile","color_scheme":"scheme-2","overlay_type":"disabled","padding_top":0,"padding_bottom":0,"show_placeholder":true}},"custom_grid_categories_yVLFF8":{"type":"custom-grid-categories","blocks":{"category_9DaeUb":{"type":"category","settings":{"position":"left","title":"Kurta","link":"shopify:\/\/collections\/kurta","desktop_image":"shopify:\/\/shop_images\/Kurta_jpg.jpg"}},"category_PebaK6":{"type":"category","settings":{"position":"left","title":"Suits","link":"shopify:\/\/collections\/suits","desktop_image":"shopify:\/\/shop_images\/Suits_jpg.jpg"}},"category_K966L3":{"type":"category","settings":{"position":"center","title":"Jackets","link":"shopify:\/\/collections\/jackets","desktop_image":"shopify:\/\/shop_images\/JacketsUpdated_jpg.jpg"}},"category_MxbCew":{"type":"category","settings":{"position":"right","title":"Sarees","link":"shopify:\/\/collections\/sarees","desktop_image":"shopify:\/\/shop_images\/Sarees_jpg.jpg"}},"category_YjKm86":{"type":"category","settings":{"position":"right","title":"Shop All","link":"\/collections\/all","desktop_image":"shopify:\/\/shop_images\/ShopAll_jpg.jpg"}}},"block_order":["category_9DaeUb","category_PebaK6","category_K966L3","category_MxbCew","category_YjKm86"],"custom_css":[],"name":"Custom Grid Categories","settings":{"padding_top":40,"padding_bottom":25,"grid_gap":2,"text_bottom":10,"text_color":"#ffffff","text_hover_color":"#ffffff","desktop_font_size":18,"mobile_font_size":15,"letter_spacing":"0.03","text_transform":"uppercase"}},"section_rich_text_CQJfyt":{"type":"section-rich-text","blocks":{"subheading_E8HLVq":{"type":"subheading","disabled":true,"settings":{"subheading":"Introducing","padding_bottom":16}},"heading_rQGUCq":{"type":"heading","settings":{"title":"Watch & Buy","heading_font_size":"heading-medium","padding_bottom":16,"heading_tag":"automatic"}},"text_xYTpTp":{"type":"text","settings":{"text":"","text_font_size":"body-medium","padding_bottom":16}},"buttons_yb49g4":{"type":"buttons","disabled":true,"settings":{"button_text":"Shop all","button_url":"shopify:\/\/collections\/all","button_type":"btn--primary","button_size":"","button_style":"btn--outline","show_arrow":true,"padding_bottom":16}}},"block_order":["subheading_E8HLVq","heading_rQGUCq","text_xYTpTp","buttons_yb49g4"],"custom_css":[".hero__title {font-weight: 500;}"],"name":"Rich text","settings":{"align_text":"text-center","width":"wrapper","color_scheme":"","overlay_type":"disabled","padding_top":30,"padding_bottom":20}},"reel_slider_n3nkwq":{"type":"reel-slider","blocks":{"reel_VQHGUH":{"type":"reel","settings":{"video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b878e3664611419b89726e8c9b5fac58.mp4","product":"ivory-flutter-set"}},"reel_xcWQ7d":{"type":"reel","settings":{"video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3ca3e3e1ea6942a7a466b9398ece3536.mp4","product":"cotton-polka-feather-print-short-kurta"}},"reel_ijHbVJ":{"type":"reel","settings":{"video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cffc44517b7b48809d58328db388de48.mp4","product":"cotton-polka-feather-print-short-kurta"}},"reel_XERMqJ":{"type":"reel","settings":{"video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/402d0dd0552245c4a1fd22f258604364.mp4","product":"all-over-floral-embroidered-linen-gilet"}},"reel_rQJtFe":{"type":"reel","settings":{"video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/59b47f64afbb4308a6c3a2ce22d056d1.mp4","product":"all-over-embroidered-pure-linen-long-kurta"}},"reel_wBPBTy":{"type":"reel","disabled":true,"settings":{"video":"","product":""}},"reel_TRGqme":{"type":"reel","disabled":true,"settings":{"video":"","product":""}},"reel_9eBLXE":{"type":"reel","disabled":true,"settings":{"video":"","product":""}}},"block_order":["reel_VQHGUH","reel_xcWQ7d","reel_ijHbVJ","reel_XERMqJ","reel_rQJtFe","reel_wBPBTy","reel_TRGqme","reel_9eBLXE"],"custom_css":[".reels-wrapper {margin-bottom: 3.5rem !important;}"],"name":"Reels Slider Final","settings":{}},"section_columns_H4fnYE":{"type":"section-columns","blocks":{"image_xEeFUk":{"type":"image","settings":{"image_width":66,"image_shape":"normal","title":"Add a title or tagline","heading_font_size":"heading-small","text":"","text_font_size":"body-medium","button_text":"","button_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"image_aspect_ratio":1,"mobile_image_aspect_ratio":1,"heading_tag":"automatic"}},"image_EfrUqQ":{"type":"image","settings":{"image_width":66,"image_shape":"normal","title":"Add a title or tagline","heading_font_size":"heading-small","text":"","text_font_size":"body-medium","button_text":"","button_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"image_aspect_ratio":1,"mobile_image_aspect_ratio":1,"heading_tag":"automatic"}},"image_KLRfNT":{"type":"image","settings":{"image_width":66,"image_shape":"normal","title":"Add a title or tagline","heading_font_size":"heading-small","text":"","text_font_size":"body-medium","button_text":"","button_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"image_aspect_ratio":1,"mobile_image_aspect_ratio":1,"heading_tag":"automatic"}},"image_KXrQgU":{"type":"image","settings":{"image_width":66,"image_shape":"normal","title":"Add a title or tagline","heading_font_size":"heading-small","text":"","text_font_size":"body-medium","button_text":"","button_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"image_aspect_ratio":1,"mobile_image_aspect_ratio":1,"heading_tag":"automatic"}}},"block_order":["image_xEeFUk","image_EfrUqQ","image_KLRfNT","image_KXrQgU"],"disabled":true,"name":"Text columns with images","settings":{"title":"","heading_font_size":"heading-medium","align_heading":"text-center","align_text":"text-center","width":"wrapper","align_columns":"flex-align-center","layout":"grid","grid":4,"layout_mobile":"slider","color_scheme":"","padding_top":50,"padding_bottom":50,"heading_tag":"automatic"}},"find_your_style_EpDEBP":{"type":"find-your-style","blocks":{"preview_69YNd9":{"type":"preview","settings":{}},"preview_XLLzWm":{"type":"preview","settings":{}}},"block_order":["preview_69YNd9","preview_XLLzWm"],"disabled":true,"custom_css":["a {display: inline-block; padding: 14px 28px; border: 1px solid #caa86a; color: #caa86a; text-decoration: none; font-size: 14px; letter-spacing: 2px;}"],"name":"Find Your Style","settings":{"heading_line1":"FIND","heading_line2":"what","heading_line3":"YOU ARE LOOKING","heading_line4":"for","description":"","button_text":"Explore Exclusively Yours","button_link":"shopify:\/\/collections\/all"}},"section-video":{"type":"section-video","disabled":true,"name":"Video","settings":{"show_video_popup":false,"video_popup_social":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","title":"Behind the Brilliance","heading_font_size":"heading-large","text":"<p>Watch how our jewelry comes to life, from ethical sourcing to enduring design.<\/p>","text_font_size":"body-medium","flex_align":"align--middle-center","link_text":"learn more","link":"","button_type":"btn--white","button_size":"","button_style":"btn--outline","show_arrow":false,"desktop_height":"screen-height-three-quarters","mobile_height":"screen-height-three-quarters--mobile","width":"wrapper--full","color_scheme":"scheme-2","show_text_background":false,"color":"","overlay_type":"disabled","padding_top":0,"padding_bottom":0,"heading_tag":"automatic"}},"luxury_testimonial_nCNfDk":{"type":"luxury-testimonial","blocks":{"testimonial_ceDJx4":{"type":"testimonial","settings":{"text":"<p>A brand rooted in craftsmanship, legacy, and modern elegance. Created for the contemporary woman who values tradition yet moves effortlessly through the present.<\/p>"}},"testimonial_EVaMnR":{"type":"testimonial","settings":{"text":"<p>Luxury is expressed through exclusivity, craftsmanship, and legacy. Blending the soulful allure of polkis, vibrant gemstones, and diamonds, each piece is envisioned as a future heirloom, crafted to elevate both intimate rituals and grand celebrations.<\/p>"}}},"block_order":["testimonial_ceDJx4","testimonial_EVaMnR"],"disabled":true,"name":"Luxury Testimonial Slider","settings":{"bg_color":"#f4f2ef","text_color":"#6b5e4b","font_family":"serif","autoplay":true,"speed":4000}},"section-look":{"type":"section-look","blocks":{"product":{"type":"product","settings":{"product":"spinel-brown-rose-cut-necklace-set","show_product_card":false,"position_x":38,"position_y":55}},"product-0":{"type":"product","disabled":true,"settings":{"product":"","show_product_card":false,"position_x":55,"position_y":29}}},"block_order":["product","product-0"],"disabled":true,"settings":{"layout":"","title":"Shop the look","heading":"","heading_font_size":"heading-mini","show_dots":true,"products_per_row":"2","enable_slider":false,"button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"enable_aspect_ratio":true,"image_aspect_ratio":1.1,"color_scheme":"scheme-6","dot_color":"#ffffff","dot_background":"#ffffff","padding_top":0,"padding_bottom":0,"heading_tag":"automatic"}},"section-custom-content-0":{"type":"section-custom-content","blocks":{"collection-10":{"type":"collection","settings":{"collection":"","title":"Sculpted in Stone","bg_color":"","color":""}},"image-5":{"type":"image","settings":{"title":"The Art of Adornment","heading_font_size":"heading-large","text":"<p>A curated collection of gemstone necklaces, where refined design meets effortless luxury.<\/p>","text_font_size":"body-large","flex_align":"align--middle-center","show_text_background":false,"bg_color":"","color":"#ffffff","overlay_type":"disabled","link_text":"Shop the collection","link":"","button_type":"btn--white","button_size":"","button_style":"btn--outline","show_arrow":false,"heading_tag":"automatic"}}},"block_order":["collection-10","image-5"],"disabled":true,"name":"Custom content","settings":{"borders":false,"gutters":false,"width":"wrapper--full","height":"sixty-fifty-height-hero","mobile_height":"screen-height-one-half--mobile","reverse_blocks":false,"color_scheme":"scheme-1","padding_top":59,"padding_bottom":0}},"ios_fixed_parallax_LPift6":{"type":"ios-fixed-parallax","blocks":{"content_box_QitWjd":{"type":"content_box","settings":{"heading":"Visit our store","text":"Ravi Bajaj\n<br>\n334, Nelson Mandela Marg, Vasant Kunj II, <br>Vasant Kunj, New Delhi, Delhi 110070<br>\nOpen Monday to Sunday 10am to 10pm.<br>\n011 4100 5407<br>\nravibajaj@ravibajaj.com","btn_label":"Get Directions","btn_link":"https:\/\/maps.app.goo.gl\/VHPJqLZfgqw6WAJt7"}},"content_box_fjE7wJ":{"type":"content_box","disabled":true,"settings":{"heading":"Book an appointment","text":"True elegance is a mirror of one's own individuality. At Ravi Bajaj, we take pride in guiding you toward creations that feel like an extension of your essence, we want you to choose the pieces that resonate with your story and become an authentic reflection of who you are.","btn_label":"Book now","btn_link":"#"}}},"block_order":["content_box_QitWjd","content_box_fjE7wJ"],"custom_css":["@media (max-width: 640px) {h3 {font-size: 16px; } p {font-size: 11px; }}"],"name":"Parallax Multi-Box","settings":{"section_height":100,"bg_image":"shopify:\/\/shop_images\/unnamed.webp","box_bg_color":"#ffffff","text_color":"#333333","btn_bg_color":"#ab8c52","btn_text_color":"#ffffff"}},"section-text-row":{"type":"section-text-row","blocks":{"icon":{"type":"icon","settings":{"icon_name":"icon-truck","icon_size":35,"icon_color":"rgba(0,0,0,0)","title":"Free Shipping","heading_font_size":"heading-x-small","text":"<p>Free Worldwide shipping and returns - customs and duties taxes included.<\/p>","text_font_size":"body-small","heading_tag":"automatic"}},"icon-0":{"type":"icon","settings":{"icon_name":"icon-heart","icon_size":35,"icon_color":"rgba(0,0,0,0)","title":"Skillfully Made","heading_font_size":"heading-x-small","text":"<p>Made with care, showing true skilled hands into every creation.<\/p>","text_font_size":"body-small","heading_tag":"automatic"}},"icon-1":{"type":"icon","settings":{"icon_name":"icon-shield","icon_size":35,"icon_color":"rgba(0,0,0,0)","title":"Secure Payment","heading_font_size":"heading-x-small","text":"<p>Your payment information is processed securely.<\/p>","text_font_size":"body-small","heading_tag":"automatic"}}},"block_order":["icon","icon-0","icon-1"],"settings":{"title":"","heading_font_size":"heading-small","align_heading":"text-center","align_text":"text-center","icon_alignment":"icon--top","width":"wrapper","align_columns":"flex-align-center","layout":"grid","grid":3,"layout_mobile":"slider","color_scheme":"scheme-1","padding_top":50,"padding_bottom":40,"heading_tag":"automatic"}}},"order":["section_slideshow_custom_JcHYiK","section_rich_text_ge8zHz","section_collection_BRkPHU","section_rich_text_hjgGte","section_rich_text_ryixhL","section_rich_text_L8Gzgx","section_collection_CGhN6i","section_rich_text_gy7QHw","section_rich_text_RKrPQP","section_collection_UEBzdf","section_rich_text_7xpNn8","timeless_creations_rNTWF8","section-hero-scrolling","custom_grid_categories_yVLFF8","section_rich_text_CQJfyt","reel_slider_n3nkwq","section_columns_H4fnYE","find_your_style_EpDEBP","section-video","luxury_testimonial_nCNfDk","section-look","section-custom-content-0","ios_fixed_parallax_LPift6","section-text-row"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_slideshow_custom_JcHYiK": {
+      "type": "section-slideshow-custom",
+      "blocks": {
+        "slide_video_Am7gHQ": {
+          "type": "_slide-video",
+          "name": "Video",
+          "settings": {
+            "video": "shopify://files/videos/14799553_1920_1080_120fps (1).mp4",
+            "link": "",
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled"
+          },
+          "blocks": {
+            "heading_XPpj9f": {
+              "type": "heading",
+              "settings": {
+                "text": "",
+                "heading_font_size": "heading-x-large",
+                "heading_tag": "automatic",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "text_bXfKXT": {
+              "type": "text",
+              "disabled": true,
+              "settings": {
+                "text": "",
+                "text_font_size": "body-large",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "text_VdAyX8": {
+              "type": "text",
+              "name": "Line",
+              "disabled": true,
+              "settings": {
+                "text": "",
+                "text_font_size": "body-large",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "text_kbq9Qw": {
+              "type": "text",
+              "disabled": true,
+              "settings": {
+                "text": "",
+                "text_font_size": "body-medium",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "button_UVYHdk": {
+              "type": "button",
+              "disabled": true,
+              "settings": {
+                "text": "View products",
+                "link": "",
+                "type": "btn--primary",
+                "size": "",
+                "style": "btn--solid",
+                "show_arrow": false,
+                "full_width": false,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_XPpj9f",
+            "text_bXfKXT",
+            "text_VdAyX8",
+            "text_kbq9Qw",
+            "button_UVYHdk"
+          ]
+        },
+        "slide_image_73JrzY": {
+          "type": "_slide-image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#fcfbf9",
+            "overlay_type": "disabled"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "slide_video_Am7gHQ",
+        "slide_image_73JrzY"
+      ],
+      "custom_css": [
+        "p.hero__description:nth-of-type(1) {height: 78px; width: 1px; background: #fff;}"
+      ],
+      "name": "Slideshow (Nested) Custom",
+      "settings": {
+        "transition": "slide",
+        "show_arrows": true,
+        "autoplay": true,
+        "autoplay_speed": 6,
+        "width": "wrapper--full",
+        "content_width": 90,
+        "editorial_layout": true,
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-full--mobile",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_ge8zHz": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_PGfNcW": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_Fz3y8c": {
+          "type": "heading",
+          "settings": {
+            "title": "Aurum",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_6fkfYX": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_U4QTVj": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop all",
+            "button_url": "shopify://collections/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PGfNcW",
+        "heading_Fz3y8c",
+        "text_6fkfYX",
+        "buttons_U4QTVj"
+      ],
+      "custom_css": [
+        ".hero__title {font-weight: 500;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 90,
+        "padding_bottom": 20
+      }
+    },
+    "section_collection_BRkPHU": {
+      "type": "section-collection",
+      "custom_css": [
+        ".grid-item {margin-right: 3px;}"
+      ],
+      "name": "Featured collection",
+      "settings": {
+        "featured_collection": "aurum",
+        "heading": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_hjgGte": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_rXxM3i": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_DAKcNJ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Welcome to Shivasa",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_UUPyER": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our High Jewellery designs are magnificent creations made using the best, beauteous and brightest diamonds and gemstones.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_X4rr3T": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "View All",
+            "button_url": "shopify://collections/aurum",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--text",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rXxM3i",
+        "heading_DAKcNJ",
+        "text_UUPyER",
+        "buttons_X4rr3T"
+      ],
+      "custom_css": [
+        "/* a {display: inline-block; padding: 14px 28px; border: 1px solid #caa86a; color: #caa86a !important; text-decoration: none; font-size: 14px; letter-spacing: 2px;}a span {color: #caa86a !important;}a:hover {background-color: #caa86a !important; color: #fff;} */"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-5",
+        "overlay_type": "disabled",
+        "padding_top": 20,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_ryixhL": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_3h7hEE": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_R6q9N9": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Welcome to Shivasa",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_VrNnen": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our High Jewellery designs are magnificent creations made using the best, beauteous and brightest diamonds and gemstones.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_EGqczU": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Explore",
+            "button_url": "shopify://collections/aurum",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--text",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3h7hEE",
+        "heading_R6q9N9",
+        "text_VrNnen",
+        "buttons_EGqczU"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "a {display: inline-block; padding: 14px 28px; border: 1px solid #caa86a; color: #caa86a !important; text-decoration: none; font-size: 14px; letter-spacing: 2px;}",
+        "a span {color: #caa86a !important;}",
+        "a:hover {background-color: #caa86a !important; color: #fff;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 20,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_L8Gzgx": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_UD7YmA": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_rjgaKq": {
+          "type": "heading",
+          "settings": {
+            "title": "Bliss",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_rdcjj7": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_p4PaEa": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop all",
+            "button_url": "shopify://collections/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UD7YmA",
+        "heading_rjgaKq",
+        "text_rdcjj7",
+        "buttons_p4PaEa"
+      ],
+      "custom_css": [
+        ".hero__title {font-weight: 500;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 30,
+        "padding_bottom": 20
+      }
+    },
+    "section_collection_CGhN6i": {
+      "type": "section-collection",
+      "custom_css": [
+        ".grid-item {margin-right: 3px;}"
+      ],
+      "name": "Featured collection",
+      "settings": {
+        "featured_collection": "bliss",
+        "heading": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_gy7QHw": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_3h8eEy": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_hM4Ezc": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Welcome to Shivasa",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_AQY3cB": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our High Jewellery designs are magnificent creations made using the best, beauteous and brightest diamonds and gemstones.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_4EtCnE": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "View All",
+            "button_url": "shopify://collections/bliss",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--text",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3h8eEy",
+        "heading_hM4Ezc",
+        "text_AQY3cB",
+        "buttons_4EtCnE"
+      ],
+      "custom_css": [
+        "/* a {display: inline-block; padding: 14px 28px; border: 1px solid #caa86a; color: #caa86a !important; text-decoration: none; font-size: 14px; letter-spacing: 2px;}a span {color: #caa86a !important;}a:hover {background-color: #caa86a !important; color: #fff;} */"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 20,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_RKrPQP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_NwXQNG": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_iY77fU": {
+          "type": "heading",
+          "settings": {
+            "title": "Lumina",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_XL8ta3": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_GgBqXi": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop all",
+            "button_url": "shopify://collections/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NwXQNG",
+        "heading_iY77fU",
+        "text_XL8ta3",
+        "buttons_GgBqXi"
+      ],
+      "custom_css": [
+        ".hero__title {font-weight: 500;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 30,
+        "padding_bottom": 20
+      }
+    },
+    "section_collection_UEBzdf": {
+      "type": "section-collection",
+      "custom_css": [
+        ".grid-item {margin-right: 3px;}"
+      ],
+      "name": "Featured collection",
+      "settings": {
+        "featured_collection": "lumina",
+        "heading": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_7xpNn8": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_QPdEFD": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_xqKD6t": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Welcome to Shivasa",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_wHhVtx": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our High Jewellery designs are magnificent creations made using the best, beauteous and brightest diamonds and gemstones.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_eVzYzg": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "View All",
+            "button_url": "shopify://collections/lumina",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--text",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QPdEFD",
+        "heading_xqKD6t",
+        "text_wHhVtx",
+        "buttons_eVzYzg"
+      ],
+      "custom_css": [
+        "/* a {display: inline-block; padding: 14px 28px; border: 1px solid #caa86a; color: #caa86a !important; text-decoration: none; font-size: 14px; letter-spacing: 2px;}a span {color: #caa86a !important;}a:hover {background-color: #caa86a !important; color: #fff;} */"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 20,
+        "padding_bottom": 50
+      }
+    },
+    "timeless_creations_rNTWF8": {
+      "type": "timeless-creations",
+      "name": "Timeless Creations",
+      "settings": {
+        "heading": "About us",
+        "text": "Ravi Bajaj is a leading Indian luxury fashion designer brand established in 1987, known for sharp tailoring, modern menswear, and couture outfits. The label blends Indian craftsmanship with contemporary global style, offering elegant sherwanis, suits, and occasion wear for weddings and premium fashion clientele.",
+        "video_1": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.18.mp4",
+        "video_2": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.19.mp4",
+        "image_1": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_14.51.19_2.jpg",
+        "image_2": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_14.51.19_5.jpg",
+        "button_text": "More About us",
+        "button_link": "shopify://collections/all"
+      }
+    },
+    "section-hero-scrolling": {
+      "type": "section-hero-scrolling",
+      "blocks": {
+        "scrolling_text": {
+          "type": "scrolling_text",
+          "settings": {
+            "text": "",
+            "color": "#af7b88"
+          }
+        },
+        "scrolling_text-0": {
+          "type": "scrolling_text",
+          "settings": {
+            "text": "",
+            "color": "#e0aebb"
+          }
+        },
+        "scrolling_text-1": {
+          "type": "scrolling_text",
+          "settings": {
+            "text": "",
+            "color": "#ffd9e4"
+          }
+        },
+        "text-7": {
+          "type": "text",
+          "settings": {
+            "description": "",
+            "text_font_size": "body-large",
+            "color": ""
+          }
+        },
+        "button-1": {
+          "type": "button",
+          "settings": {
+            "link_text": "Book your Appointment",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "scrolling_text",
+        "scrolling_text-0",
+        "scrolling_text-1",
+        "text-7",
+        "button-1"
+      ],
+      "custom_css": [
+        ".hover-active-effect {border-color: #fff; color: #fff; display:none;}",
+        ".hover-active-effect:hover {border-color: #000;}"
+      ],
+      "name": "Image with scrolling text",
+      "settings": {
+        "image_1": "shopify://shop_images/unnamed_1__jpg.jpg",
+        "link": "",
+        "message_spacing": 30,
+        "marquee_speed": 150,
+        "flex_align": "align--bottom-center",
+        "type_font": "bricolage_grotesque_n8",
+        "text_font_size_px": 90,
+        "mobile_text_font_size_px": 16,
+        "type_letter_spacing": 0,
+        "type_font_caps": true,
+        "scrolling_align": "align--middle-center",
+        "direction": "ticker-rtl",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "color_scheme": "scheme-2",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "custom_grid_categories_yVLFF8": {
+      "type": "custom-grid-categories",
+      "blocks": {
+        "category_9DaeUb": {
+          "type": "category",
+          "settings": {
+            "position": "left",
+            "title": "Kurta",
+            "link": "shopify://collections/kurta",
+            "desktop_image": "shopify://shop_images/Kurta_jpg.jpg"
+          }
+        },
+        "category_PebaK6": {
+          "type": "category",
+          "settings": {
+            "position": "left",
+            "title": "Suits",
+            "link": "shopify://collections/suits",
+            "desktop_image": "shopify://shop_images/Suits_jpg.jpg"
+          }
+        },
+        "category_K966L3": {
+          "type": "category",
+          "settings": {
+            "position": "center",
+            "title": "Jackets",
+            "link": "shopify://collections/jackets",
+            "desktop_image": "shopify://shop_images/JacketsUpdated_jpg.jpg"
+          }
+        },
+        "category_MxbCew": {
+          "type": "category",
+          "settings": {
+            "position": "right",
+            "title": "Sarees",
+            "link": "shopify://collections/sarees",
+            "desktop_image": "shopify://shop_images/Sarees_jpg.jpg"
+          }
+        },
+        "category_YjKm86": {
+          "type": "category",
+          "settings": {
+            "position": "right",
+            "title": "Shop All",
+            "link": "/collections/all",
+            "desktop_image": "shopify://shop_images/ShopAll_jpg.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "category_9DaeUb",
+        "category_PebaK6",
+        "category_K966L3",
+        "category_MxbCew",
+        "category_YjKm86"
+      ],
+      "custom_css": [],
+      "name": "Custom Grid Categories",
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 25,
+        "grid_gap": 2,
+        "text_bottom": 10,
+        "text_color": "#ffffff",
+        "text_hover_color": "#ffffff",
+        "desktop_font_size": 18,
+        "mobile_font_size": 15,
+        "letter_spacing": "0.03",
+        "text_transform": "uppercase"
+      }
+    },
+    "section_rich_text_CQJfyt": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_E8HLVq": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_rQGUCq": {
+          "type": "heading",
+          "settings": {
+            "title": "Watch & Buy",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_xYTpTp": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_yb49g4": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop all",
+            "button_url": "shopify://collections/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_E8HLVq",
+        "heading_rQGUCq",
+        "text_xYTpTp",
+        "buttons_yb49g4"
+      ],
+      "custom_css": [
+        ".hero__title {font-weight: 500;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 30,
+        "padding_bottom": 20
+      }
+    },
+    "reel_slider_n3nkwq": {
+      "type": "reel-slider",
+      "blocks": {
+        "reel_VQHGUH": {
+          "type": "reel",
+          "settings": {
+            "video": "https://cdn.shopify.com/videos/c/o/v/b878e3664611419b89726e8c9b5fac58.mp4",
+            "product": "ivory-flutter-set"
+          }
+        },
+        "reel_xcWQ7d": {
+          "type": "reel",
+          "settings": {
+            "video": "https://cdn.shopify.com/videos/c/o/v/3ca3e3e1ea6942a7a466b9398ece3536.mp4",
+            "product": "cotton-polka-feather-print-short-kurta"
+          }
+        },
+        "reel_ijHbVJ": {
+          "type": "reel",
+          "settings": {
+            "video": "https://cdn.shopify.com/videos/c/o/v/cffc44517b7b48809d58328db388de48.mp4",
+            "product": "cotton-polka-feather-print-short-kurta"
+          }
+        },
+        "reel_XERMqJ": {
+          "type": "reel",
+          "settings": {
+            "video": "https://cdn.shopify.com/videos/c/o/v/402d0dd0552245c4a1fd22f258604364.mp4",
+            "product": "all-over-floral-embroidered-linen-gilet"
+          }
+        },
+        "reel_rQJtFe": {
+          "type": "reel",
+          "settings": {
+            "video": "https://cdn.shopify.com/videos/c/o/v/59b47f64afbb4308a6c3a2ce22d056d1.mp4",
+            "product": "all-over-embroidered-pure-linen-long-kurta"
+          }
+        },
+        "reel_wBPBTy": {
+          "type": "reel",
+          "disabled": true,
+          "settings": {
+            "video": "",
+            "product": ""
+          }
+        },
+        "reel_TRGqme": {
+          "type": "reel",
+          "disabled": true,
+          "settings": {
+            "video": "",
+            "product": ""
+          }
+        },
+        "reel_9eBLXE": {
+          "type": "reel",
+          "disabled": true,
+          "settings": {
+            "video": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "reel_VQHGUH",
+        "reel_xcWQ7d",
+        "reel_ijHbVJ",
+        "reel_XERMqJ",
+        "reel_rQJtFe",
+        "reel_wBPBTy",
+        "reel_TRGqme",
+        "reel_9eBLXE"
+      ],
+      "custom_css": [
+        ".reels-wrapper {margin-bottom: 3.5rem !important;}"
+      ],
+      "name": "Reels Slider Final",
+      "settings": {}
+    },
+    "section_columns_H4fnYE": {
+      "type": "section-columns",
+      "blocks": {
+        "image_xEeFUk": {
+          "type": "image",
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "Add a title or tagline",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_EfrUqQ": {
+          "type": "image",
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "Add a title or tagline",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_KLRfNT": {
+          "type": "image",
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "Add a title or tagline",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_KXrQgU": {
+          "type": "image",
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "Add a title or tagline",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_xEeFUk",
+        "image_EfrUqQ",
+        "image_KLRfNT",
+        "image_KXrQgU"
+      ],
+      "disabled": true,
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "align_columns": "flex-align-center",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "find_your_style_EpDEBP": {
+      "type": "find-your-style",
+      "blocks": {
+        "preview_69YNd9": {
+          "type": "preview",
+          "settings": {}
+        },
+        "preview_XLLzWm": {
+          "type": "preview",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "preview_69YNd9",
+        "preview_XLLzWm"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "a {display: inline-block; padding: 14px 28px; border: 1px solid #caa86a; color: #caa86a; text-decoration: none; font-size: 14px; letter-spacing: 2px;}"
+      ],
+      "name": "Find Your Style",
+      "settings": {
+        "heading_line1": "FIND",
+        "heading_line2": "what",
+        "heading_line3": "YOU ARE LOOKING",
+        "heading_line4": "for",
+        "description": "",
+        "button_text": "Explore Exclusively Yours",
+        "button_link": "shopify://collections/all"
+      }
+    },
+    "section-video": {
+      "type": "section-video",
+      "disabled": true,
+      "name": "Video",
+      "settings": {
+        "show_video_popup": false,
+        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "title": "Behind the Brilliance",
+        "heading_font_size": "heading-large",
+        "text": "<p>Watch how our jewelry comes to life, from ethical sourcing to enduring design.</p>",
+        "text_font_size": "body-medium",
+        "flex_align": "align--middle-center",
+        "link_text": "learn more",
+        "link": "",
+        "button_type": "btn--white",
+        "button_size": "",
+        "button_style": "btn--outline",
+        "show_arrow": false,
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "color": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
+    "luxury_testimonial_nCNfDk": {
+      "type": "luxury-testimonial",
+      "blocks": {
+        "testimonial_ceDJx4": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>A brand rooted in craftsmanship, legacy, and modern elegance. Created for the contemporary woman who values tradition yet moves effortlessly through the present.</p>"
+          }
+        },
+        "testimonial_EVaMnR": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Luxury is expressed through exclusivity, craftsmanship, and legacy. Blending the soulful allure of polkis, vibrant gemstones, and diamonds, each piece is envisioned as a future heirloom, crafted to elevate both intimate rituals and grand celebrations.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ceDJx4",
+        "testimonial_EVaMnR"
+      ],
+      "disabled": true,
+      "name": "Luxury Testimonial Slider",
+      "settings": {
+        "bg_color": "#f4f2ef",
+        "text_color": "#6b5e4b",
+        "font_family": "serif",
+        "autoplay": true,
+        "speed": 4000
+      }
+    },
+    "section-look": {
+      "type": "section-look",
+      "blocks": {
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "spinel-brown-rose-cut-necklace-set",
+            "show_product_card": false,
+            "position_x": 38,
+            "position_y": 55
+          }
+        },
+        "product-0": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "show_product_card": false,
+            "position_x": 55,
+            "position_y": 29
+          }
+        }
+      },
+      "block_order": [
+        "product",
+        "product-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "",
+        "title": "Shop the look",
+        "heading": "",
+        "heading_font_size": "heading-mini",
+        "show_dots": true,
+        "products_per_row": "2",
+        "enable_slider": false,
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "enable_aspect_ratio": true,
+        "image_aspect_ratio": 1.1,
+        "color_scheme": "scheme-6",
+        "dot_color": "#ffffff",
+        "dot_background": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
+    "section-custom-content-0": {
+      "type": "section-custom-content",
+      "blocks": {
+        "collection-10": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "Sculpted in Stone",
+            "bg_color": "",
+            "color": ""
+          }
+        },
+        "image-5": {
+          "type": "image",
+          "settings": {
+            "title": "The Art of Adornment",
+            "heading_font_size": "heading-large",
+            "text": "<p>A curated collection of gemstone necklaces, where refined design meets effortless luxury.</p>",
+            "text_font_size": "body-large",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled",
+            "link_text": "Shop the collection",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "collection-10",
+        "image-5"
+      ],
+      "disabled": true,
+      "name": "Custom content",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 59,
+        "padding_bottom": 0
+      }
+    },
+    "ios_fixed_parallax_LPift6": {
+      "type": "ios-fixed-parallax",
+      "blocks": {
+        "content_box_QitWjd": {
+          "type": "content_box",
+          "settings": {
+            "heading": "Visit our store",
+            "text": "Ravi Bajaj\n<br>\n334, Nelson Mandela Marg, Vasant Kunj II, <br>Vasant Kunj, New Delhi, Delhi 110070<br>\nOpen Monday to Sunday 10am to 10pm.<br>\n011 4100 5407<br>\nravibajaj@ravibajaj.com",
+            "btn_label": "Get Directions",
+            "btn_link": "https://maps.app.goo.gl/VHPJqLZfgqw6WAJt7"
+          }
+        },
+        "content_box_fjE7wJ": {
+          "type": "content_box",
+          "disabled": true,
+          "settings": {
+            "heading": "Book an appointment",
+            "text": "True elegance is a mirror of one's own individuality. At Ravi Bajaj, we take pride in guiding you toward creations that feel like an extension of your essence, we want you to choose the pieces that resonate with your story and become an authentic reflection of who you are.",
+            "btn_label": "Book now",
+            "btn_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "content_box_QitWjd",
+        "content_box_fjE7wJ"
+      ],
+      "custom_css": [
+        "@media (max-width: 640px) {h3 {font-size: 16px; } p {font-size: 11px; }}"
+      ],
+      "name": "Parallax Multi-Box",
+      "settings": {
+        "section_height": 100,
+        "bg_image": "shopify://shop_images/unnamed.webp",
+        "box_bg_color": "#ffffff",
+        "text_color": "#333333",
+        "btn_bg_color": "#ab8c52",
+        "btn_text_color": "#ffffff"
+      }
+    },
+    "section-text-row": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_size": 35,
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "Free Shipping",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Free Worldwide shipping and returns - customs and duties taxes included.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-heart",
+            "icon_size": 35,
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "Skillfully Made",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Made with care, showing true skilled hands into every creation.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 35,
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "Secure Payment",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Your payment information is processed securely.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon",
+        "icon-0",
+        "icon-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-small",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper",
+        "align_columns": "flex-align-center",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-1",
+        "padding_top": 50,
+        "padding_bottom": 40,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_slideshow_custom_JcHYiK",
+    "section_rich_text_ge8zHz",
+    "section_collection_BRkPHU",
+    "section_rich_text_hjgGte",
+    "section_rich_text_ryixhL",
+    "section_rich_text_L8Gzgx",
+    "section_collection_CGhN6i",
+    "section_rich_text_gy7QHw",
+    "section_rich_text_RKrPQP",
+    "section_collection_UEBzdf",
+    "section_rich_text_7xpNn8",
+    "timeless_creations_rNTWF8",
+    "section-hero-scrolling",
+    "custom_grid_categories_yVLFF8",
+    "section_rich_text_CQJfyt",
+    "reel_slider_n3nkwq",
+    "section_columns_H4fnYE",
+    "find_your_style_EpDEBP",
+    "section-video",
+    "luxury_testimonial_nCNfDk",
+    "section-look",
+    "section-custom-content-0",
+    "ios_fixed_parallax_LPift6",
+    "section-text-row"
+  ]
+}
