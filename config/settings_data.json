@@ -81,7 +81,8 @@
         "custom_css": [
           "@media (max-width: 640px) {.logo-img {width: 160px; }}",
           ".lux-menu-btn {color: #000;}",
-          ".lux-back.active {color: #fff;}"
+          ".lux-back.active {color: #fff;}",
+          ".lux-nav-link-btn{font-family: 'Cinzel';}"
         ],
         "settings": {
           "logo": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_18.17.54__1_-removebg-preview.png",
