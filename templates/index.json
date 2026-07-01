@@ -198,6 +198,7 @@
           "type": "collection",
           "settings": {
             "collection": "menswear",
+            "image": "shopify://shop_images/RB_204142_Custom_1.jpg",
             "title": "",
             "button_text": "DISCOVER"
           }
@@ -206,6 +207,7 @@
           "type": "collection",
           "settings": {
             "collection": "womenswear",
+            "image": "shopify://shop_images/RB_204142_Custom_2.jpg",
             "title": "",
             "button_text": "DISCOVER"
           }
