@@ -1,0 +1,298 @@
+<section class="two-video-section two-video-section--{{ section.id }}">
+  <div class="two-video-section__inner page-width{% if section.settings.full_width %} two-video-section__inner--full{% endif %}">
+    <div class="two-video-section__grid{% if section.settings.stack_mobile %} two-video-section__grid--stack-mobile{% endif %}">
+      {% for block in section.blocks %}
+        <div class="two-video-section__item" {{ block.shopify_attributes }}>
+          {% if block.settings.video != blank %}
+            <div class="two-video-section__media">
+              {{
+                block.settings.video
+                | video_tag:
+                  autoplay: true,
+                  loop: true,
+                  muted: true,
+                  controls: false,
+                  playsinline: true,
+                  preload: 'metadata',
+                  image_size: '1600x',
+                  class: 'two-video-section__video'
+              }}
+            </div>
+          {% elsif block.settings.poster != blank %}
+            <div class="two-video-section__media two-video-section__media--placeholder">
+              {{
+                block.settings.poster
+                | image_url: width: 1600
+                | image_tag:
+                  loading: 'lazy',
+                  widths: '400, 600, 800, 1000, 1200, 1600',
+                  class: 'two-video-section__poster',
+                  alt: 'Video placeholder'
+              }}
+            </div>
+          {% else %}
+            <div class="two-video-section__media two-video-section__media--placeholder two-video-section__empty">
+              <span>Upload video</span>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <style>
+    .two-video-section--{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      background: {{ section.settings.bg_color }};
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__inner {
+      width: 100%;
+      margin: 0 auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      max-width: 1400px;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__inner--full {
+      max-width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: {{ section.settings.gap }}px;
+      align-items: stretch;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__item {
+      min-width: 0;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__media {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: {{ section.settings.desktop_height }}px;
+      border-radius: {{ section.settings.radius }}px;
+      background: #000;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__video,
+    .two-video-section--{{ section.id }} .two-video-section__media video,
+    .two-video-section--{{ section.id }} .two-video-section__poster,
+    .two-video-section--{{ section.id }} .two-video-section__media img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      background: #000;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__media--placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__empty {
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 0.02em;
+    }
+
+    @media screen and (max-width: 749px) {
+      .two-video-section--{{ section.id }} .two-video-section__grid {
+        {% if section.settings.stack_mobile %}
+          grid-template-columns: 1fr;
+        {% else %}
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        {% endif %}
+        gap: {{ section.settings.mobile_gap }}px;
+      }
+
+      .two-video-section--{{ section.id }} .two-video-section__media {
+        height: {{ section.settings.mobile_height }}px;
+        border-radius: {{ section.settings.mobile_radius }}px;
+      }
+
+      .two-video-section--{{ section.id }} .two-video-section__inner {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .two-video-section--{{ section.id }} .two-video-section__inner--full {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var sectionNode = document.querySelector('.two-video-section--{{ section.id }}');
+      if (!sectionNode) return;
+
+      var videos = sectionNode.querySelectorAll('video');
+
+      videos.forEach(function(video) {
+        video.muted = true;
+        video.setAttribute('muted', 'muted');
+        video.setAttribute('autoplay', 'autoplay');
+        video.setAttribute('playsinline', 'playsinline');
+        video.setAttribute('webkit-playsinline', 'webkit-playsinline');
+        video.setAttribute('loop', 'loop');
+        video.removeAttribute('controls');
+
+        var playPromise = video.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(function() {});
+        }
+      });
+    });
+  </script>
+</section>
+
+{% schema %}
+{
+  "name": "Two Video Autoplay",
+  "tag": "section",
+  "class": "section",
+  "max_blocks": 2,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Enable full width",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "desktop_height",
+      "min": 250,
+      "max": 900,
+      "step": 10,
+      "unit": "px",
+      "label": "Desktop video height",
+      "default": 520
+    },
+    {
+      "type": "range",
+      "id": "mobile_height",
+      "min": 180,
+      "max": 700,
+      "step": 10,
+      "unit": "px",
+      "label": "Mobile video height",
+      "default": 320
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop gap",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "mobile_gap",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile gap",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop corner radius",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile corner radius",
+      "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_mobile",
+      "label": "Stack videos on mobile",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video_item",
+      "name": "Video",
+      "settings": [
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Shopify hosted video"
+        },
+        {
+          "type": "image_picker",
+          "id": "poster",
+          "label": "Fallback poster image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two Video Autoplay",
+      "blocks": [
+        {
+          "type": "video_item"
+        },
+        {
+          "type": "video_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
