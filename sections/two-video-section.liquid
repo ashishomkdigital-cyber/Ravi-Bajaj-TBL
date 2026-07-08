@@ -2,6 +2,22 @@
   <div class="two-video-section__inner page-width{% if section.settings.full_width %} two-video-section__inner--full{% endif %}">
     <div class="two-video-section__grid{% if section.settings.stack_mobile %} two-video-section__grid--stack-mobile{% endif %}">
       {% for block in section.blocks %}
+        {% assign selected_collection = block.settings.collection %}
+        {% assign video_title = block.settings.title %}
+        {% assign subheading_text = block.settings.subheading %}
+        {% assign final_subheading = subheading_text %}
+        {% assign final_link = blank %}
+
+        {% if selected_collection != blank %}
+          {% assign final_link = selected_collection.url %}
+          {% if final_subheading == blank %}
+            {% assign final_subheading = selected_collection.title %}
+          {% endif %}
+          {% if video_title == blank %}
+            {% assign video_title = selected_collection.title %}
+          {% endif %}
+        {% endif %}
+
         <div class="two-video-section__item" {{ block.shopify_attributes }}>
           {% if block.settings.video != blank %}
             <div class="two-video-section__media">
@@ -17,6 +33,28 @@
                   image_size: '1600x',
                   class: 'two-video-section__video'
               }}
+
+              {% if video_title != blank or final_subheading != blank %}
+                <div class="two-video-section__overlay">
+                  <div class="two-video-section__content">
+                    {% if video_title != blank %}
+                      <h3 class="two-video-section__title">{{ video_title | escape }}</h3>
+                    {% endif %}
+
+                    {% if final_subheading != blank %}
+                      {% if final_link != blank %}
+                        <a href="{{ final_link }}" class="two-video-section__subheading-link">
+                          <span class="two-video-section__subheading">{{ final_subheading | escape }}</span>
+                        </a>
+                      {% else %}
+                        <div class="two-video-section__subheading-wrap">
+                          <span class="two-video-section__subheading">{{ final_subheading | escape }}</span>
+                        </div>
+                      {% endif %}
+                    {% endif %}
+                  </div>
+                </div>
+              {% endif %}
             </div>
           {% elsif block.settings.poster != blank %}
             <div class="two-video-section__media two-video-section__media--placeholder">
@@ -29,6 +67,28 @@
                   class: 'two-video-section__poster',
                   alt: 'Video placeholder'
               }}
+
+              {% if video_title != blank or final_subheading != blank %}
+                <div class="two-video-section__overlay">
+                  <div class="two-video-section__content">
+                    {% if video_title != blank %}
+                      <h3 class="two-video-section__title">{{ video_title | escape }}</h3>
+                    {% endif %}
+
+                    {% if final_subheading != blank %}
+                      {% if final_link != blank %}
+                        <a href="{{ final_link }}" class="two-video-section__subheading-link">
+                          <span class="two-video-section__subheading">{{ final_subheading | escape }}</span>
+                        </a>
+                      {% else %}
+                        <div class="two-video-section__subheading-wrap">
+                          <span class="two-video-section__subheading">{{ final_subheading | escape }}</span>
+                        </div>
+                      {% endif %}
+                    {% endif %}
+                  </div>
+                </div>
+              {% endif %}
             </div>
           {% else %}
             <div class="two-video-section__media two-video-section__media--placeholder two-video-section__empty">
@@ -93,6 +153,71 @@
       background: #000;
     }
 
+    .two-video-section--{{ section.id }} .two-video-section__overlay {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+      padding: 24px 24px 22px;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.38) 45%, rgba(0, 0, 0, 0) 100%);
+      pointer-events: none;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+      max-width: 90%;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__title {
+      margin: 0;
+      color: #fff;
+      font-size: 28px;
+      line-height: 1.15;
+      font-weight: 600;
+      letter-spacing: 0;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__subheading-link,
+    .two-video-section--{{ section.id }} .two-video-section__subheading-wrap {
+      display: inline-flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      pointer-events: auto;
+      text-decoration: none;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__subheading {
+      position: relative;
+      display: inline-block;
+      color: #fff;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding-bottom: 6px;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__subheading::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      background: currentColor;
+      opacity: 0.95;
+    }
+
+    .two-video-section--{{ section.id }} .two-video-section__subheading-link:hover .two-video-section__subheading::after,
+    .two-video-section--{{ section.id }} .two-video-section__subheading-link:focus .two-video-section__subheading::after {
+      opacity: 1;
+    }
+
     .two-video-section--{{ section.id }} .two-video-section__media--placeholder {
       display: flex;
       align-items: center;
@@ -129,6 +254,24 @@
         padding-left: 0;
         padding-right: 0;
       }
+
+      .two-video-section--{{ section.id }} .two-video-section__overlay {
+        padding: 18px 16px 16px;
+      }
+
+      .two-video-section--{{ section.id }} .two-video-section__content {
+        gap: 4px;
+        max-width: 100%;
+      }
+
+      .two-video-section--{{ section.id }} .two-video-section__title {
+        font-size: 20px;
+      }
+
+      .two-video-section--{{ section.id }} .two-video-section__subheading {
+        font-size: 12px;
+        padding-bottom: 5px;
+      }
     }
   </style>
 
@@ -141,6 +284,7 @@
 
       videos.forEach(function(video) {
         video.muted = true;
+        video.defaultMuted = true;
         video.setAttribute('muted', 'muted');
         video.setAttribute('autoplay', 'autoplay');
         video.setAttribute('playsinline', 'playsinline');
@@ -148,9 +292,17 @@
         video.setAttribute('loop', 'loop');
         video.removeAttribute('controls');
 
-        var playPromise = video.play();
-        if (playPromise !== undefined) {
-          playPromise.catch(function() {});
+        var tryPlay = function () {
+          var promise = video.play();
+          if (promise !== undefined) {
+            promise.catch(function() {});
+          }
+        };
+
+        if (video.readyState >= 2) {
+          tryPlay();
+        } else {
+          video.addEventListener('loadeddata', tryPlay, { once: true });
         }
       });
     });
@@ -272,6 +424,21 @@
           "type": "video",
           "id": "video",
           "label": "Shopify hosted video"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading"
+        },
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection for subheading link"
         },
         {
           "type": "image_picker",
