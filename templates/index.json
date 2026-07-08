@@ -1339,13 +1339,19 @@
         "video_item_eyLGFF": {
           "type": "video_item",
           "settings": {
-            "video": "shopify://files/videos/IMG_4107.MP4"
+            "video": "shopify://files/videos/IMG_4107.MP4",
+            "title": "Women's Wear",
+            "subheading": "Discover",
+            "collection": ""
           }
         },
         "video_item_cmXNp6": {
           "type": "video_item",
           "settings": {
-            "video": "shopify://files/videos/IMG_4106.MP4"
+            "video": "shopify://files/videos/IMG_4106.MP4",
+            "title": "Men's Wear",
+            "subheading": "Discover",
+            "collection": ""
           }
         }
       },
