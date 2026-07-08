@@ -1217,36 +1217,6 @@
         "heading_tag": "automatic"
       }
     },
-    "luxury_testimonial_nCNfDk": {
-      "type": "luxury-testimonial",
-      "blocks": {
-        "testimonial_ceDJx4": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>A brand rooted in craftsmanship, legacy, and modern elegance. Created for the contemporary woman who values tradition yet moves effortlessly through the present.</p>"
-          }
-        },
-        "testimonial_EVaMnR": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Luxury is expressed through exclusivity, craftsmanship, and legacy. Blending the soulful allure of polkis, vibrant gemstones, and diamonds, each piece is envisioned as a future heirloom, crafted to elevate both intimate rituals and grand celebrations.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_ceDJx4",
-        "testimonial_EVaMnR"
-      ],
-      "disabled": true,
-      "name": "Luxury Testimonial Slider",
-      "settings": {
-        "bg_color": "#f4f2ef",
-        "text_color": "#6b5e4b",
-        "font_family": "serif",
-        "autoplay": true,
-        "speed": 4000
-      }
-    },
     "ios_fixed_parallax_LPift6": {
       "type": "ios-fixed-parallax",
       "blocks": {
@@ -1362,6 +1332,41 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "two_video_section_BECJWh": {
+      "type": "two-video-section",
+      "blocks": {
+        "video_item_eyLGFF": {
+          "type": "video_item",
+          "settings": {
+            "video": "shopify://files/videos/IMG_4107.MP4"
+          }
+        },
+        "video_item_cmXNp6": {
+          "type": "video_item",
+          "settings": {
+            "video": "shopify://files/videos/IMG_4106.MP4"
+          }
+        }
+      },
+      "block_order": [
+        "video_item_eyLGFF",
+        "video_item_cmXNp6"
+      ],
+      "name": "Two Video Autoplay",
+      "settings": {
+        "full_width": true,
+        "bg_color": "#ffffff",
+        "desktop_height": 900,
+        "mobile_height": 520,
+        "gap": 16,
+        "mobile_gap": 12,
+        "radius": 0,
+        "mobile_radius": 0,
+        "stack_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -1386,9 +1391,9 @@
     "section_columns_H4fnYE",
     "find_your_style_EpDEBP",
     "section-video",
-    "luxury_testimonial_nCNfDk",
     "ios_fixed_parallax_LPift6",
     "section-text-row",
-    "section_custom_code_YpEBia"
+    "section_custom_code_YpEBia",
+    "two_video_section_BECJWh"
   ]
 }
