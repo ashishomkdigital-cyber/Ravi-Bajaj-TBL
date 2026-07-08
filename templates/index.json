@@ -1366,7 +1366,7 @@
         "desktop_height": 900,
         "mobile_height": 520,
         "gap": 0,
-        "mobile_gap": 12,
+        "mobile_gap": 0,
         "radius": 0,
         "mobile_radius": 0,
         "stack_mobile": true,
