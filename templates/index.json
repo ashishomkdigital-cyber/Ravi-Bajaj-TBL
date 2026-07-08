@@ -880,6 +880,7 @@
         "text-7",
         "button-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".hover-active-effect {border-color: #fff; color: #fff; display: none;}",
         ".hover-active-effect:hover {border-color: #000;}"
