@@ -1247,58 +1247,6 @@
         "speed": 4000
       }
     },
-    "section-custom-content-0": {
-      "type": "section-custom-content",
-      "blocks": {
-        "collection-10": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "Sculpted in Stone",
-            "bg_color": "",
-            "color": ""
-          }
-        },
-        "image-5": {
-          "type": "image",
-          "settings": {
-            "title": "The Art of Adornment",
-            "heading_font_size": "heading-large",
-            "text": "<p>A curated collection of gemstone necklaces, where refined design meets effortless luxury.</p>",
-            "text_font_size": "body-large",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "#ffffff",
-            "overlay_type": "disabled",
-            "link_text": "Shop the collection",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "collection-10",
-        "image-5"
-      ],
-      "disabled": true,
-      "name": "Custom content",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "sixty-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 59,
-        "padding_bottom": 0
-      }
-    },
     "ios_fixed_parallax_LPift6": {
       "type": "ios-fixed-parallax",
       "blocks": {
@@ -1403,6 +1351,17 @@
         "padding_bottom": 40,
         "heading_tag": "automatic"
       }
+    },
+    "section_custom_code_YpEBia": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n.split-video-section{\n    display:flex;\n    width:100%;\n    height:100vh;\n    overflow:hidden;\n}\n\n.split-video-item{\n    position:relative;\n    width:50%;\n    overflow:hidden;\n}\n\n.split-video-item video{\n    width:100%;\n    height:100%;\n    object-fit:cover;\n    display:block;\n}\n\n.split-video-overlay{\n    position:absolute;\n    inset:0;\n    display:flex;\n    flex-direction:column;\n    justify-content:flex-end;\n    align-items:center;\n    padding-bottom:60px;\n    background:rgba(0,0,0,.18);\n    text-align:center;\n}\n\n.split-video-overlay h2{\n    color:#fff;\n    font-size:42px;\n    font-weight:400;\n    letter-spacing:3px;\n    margin:0 0 15px;\n    text-transform:uppercase;\n}\n\n.split-video-overlay .btn{\n    color:#fff;\n    text-decoration:none;\n    border-bottom:1px solid #fff;\n    padding-bottom:4px;\n    letter-spacing:2px;\n    text-transform:uppercase;\n    font-size:14px;\n}\n\n.split-video-item:hover video{\n    transform:scale(1.05);\n    transition:.5s ease;\n}\n\n@media screen and (max-width:768px){\n\n.split-video-section{\n    flex-direction:column;\n    height:auto;\n}\n\n.split-video-item{\n    width:100%;\n    height:80vh;\n}\n\n.split-video-overlay h2{\n    font-size:28px;\n}\n\n}\n</style>\n\n<div class=\"split-video-section\">\n\n    <!-- Left Video -->\n    <div class=\"split-video-item\">\n\n        <video\n            autoplay\n            muted\n            loop\n            playsinline\n            webkit-playsinline\n            preload=\"auto\">\n            <source src=\"YOUR_LEFT_VIDEO_URL.mp4\" type=\"video/mp4\">\n        </video>\n\n        <div class=\"split-video-overlay\">\n            <h2>Menswear</h2>\n            <a class=\"btn\" href=\"/collections/menswear\">Discover</a>\n        </div>\n\n    </div>\n\n    <!-- Right Video -->\n    <div class=\"split-video-item\">\n\n        <video\n            autoplay\n            muted\n            loop\n            playsinline\n            webkit-playsinline\n            preload=\"auto\">\n            <source src=\"YOUR_RIGHT_VIDEO_URL.mp4\" type=\"video/mp4\">\n        </video>\n\n        <div class=\"split-video-overlay\">\n            <h2>Womenswear</h2>\n            <a class=\"btn\" href=\"/collections/womenswear\">Discover</a>\n        </div>\n\n    </div>\n\n</div>",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -1428,8 +1387,8 @@
     "find_your_style_EpDEBP",
     "section-video",
     "luxury_testimonial_nCNfDk",
-    "section-custom-content-0",
     "ios_fixed_parallax_LPift6",
-    "section-text-row"
+    "section-text-row",
+    "section_custom_code_YpEBia"
   ]
 }
