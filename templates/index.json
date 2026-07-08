@@ -1365,7 +1365,7 @@
         "bg_color": "#ffffff",
         "desktop_height": 900,
         "mobile_height": 520,
-        "gap": 16,
+        "gap": 0,
         "mobile_gap": 12,
         "radius": 0,
         "mobile_radius": 0,
