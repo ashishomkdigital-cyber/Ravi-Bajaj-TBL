@@ -257,6 +257,7 @@
       "settings": {
         "full_width": true,
         "bg_color": "#ffffff",
+        "video_position": "center top",
         "desktop_height": 900,
         "mobile_height": 520,
         "gap": 0,
