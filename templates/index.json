@@ -312,6 +312,7 @@
           "type": "collection",
           "settings": {
             "collection": "lehenga",
+            "image": "shopify://shop_images/IMG_4350.jpg",
             "title": ""
           }
         }
