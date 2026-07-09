@@ -154,15 +154,26 @@
     }
 
     .two-video-section--{{ section.id }} .two-video-section__overlay {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 2;
-      padding: 24px 24px 22px;
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.38) 45%, rgba(0, 0, 0, 0) 100%);
-      pointer-events: none;
-    }
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0; /* Full overlay */
+  z-index: 2;
+  padding: 24px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.72) 0%,
+    rgba(0, 0, 0, 0.38) 45%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  pointer-events: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
     .two-video-section--{{ section.id }} .two-video-section__content {
       display: flex;
