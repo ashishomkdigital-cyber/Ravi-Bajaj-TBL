@@ -857,6 +857,63 @@
         "padding_bottom": 50
       }
     },
+    "section_rich_text_6mKkeJ": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_zrRJXC": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_hniAjB": {
+          "type": "heading",
+          "settings": {
+            "title": "About  us",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_3qbefa": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ravi Bajaj is a leading Indian luxury fashion designer brand established in 1987, known for sharp tailoring, modern menswear, and couture outfits. The label blends Indian craftsmanship with contemporary global style, offering elegant sherwanis, suits, and occasion wear for weddings and premium fashion clientele.</strong></p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_4jYMn6": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Explore About More",
+            "button_url": "shopify://collections",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zrRJXC",
+        "heading_hniAjB",
+        "text_3qbefa",
+        "buttons_4jYMn6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "timeless_creations_rNTWF8": {
       "type": "timeless-creations",
       "disabled": true,
@@ -1364,18 +1421,6 @@
         "padding_bottom": 40,
         "heading_tag": "automatic"
       }
-    },
-    "section_custom_code_YpEBia": {
-      "type": "section-custom-code",
-      "disabled": true,
-      "name": "Custom code",
-      "settings": {
-        "code": "<style>\n.split-video-section{\n    display:flex;\n    width:100%;\n    height:100vh;\n    overflow:hidden;\n}\n\n.split-video-item{\n    position:relative;\n    width:50%;\n    overflow:hidden;\n}\n\n.split-video-item video{\n    width:100%;\n    height:100%;\n    object-fit:cover;\n    display:block;\n}\n\n.split-video-overlay{\n    position:absolute;\n    inset:0;\n    display:flex;\n    flex-direction:column;\n    justify-content:flex-end;\n    align-items:center;\n    padding-bottom:60px;\n    background:rgba(0,0,0,.18);\n    text-align:center;\n}\n\n.split-video-overlay h2{\n    color:#fff;\n    font-size:42px;\n    font-weight:400;\n    letter-spacing:3px;\n    margin:0 0 15px;\n    text-transform:uppercase;\n}\n\n.split-video-overlay .btn{\n    color:#fff;\n    text-decoration:none;\n    border-bottom:1px solid #fff;\n    padding-bottom:4px;\n    letter-spacing:2px;\n    text-transform:uppercase;\n    font-size:14px;\n}\n\n.split-video-item:hover video{\n    transform:scale(1.05);\n    transition:.5s ease;\n}\n\n@media screen and (max-width:768px){\n\n.split-video-section{\n    flex-direction:column;\n    height:auto;\n}\n\n.split-video-item{\n    width:100%;\n    height:80vh;\n}\n\n.split-video-overlay h2{\n    font-size:28px;\n}\n\n}\n</style>\n\n<div class=\"split-video-section\">\n\n    <!-- Left Video -->\n    <div class=\"split-video-item\">\n\n        <video\n            autoplay\n            muted\n            loop\n            playsinline\n            webkit-playsinline\n            preload=\"auto\">\n            <source src=\"YOUR_LEFT_VIDEO_URL.mp4\" type=\"video/mp4\">\n        </video>\n\n        <div class=\"split-video-overlay\">\n            <h2>Menswear</h2>\n            <a class=\"btn\" href=\"/collections/menswear\">Discover</a>\n        </div>\n\n    </div>\n\n    <!-- Right Video -->\n    <div class=\"split-video-item\">\n\n        <video\n            autoplay\n            muted\n            loop\n            playsinline\n            webkit-playsinline\n            preload=\"auto\">\n            <source src=\"YOUR_RIGHT_VIDEO_URL.mp4\" type=\"video/mp4\">\n        </video>\n\n        <div class=\"split-video-overlay\">\n            <h2>Womenswear</h2>\n            <a class=\"btn\" href=\"/collections/womenswear\">Discover</a>\n        </div>\n\n    </div>\n\n</div>",
-        "width": "wrapper--full",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -1394,6 +1439,7 @@
     "section_rich_text_RKrPQP",
     "section_collection_UEBzdf",
     "section_rich_text_7xpNn8",
+    "section_rich_text_6mKkeJ",
     "timeless_creations_rNTWF8",
     "section-hero-scrolling",
     "section_rich_text_CQJfyt",
@@ -1402,7 +1448,6 @@
     "find_your_style_EpDEBP",
     "section-video",
     "ios_fixed_parallax_LPift6",
-    "section-text-row",
-    "section_custom_code_YpEBia"
+    "section-text-row"
   ]
 }
