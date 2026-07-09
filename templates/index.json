@@ -217,11 +217,53 @@
         "collection_AWdgNt",
         "collection_GycGqq"
       ],
+      "disabled": true,
       "name": "Split Collections Banner",
       "settings": {
         "full_width": true,
         "aspect_ratio": "auto",
         "grid_gap": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "two_video_section_BECJWh": {
+      "type": "two-video-section",
+      "blocks": {
+        "video_item_eyLGFF": {
+          "type": "video_item",
+          "settings": {
+            "video": "shopify://files/videos/IMG_4107.MP4",
+            "title": "Women's Wear",
+            "subheading": "Discover",
+            "collection": ""
+          }
+        },
+        "video_item_cmXNp6": {
+          "type": "video_item",
+          "settings": {
+            "video": "shopify://files/videos/IMG_4106.MP4",
+            "title": "Men's Wear",
+            "subheading": "Discover",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_item_eyLGFF",
+        "video_item_cmXNp6"
+      ],
+      "name": "Two Video Autoplay",
+      "settings": {
+        "full_width": true,
+        "bg_color": "#ffffff",
+        "desktop_height": 900,
+        "mobile_height": 520,
+        "gap": 0,
+        "mobile_gap": 0,
+        "radius": 0,
+        "mobile_radius": 0,
+        "stack_mobile": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -1333,53 +1375,13 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "two_video_section_BECJWh": {
-      "type": "two-video-section",
-      "blocks": {
-        "video_item_eyLGFF": {
-          "type": "video_item",
-          "settings": {
-            "video": "shopify://files/videos/IMG_4107.MP4",
-            "title": "Women's Wear",
-            "subheading": "Discover",
-            "collection": ""
-          }
-        },
-        "video_item_cmXNp6": {
-          "type": "video_item",
-          "settings": {
-            "video": "shopify://files/videos/IMG_4106.MP4",
-            "title": "Men's Wear",
-            "subheading": "Discover",
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "video_item_eyLGFF",
-        "video_item_cmXNp6"
-      ],
-      "name": "Two Video Autoplay",
-      "settings": {
-        "full_width": true,
-        "bg_color": "#ffffff",
-        "desktop_height": 900,
-        "mobile_height": 520,
-        "gap": 0,
-        "mobile_gap": 0,
-        "radius": 0,
-        "mobile_radius": 0,
-        "stack_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "section_slideshow_custom_JcHYiK",
     "section_rich_text_ge8zHz",
     "custom_split_collections_Hbm9rW",
+    "two_video_section_BECJWh",
     "custom_collection_grid_3x3_7yBK3W",
     "section_rich_text_9ciygm",
     "section_collection_BRkPHU",
@@ -1400,7 +1402,6 @@
     "section-video",
     "ios_fixed_parallax_LPift6",
     "section-text-row",
-    "section_custom_code_YpEBia",
-    "two_video_section_BECJWh"
+    "section_custom_code_YpEBia"
   ]
 }
