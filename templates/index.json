@@ -236,7 +236,7 @@
             "video": "shopify://files/videos/IMG_4107.MP4",
             "title": "Women's Wear",
             "subheading": "Discover",
-            "collection": ""
+            "collection": "womenswear"
           }
         },
         "video_item_cmXNp6": {
@@ -245,7 +245,7 @@
             "video": "shopify://files/videos/IMG_4106.MP4",
             "title": "Men's Wear",
             "subheading": "Discover",
-            "collection": ""
+            "collection": "menswear"
           }
         }
       },
