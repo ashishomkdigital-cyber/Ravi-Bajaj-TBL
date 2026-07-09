@@ -173,13 +173,15 @@
   text-align: center;
 }
 
-    .two-video-section--{{ section.id }} .two-video-section__content {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 6px;
-      max-width: 90%;
-    }
+  .two-video-section--{{ section.id }} .two-video-section__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* Left ki jagah center */
+  justify-content: flex-end;
+  gap: 6px;
+  max-width: 90%;
+  text-align: center;
+}
 
     .two-video-section--{{ section.id }} .two-video-section__title {
       margin: 0;
