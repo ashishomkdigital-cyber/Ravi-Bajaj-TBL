@@ -142,16 +142,24 @@
     }
 
     .two-video-section--{{ section.id }} .two-video-section__video,
-    .two-video-section--{{ section.id }} .two-video-section__media video,
-    .two-video-section--{{ section.id }} .two-video-section__poster,
-    .two-video-section--{{ section.id }} .two-video-section__media img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center center;
-      background: #000;
-    }
+.two-video-section--{{ section.id }} .two-video-section__media video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20px; /* top se thoda niche */
+  background: #000;
+}
+
+.two-video-section--{{ section.id }} .two-video-section__poster,
+.two-video-section--{{ section.id }} .two-video-section__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  background: #000;
+}
 
     .two-video-section--{{ section.id }} .two-video-section__overlay {
   position: absolute;
@@ -284,6 +292,12 @@
         padding-bottom: 5px;
       }
     }
+    @media screen and (max-width: 749px) {
+  .two-video-section--{{ section.id }} .two-video-section__video,
+  .two-video-section--{{ section.id }} .two-video-section__media video {
+    object-position: center 12px;
+  }
+}
   </style>
 
   <script>
