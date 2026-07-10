@@ -110,6 +110,7 @@
         "slide_video_Am7gHQ",
         "slide_image_73JrzY"
       ],
+      "disabled": true,
       "custom_css": [
         "p.hero__description:nth-of-type(1) {height: 78px; width: 1px; background: #fff;}"
       ],
