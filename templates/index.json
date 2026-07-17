@@ -953,7 +953,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Ravi Bajaj is a leading Indian luxury fashion designer brand established in 1987, known for sharp tailoring, modern menswear, and couture outfits. The label blends Indian craftsmanship with contemporary global style, offering elegant sherwanis, suits, and occasion wear for weddings and premium fashion clientele.</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "padding_bottom": 16
           }
         },
@@ -1057,7 +1057,7 @@
       "type": "timeless-creations",
       "custom_css": [
         ".tc-video,.tc-content,.tc-image,.tc-bottom,.tc-button {display: none;}",
-        "@media (max-width: 680px) {.tc-bottom, .tc-image {display: none; } .tc-content,.tc-video {display: block; }}"
+        "@media (max-width: 680px) {.tc-bottom, .tc-image {display: none; } .tc-content, .tc-video {display: block; }}"
       ],
       "name": "Timeless Creations",
       "settings": {
