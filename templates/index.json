@@ -1087,6 +1087,7 @@
       "blocks": {
         "reel_VQHGUH": {
           "type": "reel",
+          "disabled": true,
           "settings": {
             "video": "https://cdn.shopify.com/videos/c/o/v/b878e3664611419b89726e8c9b5fac58.mp4",
             "product": "ivory-flutter-set"
@@ -1101,6 +1102,7 @@
         },
         "reel_ijHbVJ": {
           "type": "reel",
+          "disabled": true,
           "settings": {
             "video": "https://cdn.shopify.com/videos/c/o/v/cffc44517b7b48809d58328db388de48.mp4",
             "product": "cotton-polka-feather-print-short-kurta"
