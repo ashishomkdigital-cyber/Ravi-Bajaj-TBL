@@ -106,7 +106,8 @@
         "select"
       ],
       "custom_css": [
-        ".custom-form__required-text,.form__legal {display: none;}"
+        ".custom-form__required-text,.form__legal {display: none;}",
+        "input,textarea {border: 1px solid #ddd; padding: 10px;}"
       ],
       "settings": {
         "title": "",
