@@ -1089,15 +1089,17 @@
           "type": "reel",
           "disabled": true,
           "settings": {
-            "video": "https://cdn.shopify.com/videos/c/o/v/b878e3664611419b89726e8c9b5fac58.mp4",
-            "product": "ivory-flutter-set"
+            "video": "https://cdn.shopify.com/videos/c/o/v/9f45fa0f6c6445caa0fc0df2ec4e3d40.mp4",
+            "product": "ivory-flutter-set",
+            "collection": ""
           }
         },
         "reel_xcWQ7d": {
           "type": "reel",
           "settings": {
             "video": "https://cdn.shopify.com/videos/c/o/v/3ca3e3e1ea6942a7a466b9398ece3536.mp4",
-            "product": "cotton-polka-feather-print-short-kurta"
+            "product": "",
+            "collection": "kurta"
           }
         },
         "reel_ijHbVJ": {
@@ -1105,21 +1107,24 @@
           "disabled": true,
           "settings": {
             "video": "https://cdn.shopify.com/videos/c/o/v/cffc44517b7b48809d58328db388de48.mp4",
-            "product": "cotton-polka-feather-print-short-kurta"
+            "product": "cotton-polka-feather-print-short-kurta",
+            "collection": ""
           }
         },
         "reel_XERMqJ": {
           "type": "reel",
           "settings": {
             "video": "https://cdn.shopify.com/videos/c/o/v/402d0dd0552245c4a1fd22f258604364.mp4",
-            "product": "all-over-floral-embroidered-linen-gilet"
+            "product": "",
+            "collection": ""
           }
         },
         "reel_rQJtFe": {
           "type": "reel",
           "settings": {
             "video": "https://cdn.shopify.com/videos/c/o/v/59b47f64afbb4308a6c3a2ce22d056d1.mp4",
-            "product": "all-over-embroidered-pure-linen-long-kurta"
+            "product": "all-over-embroidered-pure-linen-long-kurta",
+            "collection": ""
           }
         },
         "reel_wBPBTy": {
@@ -1127,7 +1132,8 @@
           "disabled": true,
           "settings": {
             "video": "",
-            "product": ""
+            "product": "",
+            "collection": ""
           }
         },
         "reel_TRGqme": {
@@ -1135,7 +1141,8 @@
           "disabled": true,
           "settings": {
             "video": "",
-            "product": ""
+            "product": "",
+            "collection": ""
           }
         },
         "reel_9eBLXE": {
@@ -1143,7 +1150,8 @@
           "disabled": true,
           "settings": {
             "video": "",
-            "product": ""
+            "product": "",
+            "collection": ""
           }
         }
       },
@@ -1161,7 +1169,9 @@
         ".reels-wrapper {margin-bottom: 3.5rem !important;}"
       ],
       "name": "Reels Slider Final",
-      "settings": {}
+      "settings": {
+        "click_action": "click"
+      }
     },
     "section_columns_H4fnYE": {
       "type": "section-columns",
