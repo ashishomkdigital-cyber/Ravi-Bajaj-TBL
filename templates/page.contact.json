@@ -67,12 +67,14 @@
         },
         "formHeading-0": {
           "type": "formHeading",
+          "disabled": true,
           "settings": {
             "title": "Optional"
           }
         },
         "checkbox": {
           "type": "checkbox",
+          "disabled": true,
           "settings": {
             "title": "This is urgent",
             "required": false
@@ -80,6 +82,7 @@
         },
         "select": {
           "type": "select",
+          "disabled": true,
           "settings": {
             "title": "Select an option",
             "required": false,
@@ -100,6 +103,9 @@
         "formHeading-0",
         "checkbox",
         "select"
+      ],
+      "custom_css": [
+        ".custom-form__required-text,.form__legal{display: none;}"
       ],
       "settings": {
         "title": "",
