@@ -316,6 +316,13 @@
             "image": "shopify://shop_images/IMG_4350.jpg",
             "title": ""
           }
+        },
+        "collection_jja7An": {
+          "type": "collection",
+          "settings": {
+            "collection": "gown",
+            "title": ""
+          }
         }
       },
       "block_order": [
@@ -324,7 +331,8 @@
         "collection_HPhJ6T",
         "collection_8Nq4RP",
         "collection_w3JhG4",
-        "collection_JLrT9W"
+        "collection_JLrT9W",
+        "collection_jja7An"
       ],
       "custom_css": [
         ".collection-grid-section-title {font-weight: 500;}"
