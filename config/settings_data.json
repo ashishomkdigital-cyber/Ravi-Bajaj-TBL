@@ -1920,5 +1920,10 @@
         "links": "#282c2e"
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".grid__heading{font-weight: 500;}"
+    ]
   }
 }
