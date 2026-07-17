@@ -31,7 +31,7 @@
         "width": "wrapper",
         "color_scheme": "",
         "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_bottom": 0,
         "heading_tag": "automatic"
       }
     },
@@ -40,6 +40,7 @@
       "blocks": {
         "formHeading": {
           "type": "formHeading",
+          "disabled": true,
           "settings": {
             "title": "All products in this store are for demo purposes only. No orders can be placed on this store."
           }
@@ -105,7 +106,7 @@
         "select"
       ],
       "custom_css": [
-        ".custom-form__required-text,.form__legal{display: none;}"
+        ".custom-form__required-text,.form__legal {display: none;}"
       ],
       "settings": {
         "title": "",
