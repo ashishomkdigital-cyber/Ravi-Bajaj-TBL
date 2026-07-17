@@ -977,6 +977,9 @@
         "text_69Lh7f",
         "buttons_RVThz6"
       ],
+      "custom_css": [
+        "@media (max-width: 680px) {.index-rte {display: none; }}"
+      ],
       "name": "Rich text",
       "settings": {
         "align_text": "text-center",
@@ -1029,12 +1032,15 @@
         "text_XUq6a9",
         "button_B8QVzn"
       ],
+      "custom_css": [
+        "@media (max-width: 680px) {.index-hero {display: none; }}"
+      ],
       "name": "Image banner",
       "settings": {
         "image_1": "shopify://shop_images/IMG_4628.png",
         "link": "",
         "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
+        "height": "image-height",
         "flex_align_desktop": "align--middle-center-desktop",
         "content_width": 50,
         "mobile_height": "screen-height-three-quarters--mobile",
@@ -1049,7 +1055,10 @@
     },
     "timeless_creations_rNTWF8": {
       "type": "timeless-creations",
-      "disabled": true,
+      "custom_css": [
+        ".tc-video,.tc-content,.tc-image,.tc-bottom,.tc-button {display: none;}",
+        "@media (max-width: 680px) {.tc-bottom, .tc-image {display: none; } .tc-content,.tc-video {display: block; }}"
+      ],
       "name": "Timeless Creations",
       "settings": {
         "heading": "About us",
