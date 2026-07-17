@@ -42,6 +42,7 @@
     "enable_superscript": true,
     "instagram_link": "",
     "tiktok_link": "",
+    "image_hover_enable": false,
     "product_grid_aspect_ratio": 1.2,
     "form_style": "modern",
     "final_sale": true,
