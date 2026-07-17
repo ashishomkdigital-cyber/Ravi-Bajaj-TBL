@@ -929,8 +929,127 @@
         "padding_bottom": 100
       }
     },
+    "section_rich_text_pGwxmP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_VRmqLC": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_eQHG3E": {
+          "type": "heading",
+          "settings": {
+            "title": "About us",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_69Lh7f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ravi Bajaj is a leading Indian luxury fashion designer brand established in 1987, known for sharp tailoring, modern menswear, and couture outfits. The label blends Indian craftsmanship with contemporary global style, offering elegant sherwanis, suits, and occasion wear for weddings and premium fashion clientele.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_RVThz6": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VRmqLC",
+        "heading_eQHG3E",
+        "text_69Lh7f",
+        "buttons_RVThz6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_VmjDL7": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_qTDFtN": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image banner",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_XUq6a9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Tell your brand's story through images.</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_B8QVzn": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_qTDFtN",
+        "text_XUq6a9",
+        "button_B8QVzn"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/IMG_4628.png",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "timeless_creations_rNTWF8": {
       "type": "timeless-creations",
+      "disabled": true,
       "name": "Timeless Creations",
       "settings": {
         "heading": "About us",
@@ -1173,175 +1292,6 @@
         "click_action": "click"
       }
     },
-    "section_columns_H4fnYE": {
-      "type": "section-columns",
-      "blocks": {
-        "image_xEeFUk": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_EfrUqQ": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_KLRfNT": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_KXrQgU": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image_xEeFUk",
-        "image_EfrUqQ",
-        "image_KLRfNT",
-        "image_KXrQgU"
-      ],
-      "disabled": true,
-      "name": "Text columns with images",
-      "settings": {
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "align_heading": "text-center",
-        "align_text": "text-center",
-        "width": "wrapper",
-        "align_columns": "flex-align-center",
-        "layout": "grid",
-        "grid": 4,
-        "layout_mobile": "slider",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
-    "find_your_style_EpDEBP": {
-      "type": "find-your-style",
-      "blocks": {
-        "preview_69YNd9": {
-          "type": "preview",
-          "settings": {}
-        },
-        "preview_XLLzWm": {
-          "type": "preview",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "preview_69YNd9",
-        "preview_XLLzWm"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "a {display: inline-block; padding: 14px 28px; border: 1px solid #caa86a; color: #caa86a; text-decoration: none; font-size: 14px; letter-spacing: 2px;}"
-      ],
-      "name": "Find Your Style",
-      "settings": {
-        "heading_line1": "FIND",
-        "heading_line2": "what",
-        "heading_line3": "YOU ARE LOOKING",
-        "heading_line4": "for",
-        "description": "",
-        "button_text": "Explore Exclusively Yours",
-        "button_link": "shopify://collections/all"
-      }
-    },
-    "section-video": {
-      "type": "section-video",
-      "disabled": true,
-      "name": "Video",
-      "settings": {
-        "show_video_popup": false,
-        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "title": "Behind the Brilliance",
-        "heading_font_size": "heading-large",
-        "text": "<p>Watch how our jewelry comes to life, from ethical sourcing to enduring design.</p>",
-        "text_font_size": "body-medium",
-        "flex_align": "align--middle-center",
-        "link_text": "learn more",
-        "link": "",
-        "button_type": "btn--white",
-        "button_size": "",
-        "button_style": "btn--outline",
-        "show_arrow": false,
-        "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-2",
-        "show_text_background": false,
-        "color": "",
-        "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "heading_tag": "automatic"
-      }
-    },
     "ios_fixed_parallax_LPift6": {
       "type": "ios-fixed-parallax",
       "blocks": {
@@ -1465,13 +1415,12 @@
     "section_collection_UEBzdf",
     "section_rich_text_7xpNn8",
     "section_rich_text_6mKkeJ",
+    "section_rich_text_pGwxmP",
+    "section_hero_VmjDL7",
     "timeless_creations_rNTWF8",
     "section-hero-scrolling",
     "section_rich_text_CQJfyt",
     "reel_slider_n3nkwq",
-    "section_columns_H4fnYE",
-    "find_your_style_EpDEBP",
-    "section-video",
     "ios_fixed_parallax_LPift6",
     "section-text-row"
   ]
