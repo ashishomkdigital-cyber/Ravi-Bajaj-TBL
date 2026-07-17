@@ -866,8 +866,8 @@
         "recent"
       ],
       "custom_css": [
-        ".tab-link {font-size: 28px; text-decoration: none;}",
-        ".tabs>li.current span:first-of-type:after{display: none;}"
+        ".tab-link {font-size: 28px; text-decoration: none; font-family: Cinzel;}",
+        ".tabs > li.current span:first-of-type:after {display: none;}"
       ],
       "settings": {
         "enable_tabs": true,
