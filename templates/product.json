@@ -865,6 +865,10 @@
         "related-0",
         "recent"
       ],
+      "custom_css": [
+        ".tab-link {font-size: 28px; text-decoration: none;}",
+        ".tabs>li.current span:first-of-type:after{display: none;}"
+      ],
       "settings": {
         "enable_tabs": true,
         "heading_alignment": "text-center",
