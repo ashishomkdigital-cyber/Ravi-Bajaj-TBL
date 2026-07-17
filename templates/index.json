@@ -326,6 +326,9 @@
         "collection_w3JhG4",
         "collection_JLrT9W"
       ],
+      "custom_css": [
+        ".collection-grid-section-title {font-weight: 500;}"
+      ],
       "name": "Collection Grid 3x3",
       "settings": {
         "title": "A SILHOUETTE FOR EVERY OCCASION",
