@@ -106,7 +106,10 @@
         "select"
       ],
       "custom_css": [
-        ".custom-form__required-text,.form__legal {display: none;}"
+        ".custom-form__required-text,.form__legal {display: none;}",
+        ".custom-form__block:nth-of-type(1),.custom-form__block:nth-of-type(2){width:48%;}",
+        ".custom-form__block:nth-of-type(1){float:left;}",
+        ".custom-form__block:nth-of-type(2){float:right;}"
       ],
       "settings": {
         "title": "",
