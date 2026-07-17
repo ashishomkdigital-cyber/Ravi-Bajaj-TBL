@@ -1,1 +1,127 @@
-{"type":"footer","name":"Footer","sections":{"footer":{"type":"footer","blocks":{"social":{"type":"social","settings":{"title":"About the Brand","heading_font_size":"heading-x-small","text":"<p>Ravi Bajaj is a luxury Indian fashion brand founded in 1987, known for elegant tailoring, couture designs, and modern menswear blending traditional craftsmanship with contemporary style.<\/p>","column_width":22,"enable_follow_on_shop":false,"enable_accordion":false}},"linklist":{"type":"linklist","settings":{"linklist":"main-menu-1","title":"Quick Links","heading_font_size":"heading-x-small","column_width":22,"enable_accordion":true}},"linklist-0":{"type":"linklist","settings":{"linklist":"policies","title":"Policies","heading_font_size":"heading-x-small","column_width":22,"enable_accordion":true}},"newsletter":{"type":"newsletter","settings":{"title":"Stay in Touch","heading_font_size":"heading-x-small","text":"<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>","button_text":"Subscribe","show_arrow":false,"terms":false,"show_name":false,"button_type":"btn--primary","button_size":"","button_style":"btn--outline","show_social_links":true,"column_width":22}}},"block_order":["social","linklist","linklist-0","newsletter"],"custom_css":[".footer__blocks {justify-content: space-between;}",".input-group {flex-direction: column; align-items: start;}","#subscribe-button-newsletter {padding: 0; padding: 10px 15px; background: #fff;}","#email-input-newsletter {padding: 10px 15px; margin-bottom: 10px; border: 1px solid rgb(173 170 165);}",".site-footer {position: relative;}",".footer__logo {position: absolute; right: 0; bottom: -10px; transform: scale(1.2); opacity: 0.1;}"],"settings":{"logo":"shopify:\/\/shop_images\/R.png","logo_image_width":150,"color_scheme":"scheme-8","border_color":"#212121","padding_top":75,"padding_bottom":30}},"section-anchor-logo":{"type":"section-anchor-logo","disabled":true,"settings":{"color_scheme":"scheme-8","padding_top":30,"padding_bottom":30}},"section-supporting-menu":{"type":"section-supporting-menu","custom_css":["[href=\"https:\/\/www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore\"]{display: none;}",".input-group {flex-direction: column;}"],"settings":{"linklist":"","text_font_size":"body-small","footer_payment_enable":true,"enable_greyscale":false,"show_locale_selector":true,"show_locale_code":false,"show_globe_icon":true,"show_country_selector":true,"show_country_name":false,"show_country_flag":true,"color_scheme":"scheme-8","padding_top":30,"padding_bottom":30,"bottom_image":"shopify:\/\/shop_images\/WhatsApp_Image_2026-06-24_at_18.17.54__1_-removebg-preview.png"}}},"order":["footer","section-anchor-logo","section-supporting-menu"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "social": {
+          "type": "social",
+          "settings": {
+            "title": "About",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Ravi Bajaj is a luxury Indian fashion brand founded in 1987, known for elegant tailoring, couture designs, and modern menswear blending traditional craftsmanship with contemporary style.</p>",
+            "column_width": 22,
+            "enable_follow_on_shop": false,
+            "enable_accordion": false
+          }
+        },
+        "linklist": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "main-menu-1",
+            "title": "Quick Links",
+            "heading_font_size": "heading-x-small",
+            "column_width": 22,
+            "enable_accordion": true
+          }
+        },
+        "linklist-0": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "policies",
+            "title": "Policies",
+            "heading_font_size": "heading-x-small",
+            "column_width": 22,
+            "enable_accordion": true
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Stay in Touch",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+            "button_text": "Subscribe",
+            "show_arrow": false,
+            "terms": false,
+            "show_name": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_social_links": true,
+            "column_width": 22
+          }
+        }
+      },
+      "block_order": [
+        "social",
+        "linklist",
+        "linklist-0",
+        "newsletter"
+      ],
+      "custom_css": [
+        ".footer__blocks {justify-content: space-between;}",
+        ".input-group {flex-direction: column; align-items: start;}",
+        "#subscribe-button-newsletter {padding: 0; padding: 10px 15px; background: #fff;}",
+        "#email-input-newsletter {padding: 10px 15px; margin-bottom: 10px; border: 1px solid rgb(173 170 165);}",
+        ".site-footer {position: relative;}",
+        ".footer__logo {position: absolute; right: 0; bottom: -10px; transform: scale(1.2); opacity: 0.1;}"
+      ],
+      "settings": {
+        "logo": "shopify://shop_images/R.png",
+        "logo_image_width": 150,
+        "color_scheme": "scheme-8",
+        "border_color": "#212121",
+        "padding_top": 75,
+        "padding_bottom": 30
+      }
+    },
+    "section-anchor-logo": {
+      "type": "section-anchor-logo",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-8",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section-supporting-menu": {
+      "type": "section-supporting-menu",
+      "custom_css": [
+        "[href=\"https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore\"]{display: none;}",
+        ".input-group {flex-direction: column;}"
+      ],
+      "settings": {
+        "linklist": "",
+        "text_font_size": "body-small",
+        "footer_payment_enable": true,
+        "enable_greyscale": false,
+        "show_locale_selector": true,
+        "show_locale_code": false,
+        "show_globe_icon": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "color_scheme": "scheme-8",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "bottom_image": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_18.17.54__1_-removebg-preview.png"
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "section-anchor-logo",
+    "section-supporting-menu"
+  ]
+}
