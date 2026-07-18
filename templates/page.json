@@ -27,7 +27,7 @@
         "heading_font_size": "heading-medium",
         "show_content": true,
         "text_font_size": "body-small",
-        "align_text": "text-left",
+        "align_text": "text-center",
         "width": "wrapper",
         "color_scheme": "",
         "padding_top": 50,
