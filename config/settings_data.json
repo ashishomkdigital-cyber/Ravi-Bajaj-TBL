@@ -87,7 +87,6 @@
         ],
         "settings": {
           "logo": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_18.17.54__1_-removebg-preview.png",
-          "colored_logo": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_18.17.54__1_-removebg-preview.png",
           "logo_width": 200,
           "brand_name": "Ravi Bajaj",
           "tagline": "",
@@ -1923,7 +1922,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".grid__heading{font-weight: 500;}"
+      ".grid__heading {font-weight: 500;}"
     ]
   }
 }
