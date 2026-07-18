@@ -28,7 +28,7 @@
         "linklist": {
           "type": "linklist",
           "settings": {
-            "linklist": "main-menu-1",
+            "linklist": "quick-links",
             "title": "Quick Links",
             "heading_font_size": "heading-x-small",
             "column_width": 22,
@@ -78,7 +78,6 @@
         ".footer__logo {position: absolute; right: 0; bottom: -10px; transform: scale(1.2); opacity: 0.1;}"
       ],
       "settings": {
-        "logo": "shopify://shop_images/R.png",
         "logo_image_width": 150,
         "color_scheme": "scheme-8",
         "border_color": "#212121",
