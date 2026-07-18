@@ -21,7 +21,6 @@
     },
     "main-page": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "subheading": "",
         "show_title": true,
@@ -35,11 +34,10 @@
         "padding_bottom": 50,
         "heading_tag": "automatic"
       }
-    },
-    
+    }
   },
   "order": [
     "section-divider",
-    "main-page",
+    "main-page"
   ]
 }
