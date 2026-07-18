@@ -960,7 +960,6 @@
         "video_dLiL6J": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.18_de4c85a8-8ac0-4ebd-b9cc-70bad6cac9ed.mp4",
             "badge_text": ""
           }
         },
@@ -968,7 +967,7 @@
           "type": "video",
           "settings": {
             "image": "shopify://shop_images/060A3436_Custom.jpg",
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.17_09c99004-efda-4afb-a43d-6dce77048dd3.mp4",
+            
             "badge_text": ""
           }
         },
@@ -976,21 +975,20 @@
           "type": "video",
           "settings": {
             "image": "shopify://shop_images/060A3671_Custom.jpg",
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.18 (1)_a9a1bcb3-de49-4d7f-8cde-c8b6b0b952e7.mp4",
+           
             "badge_text": ""
           }
         },
         "video_YbMDKz": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.19_f01dbcdf-1b1b-44ab-9482-57b378421a30.mp4",
             "badge_text": ""
           }
         },
         "video_6UgUUJ": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.15.mp4",
+           
             "badge_text": ""
           }
         },
@@ -998,7 +996,7 @@
           "type": "video",
           "settings": {
             "image": "shopify://shop_images/060A3087_Custom.jpg",
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.17_09c99004-efda-4afb-a43d-6dce77048dd3.mp4",
+           
             "badge_text": ""
           }
         },
@@ -1006,7 +1004,7 @@
           "type": "video",
           "settings": {
             "image": "shopify://shop_images/060A3105_Custom.jpg",
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.17.mp4",
+           
             "badge_text": ""
           }
         },
@@ -1014,7 +1012,7 @@
           "type": "video",
           "settings": {
             "image": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_14.51.19_1.jpg",
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.18_de4c85a8-8ac0-4ebd-b9cc-70bad6cac9ed.mp4",
+           
             "badge_text": ""
           }
         }
