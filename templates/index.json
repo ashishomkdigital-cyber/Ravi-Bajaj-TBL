@@ -16,7 +16,7 @@
           "type": "_slide-video",
           "name": "Video",
           "settings": {
-            "video": "shopify://files/videos/14799553_1920_1080_120fps (1).mp4",
+            "video": "",
             "link": "",
             "flex_align_desktop": "align--middle-center-desktop",
             "flex_align_mobile": "align--middle-center-mobile",
@@ -163,7 +163,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Shop all",
-            "button_url": "shopify://collections/all",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--outline",
@@ -199,7 +199,7 @@
           "type": "collection",
           "settings": {
             "collection": "menswear",
-            "image": "shopify://shop_images/RB_204142_Custom_1.jpg",
+            "image": "",
             "title": "",
             "button_text": "DISCOVER"
           }
@@ -208,7 +208,7 @@
           "type": "collection",
           "settings": {
             "collection": "womenswear",
-            "image": "shopify://shop_images/RB_204142_Custom_2.jpg",
+            "image": "",
             "title": "",
             "button_text": "DISCOVER"
           }
@@ -234,7 +234,7 @@
         "video_item_eyLGFF": {
           "type": "video_item",
           "settings": {
-            "video": "shopify://files/videos/IMG_4107.MP4",
+            "video": "",
             "title": "Women's Wear",
             "subheading": "Discover",
             "collection": "womenswear"
@@ -243,7 +243,7 @@
         "video_item_cmXNp6": {
           "type": "video_item",
           "settings": {
-            "video": "shopify://files/videos/IMG_4106.MP4",
+            "video": "",
             "title": "Men's Wear",
             "subheading": "Discover",
             "collection": "menswear"
@@ -313,7 +313,7 @@
           "type": "collection",
           "settings": {
             "collection": "lehenga",
-            "image": "shopify://shop_images/IMG_4350.jpg",
+            "image": "",
             "title": ""
           }
         },
@@ -321,7 +321,7 @@
           "type": "collection",
           "settings": {
             "collection": "gown",
-            "image": "shopify://shop_images/RB_203931_Custom_937343a2-aea4-4fe5-a9fb-9d42b79a858b.jpg",
+            "image": "",
             "title": ""
           }
         }
@@ -380,7 +380,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Shop all",
-            "button_url": "shopify://collections/all",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--outline",
@@ -472,7 +472,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "View All",
-            "button_url": "shopify://collections/aurum",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--text",
@@ -534,7 +534,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "Explore",
-            "button_url": "shopify://collections/aurum",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--text",
@@ -598,7 +598,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Shop all",
-            "button_url": "shopify://collections/all",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--outline",
@@ -690,7 +690,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "View All",
-            "button_url": "shopify://collections/bliss",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--text",
@@ -751,7 +751,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Shop all",
-            "button_url": "shopify://collections/all",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--outline",
@@ -843,7 +843,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "View All",
-            "button_url": "shopify://collections/lumina",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--text",
@@ -903,7 +903,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "Explore About More",
-            "button_url": "shopify://collections",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--outline",
@@ -1037,7 +1037,7 @@
       ],
       "name": "Image banner",
       "settings": {
-        "image_1": "shopify://shop_images/IMG_4628.png",
+        "image_1": "",
         "link": "",
         "width": "wrapper--full",
         "height": "image-height",
@@ -1063,12 +1063,12 @@
       "settings": {
         "heading": "About us",
         "text": "Ravi Bajaj is a leading Indian luxury fashion designer brand established in 1987, known for sharp tailoring, modern menswear, and couture outfits. The label blends Indian craftsmanship with contemporary global style, offering elegant sherwanis, suits, and occasion wear for weddings and premium fashion clientele.",
-        "video_1": "shopify://files/videos/IMG_4109.MP4",
-        "video_2": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.19.mp4",
-        "image_1": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_14.51.19_2.jpg",
-        "image_2": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_14.51.19_5.jpg",
+        "video_1": "",
+        "video_2": "",
+        "image_1": "",
+        "image_2": "",
         "button_text": "More About us",
-        "button_link": "shopify://collections/all"
+        "button_link": ""
       }
     },
     "section-hero-scrolling": {
@@ -1129,7 +1129,7 @@
       ],
       "name": "Image with scrolling text",
       "settings": {
-        "image_1": "shopify://shop_images/unnamed_1__jpg.jpg",
+        "image_1": "",
         "link": "",
         "message_spacing": 30,
         "marquee_speed": 150,
@@ -1183,7 +1183,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Shop all",
-            "button_url": "shopify://collections/all",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--outline",
@@ -1217,7 +1217,7 @@
         "reel_VQHGUH": {
           "type": "reel",
           "settings": {
-            "video": "https://cdn.shopify.com/videos/c/o/v/9f45fa0f6c6445caa0fc0df2ec4e3d40.mp4",
+            "video": "",
             "product": "",
             "collection": "lumina"
           }
@@ -1225,7 +1225,7 @@
         "reel_xcWQ7d": {
           "type": "reel",
           "settings": {
-            "video": "https://cdn.shopify.com/videos/c/o/v/3ca3e3e1ea6942a7a466b9398ece3536.mp4",
+            "video": "",
             "product": "",
             "collection": "bliss"
           }
@@ -1234,7 +1234,7 @@
           "type": "reel",
           "disabled": true,
           "settings": {
-            "video": "https://cdn.shopify.com/videos/c/o/v/cffc44517b7b48809d58328db388de48.mp4",
+            "video": "",
             "product": "cotton-polka-feather-print-short-kurta",
             "collection": ""
           }
@@ -1242,7 +1242,7 @@
         "reel_XERMqJ": {
           "type": "reel",
           "settings": {
-            "video": "https://cdn.shopify.com/videos/c/o/v/402d0dd0552245c4a1fd22f258604364.mp4",
+            "video": "",
             "product": "denim-pinstripe-double-breasted-jacket",
             "collection": ""
           }
@@ -1250,7 +1250,7 @@
         "reel_rQJtFe": {
           "type": "reel",
           "settings": {
-            "video": "https://cdn.shopify.com/videos/c/o/v/59b47f64afbb4308a6c3a2ce22d056d1.mp4",
+            "video": "",
             "product": "",
             "collection": "lumina"
           }
@@ -1310,7 +1310,7 @@
             "heading": "Visit our store",
             "text": "Ravi Bajaj\n<br>\n334, Nelson Mandela Marg, Vasant Kunj II, <br>Vasant Kunj, New Delhi, Delhi 110070<br>\nOpen Monday to Sunday 10am to 10pm.<br>\n011 4100 5407<br>\nravibajaj@ravibajaj.com",
             "btn_label": "Get Directions",
-            "btn_link": "https://maps.app.goo.gl/VHPJqLZfgqw6WAJt7"
+            "btn_link": ""
           }
         },
         "content_box_fjE7wJ": {
@@ -1334,7 +1334,7 @@
       "name": "Parallax Multi-Box",
       "settings": {
         "section_height": 100,
-        "bg_image": "shopify://shop_images/unnamed.webp",
+        "bg_image": "",
         "box_bg_color": "#ffffff",
         "text_color": "#333333",
         "btn_bg_color": "#ab8c52",
