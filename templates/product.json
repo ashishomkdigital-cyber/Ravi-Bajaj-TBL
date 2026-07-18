@@ -488,6 +488,7 @@
       ],
       "custom_css": [
         ".product__content {padding-left: 0;}",
+        ".product__tax{display: none;}",
         ".color-scheme-1 {--COLOR-BORDER: rgb !important;}",
         ".product__description__content {margin-bottom: 1rem;}",
         ".shop-pay-terms {display: none;}",
@@ -967,15 +968,12 @@
           "type": "video",
           "settings": {
             "image": "shopify://shop_images/060A3436_Custom.jpg",
-            
             "badge_text": ""
           }
         },
         "video_W8khiN": {
           "type": "video",
           "settings": {
-            "image": "shopify://shop_images/060A3671_Custom.jpg",
-           
             "badge_text": ""
           }
         },
@@ -988,15 +986,12 @@
         "video_6UgUUJ": {
           "type": "video",
           "settings": {
-           
             "badge_text": ""
           }
         },
         "video_jcbjUd": {
           "type": "video",
           "settings": {
-            "image": "shopify://shop_images/060A3087_Custom.jpg",
-           
             "badge_text": ""
           }
         },
@@ -1004,15 +999,12 @@
           "type": "video",
           "settings": {
             "image": "shopify://shop_images/060A3105_Custom.jpg",
-           
             "badge_text": ""
           }
         },
         "video_wq8TRf": {
           "type": "video",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_14.51.19_1.jpg",
-           
             "badge_text": ""
           }
         }
