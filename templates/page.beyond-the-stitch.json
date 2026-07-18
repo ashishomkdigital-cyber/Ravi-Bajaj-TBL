@@ -35,10 +35,92 @@
         "padding_bottom": 50,
         "heading_tag": "automatic"
       }
+    },
+    "section_social_videos_gJNb6t": {
+      "type": "section-social-videos",
+      "blocks": {
+        "video_DUx3dY": {
+          "type": "video",
+          "settings": {
+            "image": "shopify://shop_images/Vikram-Bajaj0052_Custom.jpg",
+            "video": "shopify://files/videos/3ca3e3e1ea6942a7a466b9398ece3536.mp4",
+            "badge_text": "@instagram"
+          }
+        },
+        "video_JkYqgR": {
+          "type": "video",
+          "settings": {
+            "image": "shopify://shop_images/Vikram-Bajaj0052_Custom.jpg",
+            "video": "shopify://files/videos/3ca3e3e1ea6942a7a466b9398ece3536.mp4",
+            "badge_text": "@instagram"
+          }
+        },
+        "video_FCyahj": {
+          "type": "video",
+          "settings": {
+            "image": "shopify://shop_images/Vikram-Bajaj0052_Custom.jpg",
+            "video": "shopify://files/videos/3ca3e3e1ea6942a7a466b9398ece3536.mp4",
+            "badge_text": "@instagram"
+          }
+        },
+        "video_fCAx8m": {
+          "type": "video",
+          "settings": {
+            "image": "shopify://shop_images/Vikram-Bajaj0052_Custom.jpg",
+            "video": "shopify://files/videos/3ca3e3e1ea6942a7a466b9398ece3536.mp4",
+            "badge_text": "@instagram"
+          }
+        },
+        "video_CEmweC": {
+          "type": "video",
+          "settings": {
+            "badge_text": "@instagram"
+          }
+        },
+        "video_j6X6Di": {
+          "type": "video",
+          "settings": {
+            "badge_text": "@instagram"
+          }
+        },
+        "video_A4b4EN": {
+          "type": "video",
+          "settings": {
+            "badge_text": "@instagram"
+          }
+        }
+      },
+      "block_order": [
+        "video_DUx3dY",
+        "video_JkYqgR",
+        "video_FCyahj",
+        "video_fCAx8m",
+        "video_CEmweC",
+        "video_j6X6Di",
+        "video_A4b4EN"
+      ],
+      "name": "Social videos",
+      "settings": {
+        "heading": "Social videos",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "aspect_ratio": 1,
+        "layout_desktop": "grid",
+        "blocks_per_row": 4,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
     }
   },
   "order": [
     "section-divider",
-    "main-page"
+    "main-page",
+    "section_social_videos_gJNb6t"
   ]
 }
