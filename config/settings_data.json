@@ -86,7 +86,8 @@
           ".lux-nav-link-btn {font-family: \"Cinzel\"; text-transform: uppercase;}"
         ],
         "settings": {
-          "logo": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_18.17.54__1_-removebg-preview.png",
+          "logo": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_18.17.54__1_-removebg-white.png",
+          "colored_logo": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_18.17.54__1_-removebg-preview.png",
           "logo_width": 200,
           "brand_name": "Ravi Bajaj",
           "tagline": "",
