@@ -36,103 +36,10 @@
         "heading_tag": "automatic"
       }
     },
-    "section_social_videos_DqLDEd": {
-      "type": "section-social-videos",
-      "blocks": {
-        "video_YT36Dw": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.18_de4c85a8-8ac0-4ebd-b9cc-70bad6cac9ed.mp4",
-            "badge_text": ""
-          }
-        },
-        "video_PbTJwr": {
-          "type": "video",
-          "settings": {
-            "image": "shopify://shop_images/060A3436_Custom.jpg",
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.17_09c99004-efda-4afb-a43d-6dce77048dd3.mp4",
-            "badge_text": ""
-          }
-        },
-        "video_gpnMAj": {
-          "type": "video",
-          "settings": {
-            "image": "shopify://shop_images/060A3671_Custom.jpg",
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.18 (1)_a9a1bcb3-de49-4d7f-8cde-c8b6b0b952e7.mp4",
-            "badge_text": ""
-          }
-        },
-        "video_QNw8Km": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.19_f01dbcdf-1b1b-44ab-9482-57b378421a30.mp4",
-            "badge_text": ""
-          }
-        },
-        "video_TYDV44": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.15.mp4",
-            "badge_text": ""
-          }
-        },
-        "video_qUPEGH": {
-          "type": "video",
-          "settings": {
-            "image": "shopify://shop_images/060A3087_Custom.jpg",
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.17_09c99004-efda-4afb-a43d-6dce77048dd3.mp4",
-            "badge_text": ""
-          }
-        },
-        "video_YXDW9M": {
-          "type": "video",
-          "settings": {
-            "image": "shopify://shop_images/060A3105_Custom.jpg",
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.17.mp4",
-            "badge_text": ""
-          }
-        },
-        "video_khQwAr": {
-          "type": "video",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_14.51.19_1.jpg",
-            "video": "shopify://files/videos/WhatsApp Video 2026-06-24 at 14.51.18_de4c85a8-8ac0-4ebd-b9cc-70bad6cac9ed.mp4",
-            "badge_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "video_YT36Dw",
-        "video_PbTJwr",
-        "video_gpnMAj",
-        "video_QNw8Km",
-        "video_TYDV44",
-        "video_qUPEGH",
-        "video_YXDW9M",
-        "video_khQwAr"
-      ],
-      "name": "Social videos",
-      "settings": {
-        "heading": "Beyond the stitch",
-        "heading_font_size": "heading-medium",
-        "text": "",
-        "text_font_size": "body-medium",
-        "align_text": "text-center",
-        "width": "wrapper--full-padded",
-        "aspect_ratio": 1.4,
-        "layout_desktop": "grid",
-        "blocks_per_row": 4,
-        "layout_mobile": "1",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    }
+    
   },
   "order": [
     "section-divider",
     "main-page",
-    "section_social_videos_DqLDEd"
   ]
 }
