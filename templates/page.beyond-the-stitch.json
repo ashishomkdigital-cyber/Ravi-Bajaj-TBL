@@ -84,12 +84,6 @@
             "image": "shopify://shop_images/060A3436_Custom_jpg.jpg",
             "badge_text": "@instagram"
           }
-        },
-        "video_A4b4EN": {
-          "type": "video",
-          "settings": {
-            "badge_text": "@instagram"
-          }
         }
       },
       "block_order": [
@@ -98,8 +92,7 @@
         "video_FCyahj",
         "video_fCAx8m",
         "video_CEmweC",
-        "video_j6X6Di",
-        "video_A4b4EN"
+        "video_j6X6Di"
       ],
       "name": "Social videos",
       "settings": {
