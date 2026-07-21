@@ -973,6 +973,7 @@
         "buttons_RVThz6"
       ],
       "custom_css": [
+        ".hero__title{font-weight: 500;}",
         "@media (max-width: 680px) {.index-rte {display: none; }}"
       ],
       "name": "Rich text",
