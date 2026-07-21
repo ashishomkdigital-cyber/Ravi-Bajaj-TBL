@@ -102,7 +102,7 @@ a {
 
     <!-- And above this comment line ================================================== -->
 
-   {% if template.name == 'product' %}
+   {% comment %} {% if template.name == 'product' %}
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     const targetContainerCustom = document.querySelector('.radio__buttons');
@@ -133,6 +133,6 @@ document.addEventListener('DOMContentLoaded', () => {
     targetContainerCustom.insertAdjacentHTML('beforeend', customHTMLBtn);
 });
 </script>
-{% endif %}
+{% endif %} {% endcomment %}
   </body>
 </html>
