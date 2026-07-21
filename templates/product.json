@@ -488,7 +488,7 @@
       ],
       "custom_css": [
         ".product__content {padding-left: 0;}",
-        ".product__tax{display: none;}",
+        ".product__tax {display: none;}",
         ".color-scheme-1 {--COLOR-BORDER: rgb !important;}",
         ".product__description__content {margin-bottom: 1rem;}",
         ".shop-pay-terms {display: none;}",
@@ -867,7 +867,7 @@
         "recent"
       ],
       "custom_css": [
-        ".tab-link {font-size: 28px; text-decoration: none; font-family: Cinzel;}",
+        ".tab-link {font-size: var(--font-body-medium); text-decoration: none; font-family: Cinzel;}",
         ".tabs > li.current span:first-of-type:after {display: none;}"
       ],
       "settings": {
