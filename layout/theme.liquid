@@ -105,9 +105,9 @@ a {
    {% if template.name == 'product' %}
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    const targetContainerCustom = document.querySelector('.radio__buttons');
+    const targetCustomBtn = document.querySelector('.custom_label');
 
-    if (!targetContainerCustom) return;
+    if (!targetCustomBtn) return;
 
     const phone = "91987654321"; // Country code + number (remove leading 0)
 
@@ -120,17 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
 
-    const customHTMLBtn = `
-        <span style="margin-left:-5px;" class="radio__button">
-            <a href="${whatsappUrl}" target="_blank" rel="noopener">
-                <label>
-                    <span class="option-title">Custom</span>
-                </label>
-            </a>
-        </span>
-    `;
 
-    targetContainerCustom.insertAdjacentHTML('beforeend', customHTMLBtn);
 });
 </script>
 {% endif %}
