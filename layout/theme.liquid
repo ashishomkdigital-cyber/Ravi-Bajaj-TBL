@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
 
     targetCustomBtn.addEventListener('click', (e)=>{
-      window.location.href(whatsappUrl);
+      window.open(whatsappUrl, '_blank');
     })
 
 
