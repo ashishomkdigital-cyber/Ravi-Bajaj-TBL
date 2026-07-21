@@ -1053,7 +1053,7 @@
       "type": "timeless-creations",
       "custom_css": [
         ".tc-video,.tc-content,.tc-image,.tc-bottom,.tc-button {display: none;}",
-        "@media (max-width: 680px) {.tc-bottom, .tc-image {display: none; } .tc-content, .tc-video {display: block; }}"
+        "@media (max-width: 680px) {.tc-bottom, .tc-image {display: none; } .tc-content, .tc-video {display: block; } .tc-content h2{font-weight: 500; }}"
       ],
       "name": "Timeless Creations",
       "settings": {
