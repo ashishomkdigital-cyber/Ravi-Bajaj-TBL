@@ -48,6 +48,14 @@ a {
 }
 </style>
 
+{%if template.name == 'index' %}
+  <style>
+    .lux-header .lux-logo{
+      filter: invert(1);
+    }
+  </style>
+{%endif %}
+
 
   <body
     id="{{ page_title | handle }}"
