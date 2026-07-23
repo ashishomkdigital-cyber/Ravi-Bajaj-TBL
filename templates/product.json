@@ -66,7 +66,7 @@
           "settings": {
             "title": "",
             "heading_font_size": "body-medium",
-            "text": "<p><em><strong>Inclusive of all taxes.</strong></em></p>",
+            "text": "<p><em><strong>Inclusive of all taxes</strong></em></p>",
             "text_font_size": "body-small",
             "text_alignment": "text-left",
             "layout": "left",
