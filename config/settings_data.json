@@ -39,7 +39,7 @@
     "dots_style": "circle",
     "parallax_enable": true,
     "product_grid_outline": false,
-    "enable_superscript": true,
+    "enable_superscript": false,
     "instagram_link": "",
     "tiktok_link": "",
     "image_hover_enable": false,
