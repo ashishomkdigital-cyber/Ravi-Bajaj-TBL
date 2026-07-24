@@ -99,7 +99,8 @@
       "type": "section-supporting-menu",
       "custom_css": [
         "[href=\"https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore\"]{display: none;}",
-        ".input-group {flex-direction: column;}"
+        ".input-group {flex-direction: column;}",
+        " .supporting-menu__copyright{justify-content: center; }"
       ],
       "settings": {
         "linklist": "",
