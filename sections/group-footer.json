@@ -100,7 +100,7 @@
       "custom_css": [
         "[href=\"https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore\"]{display: none;}",
         ".input-group {flex-direction: column;}",
-        " .supporting-menu__copyright{justify-content: center; }"
+        ".supporting-menu__copyright {justify-content: center;}"
       ],
       "settings": {
         "linklist": "",
@@ -116,7 +116,7 @@
         "color_scheme": "scheme-8",
         "padding_top": 30,
         "padding_bottom": 30,
-        "bottom_image": "shopify://shop_images/WhatsApp_Image_2026-06-24_at_18.17.54__1_-removebg-preview.png"
+        "bottom_image": "shopify://shop_images/img10-removebg-preview.png"
       }
     }
   },
