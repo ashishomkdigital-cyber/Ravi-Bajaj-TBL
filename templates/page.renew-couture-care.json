@@ -123,6 +123,29 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "blocks_dWPDka": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_e44cca1_JneRaU": {
+          "type": "ai_gen_block_e44cca1",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-07-25_at_13.12.04_1.jpg",
+            "image_radius": 0,
+            "desktop_width_percent": 100,
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "mobile_padding_top": 0,
+            "mobile_padding_bottom": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_e44cca1_JneRaU"
+      ],
+      "custom_css": [],
+      "settings": {}
     }
   },
   "order": [
@@ -131,6 +154,7 @@
     "section_custom_code_KkWt8A",
     "1784977534c82c0e96",
     "17849732571f92e4bc",
-    "section_rich_text_r8eV7h"
+    "section_rich_text_r8eV7h",
+    "blocks_dWPDka"
   ]
 }
