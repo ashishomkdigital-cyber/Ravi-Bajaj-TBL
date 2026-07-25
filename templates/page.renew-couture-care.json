@@ -39,6 +39,7 @@
     },
     "section_custom_code_KkWt8A": {
       "type": "section-custom-code",
+      "disabled": true,
       "name": "Custom code",
       "settings": {
         "code": "",
@@ -72,12 +73,38 @@
         "ai_gen_block_6364bc1_8yHRNj"
       ],
       "settings": {}
+    },
+    "section_rich_text_r8eV7h": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_Xr6Kdb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For the first time, we open our atelier services to you.<br/>With over years of couture expertise, </p><p>we now offer:<br/>* Premium dry cleaning<br/>for couture<br/>heritage wear<br/>* Repairing pulls, nicks &<br/>beadwork<br/>* Restoration of embellished saris, lehengas & heirloom pieces<br/>Because luxury isn't purchased.<br/>It is preserved.<br/>DOORSTEP COUTURE CARE ACROSS DELHI.</p><p><br/><strong>CALL OR WHATSAPP US AT</strong></p><p><br/>9810042653</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_Xr6Kdb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
     "section-divider",
     "main-page",
     "section_custom_code_KkWt8A",
-    "17849732571f92e4bc"
+    "17849732571f92e4bc",
+    "section_rich_text_r8eV7h"
   ]
 }
