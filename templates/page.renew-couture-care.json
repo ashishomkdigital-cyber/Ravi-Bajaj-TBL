@@ -57,7 +57,7 @@
             "image": "shopify://shop_images/IMG_5192_1.png",
             "image_radius": 0,
             "desktop_width_percent": 100,
-            "padding_top": 40,
+            "padding_top": 80,
             "padding_bottom": 40,
             "mobile_padding_top": 20,
             "mobile_padding_bottom": 20
@@ -67,6 +67,9 @@
       },
       "block_order": [
         "ai_gen_block_e44cca1_m4JaQV"
+      ],
+      "custom_css": [
+        ".ai-single-image-wrapper-aruzwd0nfzgrhoglsaaigenblocke44cca1m4jaqv {padding-left: 500px; padding-right: 500px;}"
       ],
       "settings": {}
     },
