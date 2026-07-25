@@ -467,7 +467,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "View All",
-            "button_url": "",
+            "button_url": "shopify://collections/aurum",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--text",
@@ -685,7 +685,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "View All",
-            "button_url": "",
+            "button_url": "shopify://collections/bliss",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--text",
@@ -838,7 +838,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "View All",
-            "button_url": "",
+            "button_url": "shopify://collections/lumina",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--text",
@@ -1053,7 +1053,7 @@
       "type": "timeless-creations",
       "custom_css": [
         ".tc-video,.tc-content,.tc-image,.tc-bottom,.tc-button {display: none;}",
-        "@media (max-width: 680px) {.tc-bottom, .tc-image {display: none; } .tc-content, .tc-video {display: block; } .tc-content h2{font-weight: 500; }}"
+        "@media (max-width: 680px) {.tc-bottom, .tc-image {display: none; } .tc-content, .tc-video {display: block; } .tc-content h2 {font-weight: 500; }}"
       ],
       "name": "Timeless Creations",
       "settings": {
