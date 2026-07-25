@@ -25048,3 +25048,4 @@ body.has-header-sticky .timeline {
 .product-quick-add__form__inner .radio__fieldset{
   grid-template-columns: 1fr;
 } 
+.product-quick-add__form__inner #openSizeChart{display:none;}
