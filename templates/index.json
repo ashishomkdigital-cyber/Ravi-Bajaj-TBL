@@ -1053,7 +1053,7 @@
       "type": "timeless-creations",
       "custom_css": [
         ".tc-video,.tc-content,.tc-image,.tc-bottom,.tc-button {display: none;}",
-        "@media (max-width: 680px) {.tc-bottom, .tc-image {display: none; } .tc-content, .tc-video {display: block; } .tc-content h2 {font-weight: 500; } }"
+        "@media (max-width: 680px) {.tc-bottom, .tc-image {display: none; } .tc-content, .tc-video {display: block; } .tc-content h2 {font-weight: 500; }}"
       ],
       "name": "Timeless Creations",
       "settings": {
@@ -1302,7 +1302,7 @@
             "heading": "Visit our store",
             "text": "Ravi Bajaj\n<br>\n334, Nelson Mandela Marg, Vasant Kunj II, <br>Vasant Kunj, New Delhi, Delhi 110070<br>\nOpen Monday to Sunday 10am to 10pm.<br>\n011 4100 5407<br>\nravibajaj@ravibajaj.com",
             "btn_label": "Get Directions",
-            "btn_link": ""
+            "btn_link": "https://maps.app.goo.gl/R8uDUDsiF2ytLf2AA"
           }
         },
         "content_box_fjE7wJ": {
