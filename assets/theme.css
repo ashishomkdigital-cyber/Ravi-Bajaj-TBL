@@ -25045,3 +25045,6 @@ body.has-header-sticky .timeline {
         transform-origin: right;
     }
 }
+.product-quick-add__form__inner .radio__fieldset{
+  grid-template-columns: 1fr;
+} 
