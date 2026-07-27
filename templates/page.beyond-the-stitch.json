@@ -42,43 +42,41 @@
         "video_DUx3dY": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/AQMta0dB-uFgdI9mUNG2v6oRt9b5qY6jwsSyk-b6hWAXvcJSdZCKQbNiKNwGMSqH4xS3bGFP9Xu2rWNX7eJYVa6qZ0Z5O1bWEqb5tF0.mp4",
+            "video": "shopify://files/videos/AQMl3SP10CqdpxuAGonGNRmYDBISV6Qdpz6BVPk3Xe_1lNkhZNQaN8-kIe8e_Is0sZ8IJvGQzF1v4aIsuIbr_S4KlGpRlb_RyXZ_6RA.mp4",
             "badge_text": "@ravibajajstyle"
           }
         },
         "video_JkYqgR": {
           "type": "video",
           "settings": {
-            "image": "shopify://shop_images/59b47f64afbb4308a6c3a2ce22d056d1_thumbnail_0000000000_jpg.jpg",
-            "video": "shopify://files/videos/59b47f64afbb4308a6c3a2ce22d056d1.mp4",
+            "video": "shopify://files/videos/AQMta0dB-uFgdI9mUNG2v6oRt9b5qY6jwsSyk-b6hWAXvcJSdZCKQbNiKNwGMSqH4xS3bGFP9Xu2rWNX7eJYVa6qZ0Z5O1bWEqb5tF0.mp4",
             "badge_text": "@ravibajajstyle"
           }
         },
         "video_FCyahj": {
           "type": "video",
           "settings": {
-            "image": "shopify://shop_images/060A3087_Custom_jpg.jpg",
-            "video": "shopify://files/videos/2a935e61623e404b9c6748df28186906.HD-1080p-2.5Mbps-87327707.mp4",
+            "video": "shopify://files/videos/AQPPAtd5ZqUe5Vi6JDxuicfy8zLujXtk0u7OwE5Yzd9R361FLWwEyFK8CB8kBF6wM_2jEq5lDcbiL4FxMXUNNJYKa2MpWVewqGIm0Ms.mp4",
             "badge_text": "@ravibajajstyle"
           }
         },
         "video_fCAx8m": {
           "type": "video",
           "settings": {
-            "image": "shopify://shop_images/060A3671_Custom_jpg.jpg",
-            "video": "shopify://files/videos/3ca3e3e1ea6942a7a466b9398ece3536.mp4",
+            "video": "shopify://files/videos/AQN-VfmfAtMbydemZxTBzxJnebNV5I2xg7RETzwp_GeXcuDlRT32t-BYVkTy9ayJsqNlOAWSUf6yS_Zjy_D7fd5KE0VN9bKB1jCmBns.mp4",
             "badge_text": "@ravibajajstyle"
           }
         },
         "video_CEmweC": {
           "type": "video",
           "settings": {
-            "image": "shopify://shop_images/060A3105_Custom_jpg.jpg",
+            "video": "shopify://files/videos/AQOs39D_9606nQL6zpFKjVNVfri3hMz6Vyp29olAikKI-Qo8B4xzAtnh0srtB-w_jg-szryS2lNOTJDCsysKXclkBzaQ-Mc4cP6Gb_w.mp4",
             "badge_text": "@ravibajajstyle"
           }
         },
         "video_j6X6Di": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/060A3436_Custom_jpg.jpg",
             "badge_text": "@ravibajajstyle"
