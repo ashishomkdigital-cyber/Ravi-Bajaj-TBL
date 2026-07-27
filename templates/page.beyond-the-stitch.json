@@ -46,13 +46,6 @@
             "badge_text": "@ravibajajstyle"
           }
         },
-        "video_JkYqgR": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/AQMta0dB-uFgdI9mUNG2v6oRt9b5qY6jwsSyk-b6hWAXvcJSdZCKQbNiKNwGMSqH4xS3bGFP9Xu2rWNX7eJYVa6qZ0Z5O1bWEqb5tF0.mp4",
-            "badge_text": "@ravibajajstyle"
-          }
-        },
         "video_FCyahj": {
           "type": "video",
           "settings": {
@@ -60,10 +53,10 @@
             "badge_text": "@ravibajajstyle"
           }
         },
-        "video_fCAx8m": {
+        "video_JkYqgR": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/AQN-VfmfAtMbydemZxTBzxJnebNV5I2xg7RETzwp_GeXcuDlRT32t-BYVkTy9ayJsqNlOAWSUf6yS_Zjy_D7fd5KE0VN9bKB1jCmBns.mp4",
+            "video": "shopify://files/videos/AQMta0dB-uFgdI9mUNG2v6oRt9b5qY6jwsSyk-b6hWAXvcJSdZCKQbNiKNwGMSqH4xS3bGFP9Xu2rWNX7eJYVa6qZ0Z5O1bWEqb5tF0.mp4",
             "badge_text": "@ravibajajstyle"
           }
         },
@@ -71,6 +64,13 @@
           "type": "video",
           "settings": {
             "video": "shopify://files/videos/AQOs39D_9606nQL6zpFKjVNVfri3hMz6Vyp29olAikKI-Qo8B4xzAtnh0srtB-w_jg-szryS2lNOTJDCsysKXclkBzaQ-Mc4cP6Gb_w.mp4",
+            "badge_text": "@ravibajajstyle"
+          }
+        },
+        "video_fCAx8m": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/AQN-VfmfAtMbydemZxTBzxJnebNV5I2xg7RETzwp_GeXcuDlRT32t-BYVkTy9ayJsqNlOAWSUf6yS_Zjy_D7fd5KE0VN9bKB1jCmBns.mp4",
             "badge_text": "@ravibajajstyle"
           }
         },
@@ -85,10 +85,10 @@
       },
       "block_order": [
         "video_DUx3dY",
-        "video_JkYqgR",
         "video_FCyahj",
-        "video_fCAx8m",
+        "video_JkYqgR",
         "video_CEmweC",
+        "video_fCAx8m",
         "video_j6X6Di"
       ],
       "name": "Social videos",
