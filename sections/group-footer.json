@@ -22,7 +22,7 @@
             "text": "<p>Ravi Bajaj is a luxury Indian fashion brand founded in 1987, known for elegant tailoring, couture designs, and modern menswear blending traditional craftsmanship with contemporary style.</p>",
             "column_width": 22,
             "enable_follow_on_shop": false,
-            "enable_accordion": false
+            "enable_accordion": true
           }
         },
         "linklist": {
