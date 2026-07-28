@@ -286,7 +286,13 @@
       <h1>{{ section.settings.brand_name }}</h1>
       <span>{{ section.settings.tagline }}</span>
     {% endif %}
-  </a>
+    </a>
+  </div>
+  <div class="lux-header-left">
+    <div class="lux-menu-btn" onclick="openMenu()">
+      {%- render 'icon-menu' -%}
+    </div>
+    <div class="lux-back" id="luxBack" onclick="closeMenu()">←</div>
   </div>
 </header>
 
