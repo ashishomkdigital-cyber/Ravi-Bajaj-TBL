@@ -298,7 +298,10 @@
 <script>
 function openCartDrawer() {
   document.querySelector('#cart-drawer').classList.add('is-open');
-  document.querySelectorAll('.cart-block').forEach(el => el.classList.add('is-animated'));
+
+  document
+    .querySelectorAll('.cart-block, .cart__item')
+    .forEach(el => el.classList.add('is-animated'));
 }
 
 </script>
