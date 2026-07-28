@@ -290,7 +290,21 @@
   </div>
   <div class="lux-header-left">
     <div class="lux-menu-btn">
-      {%- render 'icon-cart' -%}
+      {%- capture cart_status -%}
+  <div class="navlink__cart__content">
+    <span class="{% if show_icons == false %}navtext{% else %}visually-hidden{% endif %}">{{ 'layout.header.cart' | t }}</span>
+
+    <span class="header__cart__status__holder">
+      <cart-count class="header__cart__status{% if show_icons == false %} navtext{% endif %}" data-status-separator=": " data-cart-count="{{ cart.item_count }}" data-limit="10">
+        {{ cart_item_count }}
+      </cart-count>
+
+      {%- if cart_icon_as_circle == false -%}
+        {%- render 'header-icon', filename: icon_string_cart -%}
+      {%- endif -%}
+    </span>
+  </div>
+{%- endcapture -%}
     </div>
   </div>
 </header>
