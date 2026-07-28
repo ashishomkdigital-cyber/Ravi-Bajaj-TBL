@@ -296,9 +296,11 @@
 </header>
 
 <script>
-  function openCartDrawer(){
-      document.querySelector('#cart-drawer').classList.add('is-open')
-  }
+function openCartDrawer() {
+  document.querySelector('#cart-drawer').classList.add('is-open');
+  document.querySelectorAll('.cart-block').forEach(el => el.classList.add('is-animated'));
+}
+
 </script>
 
 <!-- FULLSCREEN MENU -->
