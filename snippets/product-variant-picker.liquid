@@ -326,7 +326,7 @@
                         class="radio__legend__label{% if size_style == 'text' %} radio__legend__label--text{% endif %}"
                         id="{{ uniq_id }}-select-{{ option.name | handle }}-label"
                       >
-                        {{ option.name }}
+                        {% comment %} {{ option.name }} {% endcomment %}
                         <span class="radio__legend__option-name {{ option_font_size }}">Size</span>
 
                         {%- if is_size_option -%}
