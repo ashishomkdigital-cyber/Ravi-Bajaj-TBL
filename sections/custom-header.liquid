@@ -269,8 +269,11 @@
 
 
 </style>
-assign cart_item_count = cart.item_count
-  assign cart_icon_as_circle = section.settings.icon_as_circle
+{%liquid
+
+  assign cart_item_count = cart.item_count
+    assign cart_icon_as_circle = section.settings.icon_as_circle
+%}
 
 <header class="lux-header">
   <div class="lux-header-left">
