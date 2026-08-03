@@ -11,7 +11,6 @@
   "sections": {
     "main-page": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "subheading": "",
         "show_title": true,
@@ -174,8 +173,8 @@
     }
   },
   "order": [
-    "main-page",
     "section-divider",
+    "main-page",
     "section_custom_content_mDJFjY",
     "section_custom_content_wgCBzc"
   ]
