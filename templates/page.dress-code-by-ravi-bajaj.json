@@ -88,6 +88,7 @@
         "text_NQLzmw",
         "image_BYXR93"
       ],
+      "disabled": true,
       "custom_css": [
         ".frame {padding: 40px 10px 40px 0px;}"
       ],
@@ -182,6 +183,17 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "section_custom_code_EPmRtn": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<!-- Wrapper container using unique selectors to avoid CSS conflicts -->\n<div class=\"rb-layout-container\">\n\n    <!-- Left Image Section -->\n    <div class=\"rb-layout-image-section\">\n        <img class=\"rb-layout-img\" src=\"https://cdn.shopify.com/s/files/1/0840/3245/4892/files/IMG_5708.png?v=1785738197\" alt=\"Ravi Bajaj Feature Image\">\n    </div>\n\n    <!-- Right Text Section -->\n    <div class=\"rb-layout-text-section\">\n        <h1 class=\"rb-layout-title\">Some of our clients :</h1>\n\n        <p class=\"rb-layout-paragraph\">\n           <ul style=\"margin:0; padding-left:18px;\">\n  <li style=\"margin:0;\">Jet Airways</li>\n  <li style=\"margin:0;\">PVR Cinemas</li>\n  <li style=\"margin:0;\">Wave Cinemas</li>\n  <li style=\"margin:0;\">Hyatt Hotels</li>\n  <li style=\"margin:0;\">Taj Hotels</li>\n  <li style=\"margin:0;\">Claridges Hotel</li>\n  <li style=\"margin:0;\">Apollo Hospitals</li>\n  <li style=\"margin:0;\">Volvo Cars</li>\n  <li style=\"margin:0;\">G4S Securitas</li>\n  <li style=\"margin:0;\">DLF Magnolias</li>\n  <li style=\"margin:0;\">DLF The Chanakya</li>\n  <li style=\"margin:0;\">Punjab Grill</li>\n \n</ul>\n        </p>\n    </div>\n\n</div>\n\n<style>\n.rb-layout-container {\n    display: flex;\n    align-items: flex-start;\n    gap: 40px;\n    max-width: 1200px;\n    margin: 0 auto;\n    width: 100%;\n    box-sizing: border-box;\n}\n\n.rb-layout-container *,\n.rb-layout-container *::before,\n.rb-layout-container *::after {\n    box-sizing: border-box;\n}\n\n/* Left Image */\n.rb-layout-image-section {\n    width: 50%;\n    position: sticky;\n    top: 150px;\n}\n\n.rb-layout-img {\n    width: 100%;\n    display: block;\n    height: auto;\n    border-radius: 4px;\n}\n\n/* Right Text */\n.rb-layout-text-section {\n    width: 50%;\n    text-align: left;\n}\n\n.rb-layout-title {\n    margin: 0 0 24px;\n    font-size: 1.85rem;\n    line-height: 1.3;\n    font-weight: 700;\n    font-family: Georgia, serif;\n    color: #000;\n}\n\n.rb-layout-paragraph {\n    margin: 0;\n    font-size: 1.05rem;\n    line-height: 1.7;\n    font-family: Georgia, serif;\n    color: #222;\n}\n\n/* Mobile */\n@media (max-width: 768px) {\n    .rb-layout-container {\n        flex-direction: column;\n        gap: 24px;\n    }\n\n    .rb-layout-image-section,\n    .rb-layout-text-section {\n        width: 100%;\n        position: static;\n    }\n}\n</style>",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -189,6 +201,7 @@
     "main-page",
     "section_custom_content_mDJFjY",
     "section_custom_content_wgCBzc",
-    "section_custom_code_8GMJwp"
+    "section_custom_code_8GMJwp",
+    "section_custom_code_EPmRtn"
   ]
 }
