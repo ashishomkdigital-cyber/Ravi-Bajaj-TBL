@@ -34,10 +34,76 @@
         "padding_bottom": 50,
         "heading_tag": "automatic"
       }
+    },
+    "section_custom_content_mDJFjY": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_BYXR93": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5707.png",
+            "title": "",
+            "heading_font_size": "heading-mini",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_NQLzmw": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "<p>Welcome to Dress Code by Ravi Bajaj – Where Elegance Meets Professionalism!<br/>At Dress Code by Ravi Bajaj, we take great pride in crafting staff uniforms that redefine the concept of corporate attire.<br/>With a legacy of excellence in the fashion industry, Ravi Bajaj brings his unmatched expertise to create a ‘working wardrobe’ that<br/>embodies sophistication, style, and functionality.<br/>Our brand is founded on the belief that every employee deserves to feel confident and empowered in what they wear.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_BYXR93",
+        "text_NQLzmw"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "section-divider",
-    "main-page"
+    "main-page",
+    "section_custom_content_mDJFjY"
   ]
 }
