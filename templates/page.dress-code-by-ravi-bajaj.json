@@ -38,28 +38,6 @@
     "section_custom_content_mDJFjY": {
       "type": "section-custom-content",
       "blocks": {
-        "image_BYXR93": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_5707.png",
-            "title": "",
-            "heading_font_size": "heading-mini",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
         "text_NQLzmw": {
           "type": "text",
           "settings": {
@@ -81,17 +59,42 @@
             "color": "",
             "heading_tag": "automatic"
           }
+        },
+        "image_BYXR93": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5707.png",
+            "title": "",
+            "heading_font_size": "heading-mini",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
         }
       },
       "block_order": [
-        "image_BYXR93",
-        "text_NQLzmw"
+        "text_NQLzmw",
+        "image_BYXR93"
+      ],
+      "custom_css": [
+        ".frame {padding: 40px 10px 40px 0px;}"
       ],
       "name": "Custom section",
       "settings": {
         "borders": false,
         "gutters": false,
-        "width": "wrapper--full-padded",
+        "width": "wrapper--full",
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
