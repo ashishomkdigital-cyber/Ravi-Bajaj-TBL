@@ -9,18 +9,9 @@
  */
 {
   "sections": {
-    "section-divider": {
-      "type": "section-divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper--full",
-        "color_scheme": "",
-        "padding_top": 60,
-        "padding_bottom": 0
-      }
-    },
     "main-page": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "show_title": true,
@@ -35,6 +26,16 @@
         "heading_tag": "automatic"
       }
     },
+    "section-divider": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
     "section_custom_content_mDJFjY": {
       "type": "section-custom-content",
       "blocks": {
@@ -45,7 +46,7 @@
             "title": "",
             "heading_font_size": "heading-large",
             "text": "<p>Welcome to Dress Code by Ravi Bajaj – Where Elegance Meets Professionalism!<br/>At Dress Code by Ravi Bajaj, we take great pride in crafting staff uniforms that redefine the concept of corporate attire.<br/>With a legacy of excellence in the fashion industry, Ravi Bajaj brings his unmatched expertise to create a ‘working wardrobe’ that<br/>embodies sophistication, style, and functionality.<br/>Our brand is founded on the belief that every employee deserves to feel confident and empowered in what they wear.</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
@@ -109,7 +110,7 @@
         "image_3QmCg9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_5707.png",
+            "image": "shopify://shop_images/IMG_5708.png",
             "title": "",
             "heading_font_size": "heading-mini",
             "text": "",
@@ -135,7 +136,7 @@
             "title": "",
             "heading_font_size": "heading-large",
             "text": "<h4>Some of our clients :<br/></h4><ul><li>Jet Airways</li><li>PVR Cinemas</li><li>Wave Cinemas</li><li>Hyatt Hotels</li><li>Taj Hotels</li><li>Claridges Hotel</li><li>Apollo Hospitals</li><li>Volvo Cars</li><li>G4S Securitas</li><li>DLF Magnolias</li><li>DLF The Chanakya</li><li>Punjab Grill</li></ul>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
@@ -173,8 +174,8 @@
     }
   },
   "order": [
-    "section-divider",
     "main-page",
+    "section-divider",
     "section_custom_content_mDJFjY",
     "section_custom_content_wgCBzc"
   ]
