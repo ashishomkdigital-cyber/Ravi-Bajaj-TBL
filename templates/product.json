@@ -30,17 +30,17 @@
             "padding_bottom": 8
           }
         },
-        "title": {
-          "type": "title",
-          "settings": {
-            "subheading_option": "none",
-            "heading_font_size": "heading-small",
-            "padding_bottom": 8
-          }
-        },
         "judge_me_reviews_preview_badge_D9bwn9": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
+        },
+        "text_z47KRk": {
+          "type": "Text",
+          "settings": {
+            "subheading_option": "none",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 8
+          }
         },
         "price": {
           "type": "price",
@@ -456,8 +456,8 @@
       },
       "block_order": [
         "badges",
-        "title",
         "judge_me_reviews_preview_badge_D9bwn9",
+        "text_z47KRk",
         "price",
         "popup_HBiq9y",
         "text_4Wctz7",
