@@ -22,6 +22,14 @@
     "product": {
       "type": "product",
       "blocks": {
+        "text_pXaGjN": {
+          "type": "Text",
+          "settings": {
+            "subheading_option": "none",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 8
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {
@@ -447,6 +455,7 @@
         }
       },
       "block_order": [
+        "text_pXaGjN",
         "badges",
         "judge_me_reviews_preview_badge_D9bwn9",
         "price",
