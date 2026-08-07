@@ -22,6 +22,13 @@
     "product": {
       "type": "product",
       "blocks": {
+        "code_87CyHn": {
+          "type": "code",
+          "settings": {
+            "code": "<div class=\"product__title__wrapper\">\n    <h1 class=\"product__title heading-small\">{{product.title}}</h1>\n  </div>",
+            "padding_bottom": 16
+          }
+        },
         "text_pXaGjN": {
           "type": "Text",
           "settings": {
@@ -455,6 +462,7 @@
         }
       },
       "block_order": [
+        "code_87CyHn",
         "text_pXaGjN",
         "badges",
         "judge_me_reviews_preview_badge_D9bwn9",
