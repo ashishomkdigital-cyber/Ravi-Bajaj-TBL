@@ -517,7 +517,8 @@
         ".accordion__title {border-bottom: 1px solid rgba(0, 0, 0, 0.1);}",
         "popup-component {position: absolute; right: 0;}",
         ".radio__fieldset {grid-template-columns: minmax(0, 100%);}",
-        ".form__width {max-width: 100%;}"
+        ".form__width {max-width: 100%;}",
+        ".product__block.product__block--buttons.block-padding.color-scheme-1 {--block-padding-bottom: 10px !important;}"
       ],
       "settings": {
         "product_sticky_enable": true,
