@@ -132,6 +132,14 @@
         "code_kfbGmA": {
           "type": "code",
           "settings": {
+            "code": "<a id=\"whatsapp-btn\"\n   target=\"_blank\"\n   style=\"display:inline-flex;align-items:center;gap:8px;padding:10px 16px;background-color:#000000;color:white;border-radius:20px;text-decoration:none;font-weight:500;font-size:14px;justify-content:center;width:100%;\">\n   <img src=\"https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg\" alt=\"WhatsApp\" style=\"width:20px;height:20px;\">\n   Ask our stylists about anything\n</a>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    // Replace with your own WhatsApp number in international format (no + or spaces)\n    const phone = \"917302729066\";\n\n    // These Liquid variables are rendered server-side\n    const productTitle = \"{{ product.title | escape }}\";\n    const productURL = \"{{ shop.url }}{{ product.url }}\";\n\n    const message = `Hi, I have a question about \"${productTitle}\" - ${productURL}`;\n    const encodedMessage = encodeURIComponent(message);\n    const whatsappLink = `https://wa.me/${phone}?text=${encodedMessage}`;\n\n    document.getElementById(\"whatsapp-btn\").href = whatsappLink;\n  });\n</script>",
+            "padding_bottom": 16
+          }
+        },
+        "code_9MEaDM": {
+          "type": "code",
+          "disabled": true,
+          "settings": {
             "code": "<div class=\"need_info\" style=\"display:flex;align-items:baseline;\">\n <svg\n    class=\"zoom-watch\"\n    style=\"position:relative; top:4px; padding:0 6px 0 0;\"\n    width=\"19\"\n    height=\"20\"\n    viewBox=\"0 0 19 20\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    aria-label=\"Help icon\"\n>\n    <g id=\"Frame 5189\">\n        <path d=\"M0.0794141 9.91448C0.0788945 11.5738 0.514336 13.1936 1.34217 14.6214L0 19.5L5.01504 18.1909C6.39684 18.941 7.95261 19.3364 9.5357 19.337H9.53978C14.7535 19.337 18.9978 15.113 19 9.92201C19.0009 7.40628 18.0176 5.04062 16.2316 3.26104C14.4454 1.48167 12.0704 0.501034 9.53978 0.5C4.32517 0.5 0.0815664 4.72342 0.0794883 9.91448H0.0794141ZM3.06598 14.3755L2.87872 14.0796C2.09156 12.8336 1.67608 11.3936 1.67668 9.91507C1.67838 5.60039 5.20555 2.09006 9.54275 2.09006C11.6431 2.09095 13.6171 2.90608 15.1017 4.38502C16.5863 5.8641 17.4033 7.83025 17.4027 9.92142C17.4008 14.2361 13.8736 17.7469 9.53978 17.7469H9.53666C8.12554 17.7461 6.74159 17.3689 5.53464 16.6559L5.24741 16.4863L2.27139 17.2631L3.06598 14.3754V14.3755Z\" fill=\"currentColor\"/>\n        <path d=\"M7.66524 6.09641C7.49014 5.71874 7.30585 5.71112 7.13933 5.7045C7.00298 5.6988 6.8471 5.69923 6.69137 5.69923C6.53549 5.69923 6.28222 5.75613 6.06814 5.98296C5.85385 6.21 5.25 6.75867 5.25 7.87459C5.25 8.99058 6.08759 10.069 6.20435 10.2205C6.32126 10.3717 7.82134 12.735 10.1971 13.6442C12.1716 14.3997 12.5734 14.2495 13.0019 14.2116C13.4305 14.1738 14.3848 13.6631 14.5795 13.1334C14.7744 12.6038 14.7744 12.1499 14.716 12.055C14.6576 11.9605 14.5017 11.9038 14.2679 11.7904C14.0341 11.6769 12.885 11.1282 12.6708 11.0525C12.4565 10.9769 12.3007 10.9391 12.1448 11.1662C11.9889 11.393 11.5413 11.9038 11.4049 12.055C11.2686 12.2066 11.1322 12.2255 10.8985 12.1121C10.6646 11.9983 9.91184 11.759 9.01876 10.9864C8.32391 10.3852 7.85481 9.64272 7.71845 9.41561C7.58209 9.18885 7.70385 9.06592 7.82105 8.9529C7.92607 8.85127 8.05487 8.68804 8.17185 8.55565C8.28839 8.42318 8.32729 8.32867 8.40523 8.17741C8.48324 8.026 8.4442 7.89353 8.38585 7.78008C8.32729 7.66663 7.87308 6.54487 7.66524 6.09641Z\" fill=\"currentColor\"/>\n    </g>\n</svg>\n  Need help?\n  <span style=\"color:black; font-weight:500;\">&nbsp; Contact us</span>\n</div>\n\n<style>\n  .need_info img{\n    width:30px;\n  }\n\n  .need_info{\n    font-family:\"SM\";\n  }\n</style>",
             "padding_bottom": 16
           }
@@ -474,6 +482,7 @@
         "buttons",
         "text_mqmzpe",
         "code_kfbGmA",
+        "code_9MEaDM",
         "accordion_pNiV3w",
         "accordion_rGrT6y",
         "accordion_P4awwg",
